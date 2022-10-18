@@ -1,8 +1,9 @@
 import React from "react";
-import profilePic from "../../assets/images/Profile BNK.jpeg";
+// import profilePic from "../../assets/images/Profile BNK.jpeg";
 import pawFectPic from "../../assets/images/PawFect Pets.png";
 import PilotHubPic from "../../assets/images/FlightHub.png";
 import sunsetPic from "../../assets/images/Sunset 1.jpeg";
+import regexPic from "../../assets/images/regex2.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,7 +16,7 @@ function Project() {
   return (
     <Container fluid>
       <Row>
-        <Col>
+        {/* <Col>
           <div className="p-6">
             <img
               class="profileImg rounded justify-content-left"
@@ -23,17 +24,16 @@ function Project() {
               alt="BNK Profile"
             />
           </div>
-        </Col>
+        </Col> */}
         <Col >
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={PilotHubPic} style={{ height: "10rem"}} />
             <Card.Body>
               <Card.Title>PilotHub</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Airport info to the nearest pint of beer, PilotHub has your six!
               </Card.Text>
-              <Button variant="primary" href="https://jonbullin84.github.io/PilotHub/" target="_blank">Go Flying!</Button>
+              <Button variant="primary" href="https://jonbullin84.github.io/PilotHub/" target="_blank">Check-in!</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -43,8 +43,7 @@ function Project() {
             <Card.Body>
               <Card.Title>Pawfect Friends</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                It was time our pets joined us on social media, too!
               </Card.Text>
               <Button variant="primary" href="https://pawfect-friends-app.herokuapp.com/" target="_blank">Cute Pets!</Button>
             </Card.Body>
@@ -56,10 +55,21 @@ function Project() {
             <Card.Body>
               <Card.Title>Weather AboveGround</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Check your local weather in this easy-to-use dashboard.
               </Card.Text>
-              <Button variant="primary" href="https://bnk5532.github.io/weather-aboveGround-app/" target="_blank">Check Weather!</Button>
+              <Button variant="primary" href="https://bnk5532.github.io/weather-aboveGround-app/" target="_blank">Check Now!</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={regexPic} style={{ height: "10rem"}}  />
+            <Card.Body>
+              <Card.Title>Get-The-Gist</Card.Title>
+              <Card.Text>
+                A handy guide to URL validation using REGEX.
+              </Card.Text>
+              <Button variant="primary" href="https://gist.github.com/bnk5532/569625d57471a0a33592185d77033e75" target="_blank">Get It Now!</Button>
             </Card.Body>
           </Card>
         </Col>

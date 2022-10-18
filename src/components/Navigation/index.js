@@ -101,6 +101,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import profilePic from '../../assets/images/Profile BNK.jpeg'
 // import React, { useEffect } from "react";
 // import { capitalizeFirstLetter } from '../../utils/helpers';
 
@@ -121,7 +122,15 @@ function NavBar(props) {
     <>
       <Navbar sticky='top' bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">Brian Nicholas King | Portfolio</Navbar.Brand>
+          <Navbar.Brand href="/">
+          <img
+              alt=""
+              src={profilePic}
+              width="30"
+              height="30"
+              className="d-inline-block rounded"
+            />{' '}
+            Brian Nicholas King | Portfolio</Navbar.Brand>
           <Nav className="justify-content-end">
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
