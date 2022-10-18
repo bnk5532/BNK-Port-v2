@@ -35,7 +35,7 @@ function App() {
 
       <main>
         <div className="wrapper w-100">
-          <div className="pb-3">
+          <div className="pb-2">
             {" "}
             <img className="w-100" src={wbHero} alt="Wrightsville Beach, NC" />
           </div>

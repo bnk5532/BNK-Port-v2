@@ -129,8 +129,7 @@ function NavBar(props) {
               width="30"
               height="30"
               className="d-inline-block rounded"
-            />{' '}
-            Brian Nicholas King | Portfolio</Navbar.Brand>
+            />{' Brian Nicholas King | Portfolio'}</Navbar.Brand>
           <Nav className="justify-content-end">
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>

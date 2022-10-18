@@ -25,7 +25,7 @@ function Project() {
             />
           </div>
         </Col> */}
-        <Col >
+        <Col className="p-2">
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={PilotHubPic} style={{ height: "10rem"}} />
             <Card.Body>
@@ -37,7 +37,7 @@ function Project() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col className="p-2">
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={pawFectPic} style={{ height: "10rem"}}  />
             <Card.Body>
@@ -49,7 +49,7 @@ function Project() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col className="p-2">
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={sunsetPic} style={{ height: "10rem"}}  />
             <Card.Body>
@@ -61,7 +61,7 @@ function Project() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col className="p-2">
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={regexPic} style={{ height: "10rem"}}  />
             <Card.Body>
@@ -73,7 +73,6 @@ function Project() {
             </Card.Body>
           </Card>
         </Col>
-
       </Row>
     </Container>
   
