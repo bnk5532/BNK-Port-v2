@@ -121,7 +121,7 @@ function NavBar(props) {
     <>
       <Navbar sticky='top' bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">Brian Nicholas King | Portfolio </Navbar.Brand>
+          <Navbar.Brand href="/">Brian Nicholas King | Portfolio</Navbar.Brand>
           <Nav className="justify-content-end">
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>

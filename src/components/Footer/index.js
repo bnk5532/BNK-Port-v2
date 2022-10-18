@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
+    <div className="pt-4">
       <div>
         <strong>Brian Nicholas King, Portfolio, 2022</strong>
         <br/> 1146 Spring Glen Ct. Leland, NC 28451 | 910-233-9775
