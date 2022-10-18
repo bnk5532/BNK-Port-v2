@@ -8,7 +8,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import CardGroup from 'react-bootstrap/CardGroup';
+// import CardGroup from 'react-bootstrap/CardGroup';
 
 
 function Project() {
@@ -33,7 +33,7 @@ function Project() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary" href="https://jonbullin84.github.io/PilotHub/" target="_blank">Go Flying!</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -46,7 +46,7 @@ function Project() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary" href="https://pawfect-friends-app.herokuapp.com/" target="_blank">Cute Pets!</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -59,7 +59,7 @@ function Project() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary" href="https://bnk5532.github.io/weather-aboveGround-app/" target="_blank">Check Weather!</Button>
             </Card.Body>
           </Card>
         </Col>
