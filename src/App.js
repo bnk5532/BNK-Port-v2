@@ -1,35 +1,26 @@
-import "./App.css";
+// import "./App.css";
 import React, { useState } from "react";
 import Nav from "./components/Navigation";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 // import About from "./components/About";
 import Project from "./components/Project";
 import wbHero from "./assets/images/WB2.png";
-
+// import Page from "./components/Page";
 
 function App() {
-  const [categories] = useState([
-    { name: "About me", description: "About n/a" },
-    { name: "Projects", description: "Project n/a" },
-    { name: "Resume", description: "Resume n/a" },
-    { name: "Contact", description: "Contact n/a" },
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
   const [contactSelected, setContactSelected] = useState(false);
-
+  const changeSelected = ()=>{
+    setContactSelected(!contactSelected)
+  }
   return (
     <div className="App">
       <header>
-        <Header></Header>
+        {/* <Header></Header> */}
         <Nav
-          categories={categories}
-          setCurrentCategory={setCurrentCategory}
-          currentCategory={currentCategory}
           contactSelected={contactSelected}
-          setContactSelected={setContactSelected}
+          changeSelected={changeSelected}
         ></Nav>
       </header>
 
@@ -45,6 +36,7 @@ function App() {
           <>
             {/* <About></About> */}
             <Project></Project>
+            
           </>
         ) : (
           <ContactForm></ContactForm>
@@ -57,5 +49,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

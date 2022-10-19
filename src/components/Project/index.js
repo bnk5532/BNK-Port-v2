@@ -13,31 +13,57 @@ import Card from "react-bootstrap/Card";
 
 
 function Project() {
+  const projects = [
+    {
+      title:"PilotHub",
+      description: "Airport info to the nearest pint of beer, PilotHub has your six!",
+      link: "https://jonbullin84.github.io/PilotHub/",
+      src: PilotHubPic
+    },
+    {
+      title:"PilopawtHub",
+      description: "Airport info to the nearest pint of beer, PilotHub has your six!",
+      link: "https://jonbullin84.github.io/PilotHub/",
+      src: pawFectPic
+
+    },
+    {
+      title:"sun",
+      description: "Airport info to the nearest pint of beer, PilotHub has your six!",
+      link: "https://jonbullin84.github.io/PilotHub/",
+      src: sunsetPic
+
+    },
+    {
+      title:"regex",
+      description: "Airport info to the nearest pint of beer, PilotHub has your six!",
+      link: "https://jonbullin84.github.io/PilotHub/",
+      src: regexPic
+
+    },
+
+  ]
+
+
   return (
     <Container fluid>
       <Row>
-        {/* <Col>
-          <div className="p-6">
-            <img
-              class="profileImg rounded justify-content-left"
-              src={profilePic}
-              alt="BNK Profile"
-            />
-          </div>
-        </Col> */}
-        <Col className="p-2">
+        {projects.map(project =>{
+          return(
+        <Col className="p-2" key={project.title}>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={PilotHubPic} style={{ height: "10rem"}} />
+            <Card.Img variant="top" src={project.src} style={{ height: "10rem"}} />
             <Card.Body>
-              <Card.Title>PilotHub</Card.Title>
+              <Card.Title>{project.title}</Card.Title>
               <Card.Text>
-                Airport info to the nearest pint of beer, PilotHub has your six!
+                {project.description}
               </Card.Text>
-              <Button variant="primary" href="https://jonbullin84.github.io/PilotHub/" target="_blank">Check-in!</Button>
+              <Button variant="primary" href={project.link} target="_blank">Check-in!</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col className="p-2">
+        )})}
+        {/* <Col className="p-2">
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={pawFectPic} style={{ height: "10rem"}}  />
             <Card.Body>
@@ -72,7 +98,7 @@ function Project() {
               <Button variant="primary" href="https://gist.github.com/bnk5532/569625d57471a0a33592185d77033e75" target="_blank">Get It Now!</Button>
             </Card.Body>
           </Card>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   

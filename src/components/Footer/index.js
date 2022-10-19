@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="pt-4">
       <div>
-        <strong>Brian Nicholas King, Portfolio, 2022</strong>
+        <strong>Brian Nicholas King, Portfolio, 2022.</strong>
         <br/> 1146 Spring Glen Ct. Leland, NC 28451 | 910-233-9775
         </div>
 
@@ -12,7 +12,7 @@ function Footer() {
         <a 
             href="mailto:bnk5532@gmail.com"
         >
-            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <i className="fa-solid fa-envelope" aria-hidden="true"></i>
         </a>
         
         <a className="p-4"
@@ -20,14 +20,14 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fa fa-github is-size-5" aria-hidden="true"></i>
+          <i className="fa fa-github is-size-5" aria-hidden="true"></i>
         </a>
 
        
         <a
             href="tel:+1-910-233-9775"
         >
-            <i class="fa-solid fa-mobile-button" aria-hidden="true"></i>
+            <i className="fa-solid fa-mobile-button" aria-hidden="true"></i>
         </a>
       
       </p>
