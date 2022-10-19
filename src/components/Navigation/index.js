@@ -5,8 +5,7 @@ import profilePic from "../../assets/images/Profile BNK.jpeg";
 // import React, { useEffect } from "react";
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function NavBar(props) {
-  console.log(props)
+function NavBar({currentCategory, changeSelected}) {
 
   // const { categories = [], setCurrentCategory, currentCategory } = props;
   // const {
@@ -40,7 +39,7 @@ function NavBar(props) {
     <>
       <Navbar sticky="top" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand onClick={() => changeSelected("About") }>
             <img
               alt=""
               src={profilePic}
@@ -51,8 +50,8 @@ function NavBar(props) {
             {" Brian Nicholas King | Portfolio"}
           </Navbar.Brand>
           <Nav className="justify-content-end">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link onClick={()=> changeSelected("About")} href="#about">About</Nav.Link>
+            <Nav.Link onClick={()=> changeSelected("Portfolio")} href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link
               href="https://docs.google.com/document/d/1cNJy2KfW0pixaHIydPSxX9GEukWn0pEyi6GbB72EOp8/edit#"
               target="_blank"
@@ -60,13 +59,13 @@ function NavBar(props) {
             >
               Resume
             </Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link onClick={()=> changeSelected("Contact")} href="#contact">Contact</Nav.Link>
             <Nav.Link
               href="https://github.com/bnk5532"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa fa-github is-size-5" aria-hidden="true"></i>
+              <i className="fa fa-github is-size-5" aria-hidden="true"></i>
             </Nav.Link>
           </Nav>
         </Container>

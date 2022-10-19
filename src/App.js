@@ -4,22 +4,33 @@ import Nav from "./components/Navigation";
 // import Header from "./components/Header";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
-// import About from "./components/About";
+import About from "./components/About";
 import Project from "./components/Project";
 import wbHero from "./assets/images/WB2.png";
 // import Page from "./components/Page";
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const changeSelected = ()=>{
-    setContactSelected(!contactSelected)
+  const [currentCategory, setCurrentCategory] = useState("About");
+  const changeSelected = (newCategory)=>{
+    setCurrentCategory(newCategory)
   }
+  const renderPage = () => {
+            switch(currentCategory){
+                case "Portfolio":
+                    return <Project />
+                case "Contact":
+                    return <ContactForm />
+                default:
+                    return <About />
+            }
+        }
+    
   return (
     <div className="App">
       <header>
         {/* <Header></Header> */}
         <Nav
-          contactSelected={contactSelected}
+          currentCategory={currentCategory}
           changeSelected={changeSelected}
         ></Nav>
       </header>
@@ -32,15 +43,7 @@ function App() {
           </div>
         </div>
 
-        {!contactSelected ? (
-          <>
-            {/* <About></About> */}
-            <Project></Project>
-            
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        {renderPage()}
       </main>
 
       <footer>
