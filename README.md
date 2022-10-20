@@ -3,7 +3,7 @@
 ## Purpose
 A React website that showcases my projects as a web developer as well as my resume, social media, and contact information. 
 
-If you like what you see, and you're hiring, please do not hesitate to contact me!
+If you like what you see, and you're hiring, please do not hesitate to [contact me!](https://bnk-port-v2.herokuapp.com/)
 
 ## Built With
 * HTML
@@ -13,7 +13,7 @@ If you like what you see, and you're hiring, please do not hesitate to contact m
 * Font Awesome
 
 ## Website
-https://bnk5532.github.io/BNK-Port/
+https://bnk-port-v2.herokuapp.com/
 
 ## Contribution
 Brian King
