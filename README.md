@@ -1,12 +1,16 @@
 # BNK-Portfolio (BNK-Port-v2)
 
 ## Purpose
-A React website that showcases my projects, resume, social media, and contact information. If you like what you see, and you're hiring, please do not hesitate to contact me!
+A React website that showcases my projects as a web developer as well as my resume, social media, and contact information. 
+
+If you like what you see, and you're hiring, please do not hesitate to contact me!
 
 ## Built With
 * HTML
 * CSS
 * Javascript
+* React-Bootstrap
+* Font Awesome
 
 ## Website
 https://bnk5532.github.io/BNK-Port/
