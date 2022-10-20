@@ -1,37 +1,34 @@
 import "./App.css";
 import React, { useState } from "react";
 import Nav from "./components/Navigation";
-// import Header from "./components/Header";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
 import wbHero from "./assets/images/WB2.png";
-// import Page from "./components/Page";
 
 function App() {
   const [currentCategory, setCurrentCategory] = useState("About");
-  const changeSelected = (newCategory)=>{
-    setCurrentCategory(newCategory)
-  }
+  const changeSelected = (newCategory) => {
+    setCurrentCategory(newCategory);
+  };
   const renderPage = () => {
-            switch(currentCategory){
-                case "Portfolio":
-                    return <Project />
-                case "Contact":
-                    return <ContactForm />
-                case "Resume":
-                    return <Resume />
-                default:
-                    return <About />
-            }
-        }
-    
+    switch (currentCategory) {
+      case "Portfolio":
+        return <Project />;
+      case "Contact":
+        return <ContactForm />;
+      case "Resume":
+        return <Resume />;
+      default:
+        return <About />;
+    }
+  };
+
   return (
     <div className="App">
       <header>
-        {/* <Header></Header> */}
         <Nav
           currentCategory={currentCategory}
           changeSelected={changeSelected}

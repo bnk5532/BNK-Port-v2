@@ -4,9 +4,9 @@ function Resume() {
   return (
     <div className="mx-3">
       <h1>Resume</h1>
-      
+
       <div className="resume">
-      <br></br>
+        <br></br>
         <strong>EXPERIENCE</strong>
         <br></br>
         <br></br>
@@ -16,7 +16,8 @@ function Resume() {
         Primarily responsible for any and all reporting with regard to
         absenteeism and leave-related data for a Sr. Manager, Director, and Vice
         President audience for the entire U.S.-based Customer Service, Tech and
-        Specialty workgroups.<br></br><br></br>
+        Specialty workgroups.<br></br>
+        <br></br>
         <strong>Verizon, Coordinator, HQ Operations, </strong>
         <em>2016 - 2020.</em>
         <br></br>
@@ -24,14 +25,16 @@ function Resume() {
         call center business leaders, operations, and HR to ensure accurate
         time-keeping practices, leave-of-absence (LOA) claim reporting to
         vendors and adherence to headquarters HR corporate guidelines and
-        compliance with Federal and State laws.<br></br><br></br>
+        compliance with Federal and State laws.<br></br>
+        <br></br>
         <strong>Verizon, Analyst, Field Operations, </strong>
         <em>2014 - 2016.</em>
         <br></br>
         Served as the project administrator on a small specialized team that
         prioritized the implementation of a digital platform that promoted ideal
         behaviors as identified or aligned with the business objectives of the
-        contact center call-taking population.<br></br><br></br>
+        contact center call-taking population.<br></br>
+        <br></br>
         <strong>EDUCATION</strong>
         <br></br>
         <br></br>
@@ -57,11 +60,15 @@ function Resume() {
         <br></br>
         Forensic Science minor. Lambda Alpha Honors Society Lifetime Member.
       </div>
-      <br></br><br></br>
-      <a href="file:///Users/BNKing/Downloads/BNK%20CV2022%20v2.pdf"
-              target="_blank"
-              rel="noopener noreferrer"><i className="fa-solid fa-file-pdf"></i></a>
-             
+      <br></br>
+      <br></br>
+      <a
+        href="file:///Users/BNKing/Downloads/BNK%20CV2022%20v2.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fa-solid fa-file-pdf"></i>
+      </a>
     </div>
   );
 }
