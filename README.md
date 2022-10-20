@@ -3,7 +3,7 @@
 ## Purpose
 A React website that showcases my projects as a web developer as well as my resume, social media, and contact information. 
 
-If you like what you see, and you're hiring, please do not hesitate to [contact me!](https://bnk-port-v2.herokuapp.com/)
+If you like what you see here, and you're hiring, please do not hesitate to [contact me](https://bnk-port-v2.herokuapp.com/) to discuss my qualifications in greater detail. Thanks for visiting!
 
 ## Built With
 * HTML
