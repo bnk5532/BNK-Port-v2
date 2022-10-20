@@ -58,9 +58,10 @@ function Resume() {
         Forensic Science minor. Lambda Alpha Honors Society Lifetime Member.
       </div>
       <br></br><br></br>
-      <a href="https://docs.google.com/document/d/1cNJy2KfW0pixaHIydPSxX9GEukWn0pEyi6GbB72EOp8/edit#"
+      <a href="file:///Users/BNKing/Downloads/BNK%20CV2022%20v2.pdf"
               target="_blank"
-              rel="noopener noreferrer">Link to full resume</a>
+              rel="noopener noreferrer"><i className="fa-solid fa-file-pdf"></i></a>
+             
     </div>
   );
 }

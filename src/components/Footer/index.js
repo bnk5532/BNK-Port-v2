@@ -9,22 +9,30 @@ function Footer() {
         </div>
 
         <p>
-        <a 
+        <a className="p-3"
             href="mailto:bnk5532@gmail.com"
         >
             <i className="fa-solid fa-envelope" aria-hidden="true"></i>
         </a>
         
-        <a className="p-4"
+        <a className="p-3"
           href="https://github.com/bnk5532"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fa fa-github is-size-5" aria-hidden="true"></i>
         </a>
-
        
-        <a
+        <a className="p-3"
+          href="https://linkedin.com/in/bnk5532"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
+        </a>
+        
+       
+        <a className="p-3"
             href="tel:+1-910-233-9775"
         >
             <i className="fa-solid fa-mobile-button" aria-hidden="true"></i>

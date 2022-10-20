@@ -10,13 +10,6 @@ function NavBar({currentCategory, changeSelected}) {
       <Navbar sticky="top" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand onClick={() => changeSelected("About") }>
-            <img
-              alt=""
-              src={profilePic}
-              width="30"
-              height="30"
-              className="d-inline-block rounded"
-            />
             {" Brian Nicholas King | Portfolio"}
           </Navbar.Brand>
           <Nav className="justify-content-end">
@@ -30,7 +23,27 @@ function NavBar({currentCategory, changeSelected}) {
               rel="noopener noreferrer"
             >
               <i className="fa fa-github is-size-5" aria-hidden="true"></i>
+              
+              </Nav.Link>
+
+            <Nav.Link
+             
+             href="https://linkedin.com/in/bnk5532"
+             target="_blank"
+             rel="noopener noreferrer"
+           >
+             
+            <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
+
             </Nav.Link>
+
+             <img
+              alt=""
+              src={profilePic}
+              width="38"
+              height="38"
+              className="mx-4 d-inline-block rounded"
+            />
           </Nav>
         </Container>
       </Navbar>
