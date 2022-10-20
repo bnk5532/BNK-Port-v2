@@ -4,6 +4,10 @@ import pawFectPic from "../../assets/images/PawFect Pets.png";
 import PilotHubPic from "../../assets/images/FlightHub.png";
 import sunsetPic from "../../assets/images/Sunset 1.jpeg";
 import regexPic from "../../assets/images/regex2.png";
+import eeKeepPic from "../../assets/images/eeKeep1.png";
+import portPic1 from "../../assets/images/port1.png";
+import passGenPic from "../../assets/images/passGen1.png";
+import schedulerProPic from "../../assets/images/schedulerPro.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -41,6 +45,34 @@ function Project() {
       src: regexPic
 
     },
+    {
+      title:"Scheduler Pro",
+      description: "A website application to better manage daily chaos like a pro.",
+      link: "https://bnk5532.github.io/myScheduler-pro/",
+      src: schedulerProPic
+
+    },
+    {
+      title:"First Developer Portfolio",
+      description: "Wow, just look how far we've come!",
+      link: "https://bnk5532.github.io/BNK-Port/",
+      src: portPic1
+
+    },
+    {
+      title:"Employee Keeper Pro",
+      description: "Track employees stats relating to dept, title, salary and manager.",
+      link: "https://watch.screencastify.com/v/BAeAlUdhEE5ilWnaY5TX",
+      src: eeKeepPic
+
+    },
+    {
+      title:"Random Password App",
+      description: "Generates random passwords using all characters types.",
+      link: "https://bnk5532.github.io/rando-pass-gen/",
+      src: passGenPic
+
+    },
 
   ]
 
@@ -58,7 +90,7 @@ function Project() {
               <Card.Text>
                 {project.description}
               </Card.Text>
-              <Button variant="primary" href={project.link} target="_blank">Check-in!</Button>
+              <Button variant="primary" href={project.link} target="_blank">Check it out!</Button>
             </Card.Body>
           </Card>
         </Col>

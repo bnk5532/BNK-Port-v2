@@ -31,6 +31,13 @@ function Footer() {
           <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
         </a>
         
+        <a className="p-3"
+          href="https://youtube.com/user/briguy618"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa-brands fa-youtube" aria-hidden="true"></i>
+        </a>
        
         <a className="p-3"
             href="tel:+1-910-233-9775"
