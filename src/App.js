@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import React, { useState } from "react";
 import Nav from "./components/Navigation";
 // import Header from "./components/Header";
@@ -6,6 +6,7 @@ import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Project from "./components/Project";
+import Resume from "./components/Resume";
 import wbHero from "./assets/images/WB2.png";
 // import Page from "./components/Page";
 
@@ -20,6 +21,8 @@ function App() {
                     return <Project />
                 case "Contact":
                     return <ContactForm />
+                case "Resume":
+                    return <Resume />
                 default:
                     return <About />
             }

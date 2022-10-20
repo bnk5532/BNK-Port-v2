@@ -2,39 +2,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import profilePic from "../../assets/images/Profile BNK.jpeg";
-// import React, { useEffect } from "react";
-// import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function NavBar({currentCategory, changeSelected}) {
 
-  // const { categories = [], setCurrentCategory, currentCategory } = props;
-  // const {
-  //               categories,
-  //               setCurrentCategory,
-  //               contactSelected,
-  //               currentCategory,
-  //               setContactSelected,
-  //             } = props;
-
-  //             useEffect(() => {
-  //                       document.title = capitalizeFirstLetter(currentCategory.name);
-  //                     }, [currentCategory]);
-
-  // useEffect(() => {
-  //   document.title = capitalizeFirstLetter(currentCategory.name);
-  // }, [currentCategory]);
-  // return (
-  //   <nav>
-  //      <ul className="flex-row">
-  //       {categories.map((page) => (
-  //         <li>
-  //           <span onCLick(() => setCurrentCategory(()) </span>
-  //         </li>
-  //       ))
-  //       }
-  //      </ul>    
-  //   </nav>
-  // )
   return (
     <>
       <Navbar sticky="top" bg="dark" variant="dark">
@@ -50,16 +20,10 @@ function NavBar({currentCategory, changeSelected}) {
             {" Brian Nicholas King | Portfolio"}
           </Navbar.Brand>
           <Nav className="justify-content-end">
-            <Nav.Link onClick={()=> changeSelected("About")} href="#about">About</Nav.Link>
-            <Nav.Link onClick={()=> changeSelected("Portfolio")} href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link
-              href="https://docs.google.com/document/d/1cNJy2KfW0pixaHIydPSxX9GEukWn0pEyi6GbB72EOp8/edit#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </Nav.Link>
-            <Nav.Link onClick={()=> changeSelected("Contact")} href="#contact">Contact</Nav.Link>
+            <Nav.Link onClick={()=> changeSelected("About")}>About</Nav.Link>
+            <Nav.Link onClick={()=> changeSelected("Portfolio")}>Portfolio</Nav.Link>
+            <Nav.Link onClick={()=> changeSelected("Resume")}>Resume</Nav.Link>
+            <Nav.Link onClick={()=> changeSelected("Contact")}>Contact</Nav.Link>
             <Nav.Link
               href="https://github.com/bnk5532"
               target="_blank"

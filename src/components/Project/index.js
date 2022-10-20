@@ -21,32 +21,32 @@ function Project() {
       src: PilotHubPic
     },
     {
-      title:"PilopawtHub",
-      description: "Airport info to the nearest pint of beer, PilotHub has your six!",
-      link: "https://jonbullin84.github.io/PilotHub/",
+      title:"PawFect Friends",
+      description: "It was time our pets joined us on social media, too!",
+      link: "https://pawfect-friends-app.herokuapp.com/",
       src: pawFectPic
 
     },
     {
-      title:"sun",
-      description: "Airport info to the nearest pint of beer, PilotHub has your six!",
-      link: "https://jonbullin84.github.io/PilotHub/",
+      title:"Weather AboveGround",
+      description: "Check your local weather in this easy-to-use dashboard.",
+      link: "https://bnk5532.github.io/weather-aboveGround-app/",
       src: sunsetPic
 
     },
     {
-      title:"regex",
-      description: "Airport info to the nearest pint of beer, PilotHub has your six!",
-      link: "https://jonbullin84.github.io/PilotHub/",
+      title:"Get-The-Gist",
+      description: "A handy guide to URL validation using REGEX.",
+      link: "https://gist.github.com/bnk5532/569625d57471a0a33592185d77033e75",
       src: regexPic
 
     },
 
   ]
 
-
   return (
     <Container fluid>
+      <h1>Portfolio</h1>
       <Row>
         {projects.map(project =>{
           return(
