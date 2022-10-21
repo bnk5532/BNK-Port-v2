@@ -32,7 +32,7 @@ function About() {
           Vlasta-like-pasta, and two children, affectionately known as
           Victoria-the-Great, and Brian-the-Terrible. <br></br>
           <br></br>
-          <em>I do hope that you enjoy my porfolio!</em>
+          <em>I do hope that you enjoy my portfolio!</em>
         </p>
         </div>
       </div>
