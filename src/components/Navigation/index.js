@@ -43,14 +43,14 @@ function NavBar({ currentCategory, changeSelected }) {
             >
               <i className="fa-brands fa-youtube" aria-hidden="true"></i>
             </Nav.Link>
-
+{/*         
             <img
               alt=""
               src={profilePic}
               width="38"
               height="38"
               className="mx-4 d-inline-block rounded"
-            />
+            /> */}
           </Nav>
         </Container>
       </Navbar>

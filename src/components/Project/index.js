@@ -74,7 +74,7 @@ function Project() {
       <Row>
         {projects.map((project) => {
           return (
-            <Col className="p-2" key={project.title}>
+            <Col className="p-2 d-flex justify-content-center" key={project.title}>
               <Card style={{ width: "18rem" }}>
                 <Card.Img
                   variant="top"

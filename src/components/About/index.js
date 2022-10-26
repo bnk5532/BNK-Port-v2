@@ -3,21 +3,20 @@ import familyPic1 from "../../assets/images/familyPic1.png";
 
 function About() {
   return (
-    <div className="container mx-3">
+    <div className="container">
       <h1>About me</h1>
-      <div>
+      <div style={{width: '100%'}}>
         
         <div className="about-pic">
         <img
-          className="rounded"
+          className="picture"
           src={familyPic1}
-          style={{ height: "25rem" }}
           alt=""
         />
         </div>
         
         <div className="about-text">
-        <p className="mx-3">
+        <p>
           <br></br>
           <strong>Brian Nicholas King</strong>
           <br></br>
