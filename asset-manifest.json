@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BNK-Port-v2/static/css/main.8896e2b3.css",
-    "main.js": "/BNK-Port-v2/static/js/main.af917d49.js",
+    "main.css": "/BNK-Port-v2/static/css/main.0bcbb8a2.css",
+    "main.js": "/BNK-Port-v2/static/js/main.647fb012.js",
     "static/js/787.205d97c0.chunk.js": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js",
     "static/media/familyPic1.png": "/BNK-Port-v2/static/media/familyPic1.586dd11e082f129c298b.png",
     "static/media/FlightHub.png": "/BNK-Port-v2/static/media/FlightHub.c9a61de25398121b1fe9.png",
@@ -13,12 +13,12 @@
     "static/media/schedulerPro.png": "/BNK-Port-v2/static/media/schedulerPro.6b8b615965114a6cf99b.png",
     "static/media/passGen1.png": "/BNK-Port-v2/static/media/passGen1.9b227d2e123ae141c60d.png",
     "index.html": "/BNK-Port-v2/index.html",
-    "main.8896e2b3.css.map": "/BNK-Port-v2/static/css/main.8896e2b3.css.map",
-    "main.af917d49.js.map": "/BNK-Port-v2/static/js/main.af917d49.js.map",
+    "main.0bcbb8a2.css.map": "/BNK-Port-v2/static/css/main.0bcbb8a2.css.map",
+    "main.647fb012.js.map": "/BNK-Port-v2/static/js/main.647fb012.js.map",
     "787.205d97c0.chunk.js.map": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8896e2b3.css",
-    "static/js/main.af917d49.js"
+    "static/css/main.0bcbb8a2.css",
+    "static/js/main.647fb012.js"
   ]
 }
