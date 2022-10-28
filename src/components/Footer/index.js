@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="p-3 test">
+    <div className="p-3 foot-bg">
       <div className="footer-links">
         <p>
           <a className="p-3" href="mailto:bnk5532@gmail.com">
