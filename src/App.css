@@ -89,14 +89,13 @@ main {
   max-width: 70%;
 }
 
-/* @media screen and (min-width: 500px) {
-  .about-pic {
-   height: 100%;
- }
-}
 
-@media screen and (min-width: 400px) {
-   .about-pic {
-    height: 20%;
-  }
-} */
+@media screen and (max-width: 725px) {
+  .w-beach {
+    display: none;
+  } 
+  .picture {
+    padding-top: 5px;
+  } 
+  
+}
