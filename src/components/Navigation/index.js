@@ -13,11 +13,11 @@ function NavBar({ currentCategory, changeSelected }) {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link onClick={() => changeSelected("About")}>About</Nav.Link>
-              <Nav.Link onClick={() => changeSelected("Portfolio")}>
+              <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>About</Nav.Link>
+              <Nav.Link eventKey="2" onClick={() => changeSelected("Portfolio")}>
                 Portfolio
               </Nav.Link>
-              <Nav.Link onClick={() => changeSelected("Resume")}>
+              <Nav.Link eventKey="3" onClick={() => changeSelected("Resume")}>
                 Resume
               </Nav.Link>
               {/* <Nav.Link onClick={() => changeSelected("Contact")}>
