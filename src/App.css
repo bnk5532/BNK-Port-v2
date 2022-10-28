@@ -97,5 +97,16 @@ main {
   .picture {
     padding-top: 5px;
   } 
-  
+}
+
+.footer {
+  font-size: small;
+}
+
+.footer-links {
+  font-size: larger;
+}
+
+.test{
+  background-color: lightgray;
 }

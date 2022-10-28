@@ -70,7 +70,7 @@ function Project() {
 
   return (
     <Container fluid>
-      <h1>Portfolio</h1>
+      <h1>Projects</h1>
       <Row>
         {projects.map((project) => {
           return (
