@@ -1,5 +1,5 @@
 import React from "react";
-import bnkCv from "../../assets/pdf/BNKCV2022v2.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2022v2dot1.pdf";
 
 function Resume() {
   return (
