@@ -10,7 +10,7 @@ import schedulerProPic from "../../assets/images/schedulerPro.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 function Project() {
@@ -48,15 +48,9 @@ function Project() {
       src: schedulerProPic,
     },
     {
-      title: "First Developer Portfolio",
-      description: "Wow, just look how far we've come!",
-      link: "https://bnk5532.github.io/BNK-Port/",
-      src: portPic1,
-    },
-    {
       title: "Employee Keeper Pro",
       description:
-        "Track employees stats relating to dept, title, salary and manager.",
+      "Track employees stats relating to dept, title, salary and manager.",
       link: "https://watch.screencastify.com/v/BAeAlUdhEE5ilWnaY5TX",
       src: eeKeepPic,
     },
@@ -66,6 +60,12 @@ function Project() {
       link: "https://bnk5532.github.io/rando-pass-gen/",
       src: passGenPic,
     },
+    {
+      title: "First Developer Portfolio",
+      description: "Wow, just look how far we've come!",
+      link: "https://bnk5532.github.io/BNK-Port/",
+      src: portPic1,
+    },
   ];
 
   return (
@@ -74,19 +74,19 @@ function Project() {
       <Row>
         {projects.map((project) => {
           return (
-            <Col className="p-2 d-flex justify-content-center" key={project.title}>
-              <Card style={{ width: "18rem" }}>
+            <Col className="p-3 d-flex justify-content-center" key={project.title}>
+              <Card style={{ width: "18rem" }}><a href={project.link} target="_blank" rel="noreferrer">
                 <Card.Img
                   variant="top"
                   src={project.src}
                   style={{ height: "10rem" }}
-                />
+                /></a>
                 <Card.Body>
                   <Card.Title>{project.title}</Card.Title>
                   <Card.Text>{project.description}</Card.Text>
-                  <Button variant="primary" href={project.link} target="_blank">
+                  {/* <Button variant="primary" href={project.link} target="_blank">
                     Check it out!
-                  </Button>
+                  </Button> */}
                 </Card.Body>
               </Card>
             </Col>

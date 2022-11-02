@@ -1,8 +1,9 @@
 import React from "react";
+import bnkCv from "../../assets/pdf/BNKCV2022v2.pdf";
 
 function Resume() {
   return (
-    <div className="mx-3">
+    <div className="mx-3 pb-2">
       <h1>Resume</h1>
 
       <div className="resume">
@@ -63,7 +64,7 @@ function Resume() {
       <br></br>
       <br></br>
       <a
-        href="file:///Users/BNKing/Downloads/BNK%20CV2022%20v2.pdf"
+        href={bnkCv}
         target="_blank"
         rel="noopener noreferrer"
       >
