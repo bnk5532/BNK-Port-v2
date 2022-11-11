@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/BNK-Port-v2/static/css/main.50a2a427.css",
-    "main.js": "/BNK-Port-v2/static/js/main.80213b78.js",
+    "main.js": "/BNK-Port-v2/static/js/main.b9f9fcc7.js",
     "static/js/787.205d97c0.chunk.js": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js",
     "static/media/familyPic1.png": "/BNK-Port-v2/static/media/familyPic1.586dd11e082f129c298b.png",
     "static/media/FlightHub.png": "/BNK-Port-v2/static/media/FlightHub.c9a61de25398121b1fe9.png",
     "static/media/WB2.png": "/BNK-Port-v2/static/media/WB2.b55c327d32a0cb33ca98.png",
+    "static/media/playerUp.png": "/BNK-Port-v2/static/media/playerUp.39f468e93d6b4165a767.png",
     "static/media/eeKeep1.png": "/BNK-Port-v2/static/media/eeKeep1.dd37be7f2eeb69d8b532.png",
     "static/media/port1.png": "/BNK-Port-v2/static/media/port1.3ad7bfd7b05fee9ba966.png",
     "static/media/PawFect Pets.png": "/BNK-Port-v2/static/media/PawFect Pets.7ec8198fa1b704ddb992.png",
@@ -15,11 +16,11 @@
     "static/media/passGen1.png": "/BNK-Port-v2/static/media/passGen1.9b227d2e123ae141c60d.png",
     "index.html": "/BNK-Port-v2/index.html",
     "main.50a2a427.css.map": "/BNK-Port-v2/static/css/main.50a2a427.css.map",
-    "main.80213b78.js.map": "/BNK-Port-v2/static/js/main.80213b78.js.map",
+    "main.b9f9fcc7.js.map": "/BNK-Port-v2/static/js/main.b9f9fcc7.js.map",
     "787.205d97c0.chunk.js.map": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50a2a427.css",
-    "static/js/main.80213b78.js"
+    "static/js/main.b9f9fcc7.js"
   ]
 }
