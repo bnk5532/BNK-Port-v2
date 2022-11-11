@@ -7,6 +7,7 @@ import eeKeepPic from "../../assets/images/eeKeep1.png";
 import portPic1 from "../../assets/images/port1.png";
 import passGenPic from "../../assets/images/passGen1.png";
 import schedulerProPic from "../../assets/images/schedulerPro.png";
+import playerUp from "../../assets/images/playerUp.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -27,6 +28,12 @@ function Project() {
       description: "It was time our pets joined us on social media, too!",
       link: "https://pawfect-friends-app.herokuapp.com/",
       src: pawFectPic,
+    },
+    {
+      title: "Player Up!",
+      description: "Get your game on with locals in this new community!",
+      link: "https://playerup2022.herokuapp.com/",
+      src: playerUp,
     },
     {
       title: "Weather AboveGround",
