@@ -20,6 +20,9 @@ function NavBar({ currentCategory, changeSelected }) {
               <Nav.Link eventKey="3" onClick={() => changeSelected("Resume")}>
                 Resume
               </Nav.Link>
+              <Nav.Link eventKey="4" onClick={() => changeSelected("Recommendations")}>
+                Recommendations
+              </Nav.Link>
               {/* <Nav.Link onClick={() => changeSelected("Contact")}>
         Contact
       </Nav.Link> */}

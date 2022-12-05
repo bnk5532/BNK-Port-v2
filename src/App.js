@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
+import Recommendations from "./components/Recommendations";
 import wbHero from "./assets/images/WB2.png";
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
         return <ContactForm />;
       case "Resume":
         return <Resume />;
+      case "Recommendations":
+        return <Recommendations />;
       default:
         return <About />;
     }
