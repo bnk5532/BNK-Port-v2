@@ -5,7 +5,7 @@ function Recommendations() {
   return (
     <div className="mx-3 pb-2">
       <h1>Recommendations</h1>
-
+      <br></br>
       <div className="recommendations">
         "Brian stood out in many ways as a student, but a couple of things that
         really set him apart were his perfect attendance and the fact that he

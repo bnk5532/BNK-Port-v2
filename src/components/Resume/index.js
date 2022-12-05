@@ -1,5 +1,6 @@
 import React from "react";
 import bnkCv from "../../assets/pdf/BNKCV2022v2dot1.pdf";
+import codeBadge1 from "../../assets/images/codeBadge1.png";
 
 function Resume() {
   return (
@@ -64,12 +65,17 @@ function Resume() {
       <br></br>
       <br></br>
       <a
-        href={bnkCv}
+        href="https://www.credly.com/badges/a2526be3-fc55-45e8-8c4b-db81fb685808/linked_in?t=rm9jm1"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fa-solid fa-file-pdf"></i>
+        <img className="badge1" src={codeBadge1} alt="" />
       </a>
+      <div>
+        <a href={bnkCv} target="_blank" rel="noopener noreferrer">
+          <i className="fa-solid fa-file-pdf"></i>
+        </a>
+      </div>
     </div>
   );
 }
