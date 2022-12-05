@@ -5,7 +5,9 @@ import codeBadge1 from "../../assets/images/codeBadge1.png";
 function Resume() {
   return (
     <div className="mx-3 pb-2">
-      <h1>Resume</h1>
+      <h1>Resume  <a href={bnkCv} target="_blank" rel="noopener noreferrer">
+          <i className="fa-solid fa-file-pdf"></i>
+        </a></h1>
 
       <div className="resume">
         <br></br>
@@ -71,11 +73,6 @@ function Resume() {
       >
         <img className="badge1" src={codeBadge1} alt="" />
       </a>
-      <div>
-        <a href={bnkCv} target="_blank" rel="noopener noreferrer">
-          <i className="fa-solid fa-file-pdf"></i>
-        </a>
-      </div>
     </div>
   );
 }
