@@ -30,12 +30,12 @@ function About() {
             landing and maintaining a career in web development.
             <br></br> <br></br>Brian calls the lower Cape Fear region of North
             Carolina home where he shares a beautiful life with his wife and two
-            elementary school-aged children, and a yorkshire terrier. He also has
-            a love for the outdoors, history, fine cuisine, travel and an
+            elementary school-aged children, and a yorkshire terrier. He also
+            has a love for the outdoors, history, fine cuisine, travel and an
             ever-widening range of other interests.
             <br></br> <br></br>
             Coding camp in the rear view, Brian is looking forward to 2023, and
-            the starting a new role as a Junior Web Developer!
+            starting a new role as a Junior Web Developer!
             <br></br>
             <br></br>
           </p>
