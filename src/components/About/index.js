@@ -4,15 +4,14 @@ import familyPic1 from "../../assets/images/familyPic1.png";
 function About() {
   return (
     <div className="container">
-      <h1>About me</h1>
+      
       <div style={{ width: "100%" }}>
         <div className="about-pic">
           <img className="picture" src={familyPic1} alt="" />
         </div>
-
         <div className="about-text">
           <p>
-            <br></br>
+            
             <strong>Brian Nicholas King</strong>
             <br></br>
             <em>Operations Reporting Sr. Analyst & Web Developer</em>
