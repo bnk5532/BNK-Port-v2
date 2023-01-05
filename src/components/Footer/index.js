@@ -42,7 +42,7 @@ function Footer() {
         </p>
       </div>
       <div className="footer" >
-        <strong>Brian Nicholas King, Portfolio, 2022.</strong>
+        <strong>Brian Nicholas King, Portfolio, 2023.</strong>
         <br /> 1146 Spring Glen Ct. Leland, NC 28451 | 910-233-9775
       </div>
     </div>
