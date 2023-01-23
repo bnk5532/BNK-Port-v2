@@ -34,7 +34,7 @@ function About() {
             ever-widening range of other interests.
             <br></br> <br></br>
             Coding camp in the rear view, Brian is looking forward to 2023, and
-            starting a new role as a Junior Web Developer!
+            starting a new role as a Web Developer or DevOps Engineer!
             <br></br>
             <br></br>
           </p>
