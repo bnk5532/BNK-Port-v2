@@ -1,5 +1,5 @@
 import React from "react";
-import bnkCv from "../../assets/pdf/BNKCV2023v1dot1.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2023v1dot3.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 
 function Resume() {
