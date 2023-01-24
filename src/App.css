@@ -107,6 +107,9 @@ main {
   .about-text {
     text-align: left;
   }
+  .recommendations {
+    text-align: left;
+  }
   .navbar-collapse {
     display: flex;
     justify-content: center;

@@ -5,9 +5,12 @@ import codeBadge1 from "../../assets/images/codeBadge1.png";
 function Resume() {
   return (
     <div className="mx-3 pb-2">
-      <h1>Resume  <a href={bnkCv} target="_blank" rel="noopener noreferrer">
+      <h1>
+        Resume{" "}
+        <a href={bnkCv} target="_blank" rel="noopener noreferrer">
           <i className="fa-solid fa-file-pdf"></i>
-        </a></h1>
+        </a>
+      </h1>
 
       <div className="resume">
         <br></br>
@@ -63,6 +66,47 @@ function Resume() {
         <em>Bachelor of Arts, B.A. Anthropology, 2008.</em>
         <br></br>
         Forensic Science minor. Lambda Alpha Honors Society Lifetime Member.
+        <br></br>
+        <br></br>
+        <strong>PROFESSIONAL DEVELOPMENT</strong>
+        <br></br>
+        <br></br>
+        Verizon Scrum Master Badge <br></br>
+        Verizon Agile Mindset Program Badge <br></br>
+        Verizon Lean Six Sigma (VLSS) <br></br>
+        Verizon Project & Management Fundamentals <br></br>
+        Udemy.com – JavaScript Algorithms & Data Structures Masterclass (
+        <em>In Progress</em>)<br></br>
+        <br></br>
+        <strong>TECHNICAL SKILLS</strong>
+        <br></br>
+        <br></br>
+        <strong>Languages:</strong> HTML5, CSS3, JavaScript, SQL. 
+        <br></br>
+        <br></br>
+        <strong>Concepts:</strong> Responsive Design,
+        Big O Notation, TDD, Agile Development, Data Structures, Security &
+        Session Storage, Local Storage, User Authentication and Database
+        Management. 
+        <br></br>
+        <br></br>
+        <strong>Tools:</strong> Bootstrap, Bulma, Materialize, Handlebars, MERN stack
+        (MongoDB, Express.js, React.js, Node.js), React Router, Apollo GraphQL,
+        Heroku, Inquirer CLI, JWT, Insomnia, Git, GitHub, GitHub Gists, Google
+        Data Studio, MySQL, NoSQL, NPM packages, VS Code, Google Suite, and
+        Microsoft Office.
+        <br></br>
+        <br></br>
+        <strong>INDUSTRY INTERESTS</strong>
+        <br></br>
+        <br></br>
+        Aerospace & Defense <br></br>
+        Commercial Aviation <br></br>
+        Web Development & DevOps <br></br>
+        Acquisitions <br></br>
+        Automation & Networking <br></br>
+        Logistics & Supply Chain <br></br>
+       <br></br>
       </div>
       <br></br>
       <br></br>
