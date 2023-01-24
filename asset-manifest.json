@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BNK-Port-v2/static/css/main.aa25c967.css",
+    "main.css": "/BNK-Port-v2/static/css/main.12c0452a.css",
     "main.js": "/BNK-Port-v2/static/js/main.1b8737b8.js",
     "static/js/787.205d97c0.chunk.js": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js",
     "static/media/familyPic1.png": "/BNK-Port-v2/static/media/familyPic1.586dd11e082f129c298b.png",
@@ -16,12 +16,12 @@
     "static/media/schedulerPro.png": "/BNK-Port-v2/static/media/schedulerPro.6b8b615965114a6cf99b.png",
     "static/media/passGen1.png": "/BNK-Port-v2/static/media/passGen1.9b227d2e123ae141c60d.png",
     "index.html": "/BNK-Port-v2/index.html",
-    "main.aa25c967.css.map": "/BNK-Port-v2/static/css/main.aa25c967.css.map",
+    "main.12c0452a.css.map": "/BNK-Port-v2/static/css/main.12c0452a.css.map",
     "main.1b8737b8.js.map": "/BNK-Port-v2/static/js/main.1b8737b8.js.map",
     "787.205d97c0.chunk.js.map": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa25c967.css",
+    "static/css/main.12c0452a.css",
     "static/js/main.1b8737b8.js"
   ]
 }
