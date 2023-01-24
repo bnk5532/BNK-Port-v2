@@ -9,12 +9,13 @@ function About() {
         <div className="about-pic">
           <img className="picture" src={familyPic1} alt="" />
         </div>
-        <div className="about-text">
+        <div className="about-me">
           <p>
             
             <strong>Brian Nicholas King</strong>
             <br></br>
             <em>Operations Reporting Sr. Analyst & Web Developer</em>
+            <p className="about-text">
             <br></br>
             <br></br>Brian is excited and proud to share that he has just
             survived the rigors of the coding bootcamp through the University of
@@ -37,6 +38,7 @@ function About() {
             starting a new role as a Web Developer or DevOps Engineer!
             <br></br>
             <br></br>
+            </p>
           </p>
         </div>
       </div>

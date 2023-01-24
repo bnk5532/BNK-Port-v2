@@ -106,6 +106,9 @@ main {
   h1 {
       padding-top: 55px;
     }
+  .about-text {
+    text-align: left;
+  }
 }
 
 .footer {
