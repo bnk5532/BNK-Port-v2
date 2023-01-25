@@ -119,12 +119,18 @@ main {
 
 .footer {
   font-size: small;
+  color: #102946;
 }
 
 .footer-links {
   font-size: larger;
+  color: #102946;
 }
 
 .foot-bg{
   background-color: lightgray;
+}
+
+a {
+  color: #102946;
 }
