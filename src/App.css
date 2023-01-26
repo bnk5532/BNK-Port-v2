@@ -91,6 +91,11 @@ main {
   max-width: 30%;
 }
 
+
+.container {
+  text-align: left;
+}
+
 @media screen and (max-width: 725px) {
   .w-beach {
     display: none;
@@ -101,9 +106,6 @@ main {
   h1 {
     padding-top: 55px;
   }
-  .about-text {
-    text-align: left;
-  }
   .recommendations {
     text-align: left;
   }
@@ -111,7 +113,11 @@ main {
     display: flex;
     justify-content: center;
   }
+  .about-me {
+    padding-top: 60px;
+  }
 }
+
 
 .footer {
   font-size: small;
@@ -130,7 +136,7 @@ main {
 }
 
 .foot-bg {
-  background-color: lightgrey;
+  background-color: lightgrey; 
 }
 
 a {
