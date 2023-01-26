@@ -3,6 +3,10 @@ import Carousel from "react-bootstrap/Carousel";
 import familyPic1 from "../../assets/images/familyPic1.png";
 import BannerFam1 from "../../assets/images/BannerFam1.JPG";
 import WilKids1 from "../../assets/images/WilliamsKids22.JPG";
+import xmas22 from "../../assets/images/xmasKids22.JPG";
+import hallowKids22 from "../..//assets/images/HalloKids22.jpeg";
+import easterKids22 from "../../assets/images/EasterKids22.JPG";
+import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -17,7 +21,7 @@ function ControlledCarousel() {
         <img
           className="d-block w-100"
           src={familyPic1}
-          alt="First slide"
+          alt="Colonial Williamsburg Family 2019"
         />
         {/* <Carousel.Caption>
           <h3>First slide label</h3>
@@ -38,7 +42,35 @@ function ControlledCarousel() {
           alt="Third slide"
         />
       </Carousel.Item>
-      
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={easterKids22}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={xmas22}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={hallowKids22}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+    
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={wilFam22}
+          alt="Colonial Williamsburg Family 2022"
+        />
+      </Carousel.Item>
     </Carousel>
   );
 }
