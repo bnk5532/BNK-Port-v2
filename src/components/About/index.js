@@ -32,38 +32,38 @@ function ControlledCarousel() {
         <img
           className="d-block w-100"
           src={BannerFam1}
-          alt="Second slide"
+          alt="Banner Elk, NC Family 2022"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={WilKids1}
-          alt="Third slide"
+          alt="Williamsburg Kids 2022"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={easterKids22}
-          alt="Third slide"
+          alt="Easter Kids 2022"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={xmas22}
-          alt="Third slide"
+          alt="Christmas with Daddy 2021"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={hallowKids22}
-          alt="Third slide"
+          alt="Gordonsville, VA Kids 2022"
         />
       </Carousel.Item>
-    
+
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -104,11 +104,9 @@ function About() {
               and an ever-widening range of other interests.
               <br></br> <br></br>
               <div className="carousel">
-                
                 <ControlledCarousel />
-                
               </div>
-              <br></br> 
+              <br></br>
               Coding camp in the rear view, Brian is looking forward to 2023,
               and starting a new role as a Web Developer or DevOps Engineer!
               <br></br>
