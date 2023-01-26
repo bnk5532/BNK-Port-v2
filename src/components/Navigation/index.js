@@ -1,14 +1,24 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Harp from "../../assets/images/harp2.png";
 
 function NavBar({ currentCategory, changeSelected }) {
   return (
     <>
       <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" >
         <Container>
+        <Navbar.Brand href="/">
+            <img
+              src={Harp}
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt="Boru Harp"
+            />
+          </Navbar.Brand>
           <Navbar.Brand onClick={() => changeSelected("About")}>
-            {" Brian Nicholas King | Portfolio"}
+            {"Brian Nicholas King | Portfolio"}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

@@ -79,7 +79,6 @@ main {
   position: relative;
 }
 
-
 .picture {
   margin: 0;
   padding-right: 0;
@@ -92,18 +91,16 @@ main {
   max-width: 30%;
 }
 
-
-
 @media screen and (max-width: 725px) {
   .w-beach {
     display: none;
-  } 
+  }
   .picture {
     padding-top: 55px;
-  } 
+  }
   h1 {
-      padding-top: 55px;
-    }
+    padding-top: 55px;
+  }
   .about-text {
     text-align: left;
   }
@@ -113,7 +110,6 @@ main {
   .navbar-collapse {
     display: flex;
     justify-content: center;
-   
   }
 }
 
@@ -127,7 +123,7 @@ main {
   color: #102946;
 }
 
-.foot-bg{
+.foot-bg {
   background-color: lightgray;
 }
 
