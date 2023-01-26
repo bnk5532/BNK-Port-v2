@@ -1,9 +1,9 @@
 import React from "react";
 import bnkCv from "../../assets/pdf/BNKCV2023v1dot3.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
-import UNC1 from "../../assets/images/UNC1.png";
-import UNCW from "../../assets/images/UNCW.jpeg";
-import Strayer from "../../assets/images/Strayer1.png";
+// import UNC1 from "../../assets/images/UNC1.png";
+// import UNCW from "../../assets/images/UNCW.jpeg";
+// import Strayer from "../../assets/images/Strayer1.png";
 
 function Resume() {
   return (
@@ -47,28 +47,28 @@ function Resume() {
         <br></br>
         <strong>EDUCATION</strong>
         <br></br><br></br>
-        <img
+        {/* <img
               src={UNC1}
               width="25%"
               height="25%"
               className="d-inline-block align-top"
               alt="UNC Logo"
             />
-        <br></br>
+        <br></br> */}
         <strong>The University of North Carolina – Chapel Hill</strong>{" "}
         <br></br>
         <em>Certificate, Coding Bootcamp, 2022.</em> <br></br>
         Intensive 24-week coding bootcamp curriculum that qualifies and prepares
         graduates for transition into full stack web developer roles.
         <br></br> <br></br>
-        <img
+        {/* <img
               src={Strayer}
-              width="25%"
-              height="25%"
+              width="20%"
+              height="20%"
               className="d-inline-block align-top"
               alt="UNC Logo"
-            />
-        <br></br>
+            /> */}
+        {/* <br></br> */}
         <strong>Strayer University</strong>
         <br></br>
         <em>
@@ -78,14 +78,14 @@ function Resume() {
         Conferred with honors.
         <br></br>
         <br></br>
-        <img
+        {/* <img
               src={UNCW}
               width="15%"
               height="15%"
               className="d-inline-block align-top"
               alt="UNC Logo"
             />
-        <br></br>
+        <br></br> */}
         <strong>University of North Carolina – Wilmington </strong>
         <br></br>
         <em>Bachelor of Arts, B.A. Anthropology, 2008.</em>
