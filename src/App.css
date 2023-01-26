@@ -8,16 +8,16 @@
   justify-content: flex-end;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -82,7 +82,7 @@ main {
 .picture {
   margin: 0;
   padding-right: 0;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   display: flex;
   max-width: 70%;
 }
@@ -123,10 +123,25 @@ main {
   color: #102946;
 }
 
+.charity-title {
+  font-size: small;
+  color: #102946;
+  padding-top: 0.6rem;
+
+}
+
+
 .foot-bg {
-  background-color: lightgray;
+  background-color: lightgrey;
 }
 
 a {
   color: #102946;
 }
+
+/* .pdf-icon:before{
+  color: #469cd4;
+}
+.pdf-icon:after{
+  color: black;
+} */

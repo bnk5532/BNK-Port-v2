@@ -8,7 +8,7 @@ function Resume() {
       <h1>
         Resume{" "}
         <a href={bnkCv} target="_blank" rel="noopener noreferrer">
-          <i className="fa-solid fa-file-pdf"></i>
+          <i className="fa-solid fa-file-pdf pdf-icon"></i>
         </a>
       </h1>
 
