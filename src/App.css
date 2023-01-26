@@ -138,6 +138,9 @@ main {
 a {
   color: #102946;
 }
+.flag {
+  margin-bottom: 16px;
+}
 
 /* .pdf-icon:before{
   color: #469cd4;

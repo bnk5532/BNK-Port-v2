@@ -1,7 +1,7 @@
 import React from "react";
 import T2t from "../../assets/images/T2T-2.webp";
 import Wwp from "../../assets/images/wwp1.png";
-// import USflag1 from "../../assets/images/USflag1.png";
+import USflag1 from "../../assets/images/USflag1.png";
 
 function Footer() {
   return (
@@ -50,7 +50,9 @@ function Footer() {
       </div>
 
       <div className="charity-title">
-        
+        <div>
+        <img className="flag" src={USflag1} width="86px" height="45px" alt="US Flag" />
+        </div>
      
         PROUD SUPPORTER OF:
       </div>
