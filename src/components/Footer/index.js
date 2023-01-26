@@ -46,7 +46,7 @@ function Footer() {
       </div>
       <div className="footer">
         <strong>Brian Nicholas King, Portfolio, 2023.</strong>
-        <br /> Leland, NC 28451 | 910-233-9775
+        <br /> Leland, North Carolina | USA
       </div>
 
       <div className="charity-title">
