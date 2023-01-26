@@ -124,9 +124,9 @@ main {
 }
 
 .charity-title {
-  font-size: small;
+  font-size: smaller;
   color: #102946;
-  padding-top: 0.6rem;
+  padding-top: 1rem;
 
 }
 

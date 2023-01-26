@@ -1,6 +1,7 @@
 import React from "react";
-import T2t from "../../assets/images/T2T-Logo1.webp";
+import T2t from "../../assets/images/T2T-2.webp";
 import Wwp from "../../assets/images/wwp1.png";
+// import USflag1 from "../../assets/images/USflag1.png";
 
 function Footer() {
   return (
@@ -49,6 +50,8 @@ function Footer() {
       </div>
 
       <div className="charity-title">
+        
+     
         PROUD SUPPORTER OF:
       </div>
       <div className="charity">
@@ -57,14 +60,14 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="p-3" src={T2t} width="10%" height="10%" alt="T2T Foundation Logo" />
+          <img className="m-3" src={T2t} width="133px" height="52px" alt="T2T Foundation Logo" />
         </a>
         <a
           href="https://www.woundedwarriorproject.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="p-3" src={Wwp} width="15%" height="15%" alt="T2T Foundation Logo" />
+          <img className="m-3" src={Wwp} width="140px" height="35px" alt="T2T Foundation Logo" />
         </a>
       </div>
     </div>
