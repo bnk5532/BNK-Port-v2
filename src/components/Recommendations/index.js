@@ -1,5 +1,5 @@
 import React from "react";
-import codeBadge1 from "../../assets/images/codeBadge1.png"
+import codeBadge1 from "../../assets/images/codeBadge1.png";
 
 function Recommendations() {
   return (
@@ -21,7 +21,15 @@ function Recommendations() {
         software development. He will be a valuable asset to any organization,
         and I give him my full recommendation."
         <br></br>
-        <strong> - Peter Colella, <em>Web Developer & Bootcamp Instructor.</em> </strong>
+        <a
+          href="https://www.linkedin.com/in/peter-colella/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <strong>
+          {" "}
+          - Peter Colella, <em>Web Developer & Boot Camp Instructor.</em>{" "}
+        </strong></a>
         <br></br>
         <br></br>
         “Using a consultant mindset, Brian takes great pride in finding creative
@@ -34,7 +42,16 @@ function Recommendations() {
         speak to them in a way that is unique and engaging. His ability to
         deliver consistently strong results make him an asset to any team.”
         <br></br>
-        <strong> – Jason Forgey, <em>Program & Project Manager.</em> </strong>
+        <a
+          href="https://www.linkedin.com/in/jason-forgey-mba-pmp-7b816a6/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <strong>
+            {" "}
+            – Jason Forgey, <em>Sr. Analyst, Program & Project Management.</em>{" "}
+          </strong>
+        </a>
         <br></br>
         <br></br>
         ​​”Brian has an innate ability to constantly think 2-3 steps ahead in
@@ -46,7 +63,15 @@ function Recommendations() {
         remains a constant beacon of business knowledge, strategic insight &
         personal integrity that any Team would be fortunate [to] incorporate.”
         <br></br>
-        <strong> – Matt Mercer, <em>HR Business Partner.</em></strong>
+        <a
+          href="https://www.linkedin.com/in/matthewhmercer/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <strong>
+            – Matt Mercer, <em>HR Business Partner.</em>
+          </strong>
+        </a>
         <br></br>
         <br></br>
       </div>
@@ -57,11 +82,7 @@ function Recommendations() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
-          className="badge1"
-          src={codeBadge1}
-          alt=""
-        />
+        <img className="badge1" src={codeBadge1} alt="" />
       </a>
     </div>
   );

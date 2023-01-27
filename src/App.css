@@ -30,18 +30,18 @@
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .resume {
   text-align: left;
@@ -95,6 +95,11 @@ main {
   text-align: left;
 }
 
+.recommendations {
+  text-decoration: none;;
+  
+ }
+
 @media screen and (max-width: 725px) {
   .w-beach {
     display: none;
@@ -144,6 +149,7 @@ main {
 
 a {
   color: #102946;
+  text-decoration: none;
 }
 .flag {
   margin-bottom: 16px;
@@ -152,16 +158,3 @@ a {
 .cursor {
   cursor: pointer;
 }
-
-.universities {
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-/* .pdf-icon:before{
-  color: #469cd4;
-}
-.pdf-icon:after{
-  color: black;
-} */

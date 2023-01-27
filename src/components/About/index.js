@@ -80,7 +80,7 @@ function About() {
     <div className="container">
       <div style={{ width: "100%" }}>
         <div className="about-me">
-          Operations Professional | Reporting | Dashboards | Sr. Analyst | Web
+          Operations | Reporting | Dashboards | Sr. Analyst | Web
           Developer
           
             <br></br><br></br>Brian is excited and proud to share that he has just
