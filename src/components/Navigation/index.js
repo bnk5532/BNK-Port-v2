@@ -6,31 +6,39 @@ import Harp from "../../assets/images/harp2.png";
 function NavBar({ currentCategory, changeSelected }) {
   return (
     <>
-      <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" >
+      <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
         <Container>
-        <Navbar.Brand href="/">
+          <Navbar.Brand onClick={() => changeSelected("About")}>
             <img
               src={Harp}
               width="30"
               height="30"
-              className="d-inline-block align-top"
+              className="d-inline-block align-top cursor"
               alt="Boru Harp"
             />
           </Navbar.Brand>
           <Navbar.Brand onClick={() => changeSelected("About")}>
-            {"Brian Nicholas King | Portfolio"}
+            <div className="cursor">{"Brian Nicholas King | Portfolio"}</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>About</Nav.Link>
-              <Nav.Link eventKey="2" onClick={() => changeSelected("Portfolio")}>
+              <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>
+                About
+              </Nav.Link>
+              <Nav.Link
+                eventKey="2"
+                onClick={() => changeSelected("Portfolio")}
+              >
                 Portfolio
               </Nav.Link>
               <Nav.Link eventKey="3" onClick={() => changeSelected("Resume")}>
                 Resume
               </Nav.Link>
-              <Nav.Link eventKey="4" onClick={() => changeSelected("Recommendations")}>
+              <Nav.Link
+                eventKey="4"
+                onClick={() => changeSelected("Recommendations")}
+              >
                 Recommendations
               </Nav.Link>
               {/* <Nav.Link onClick={() => changeSelected("Contact")}>

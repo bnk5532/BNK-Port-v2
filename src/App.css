@@ -146,6 +146,10 @@ a {
   margin-bottom: 16px;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 /* .pdf-icon:before{
   color: #469cd4;
 }

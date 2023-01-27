@@ -84,7 +84,7 @@ function About() {
         </div> */}
         <div className="about-me">
           <p>
-            Operations Professional | Reporting | Sr. Analyst | Web Developer
+            Operations Professional | Reporting | Dashboards | Sr. Analyst | Web Developer
             <p className="about-text">
               <br></br>Brian is excited and proud to share that he has just
               survived the rigors of the coding boot camp through the University
