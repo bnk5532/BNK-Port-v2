@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BNK-Port-v2/static/css/main.7fea6af3.css",
-    "main.js": "/BNK-Port-v2/static/js/main.118e09d6.js",
+    "main.css": "/BNK-Port-v2/static/css/main.df636eca.css",
+    "main.js": "/BNK-Port-v2/static/js/main.bb6b6db5.js",
     "static/js/787.205d97c0.chunk.js": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js",
     "static/media/WilliamsKids22.JPG": "/BNK-Port-v2/static/media/WilliamsKids22.827335e262164bf6f481.JPG",
     "static/media/EasterKids22.JPG": "/BNK-Port-v2/static/media/EasterKids22.7840411c90ffe73f3a9d.JPG",
@@ -26,15 +26,16 @@
     "static/media/UNC1.png": "/BNK-Port-v2/static/media/UNC1.ba8350944541a3f0725d.png",
     "static/media/wwp1.png": "/BNK-Port-v2/static/media/wwp1.09473bd4905300cbaf3d.png",
     "static/media/T2T-2.webp": "/BNK-Port-v2/static/media/T2T-2.97a0a874d16bf373c3ef.webp",
+    "static/media/verizon1.png": "/BNK-Port-v2/static/media/verizon1.4ea478db554feed1a6e8.png",
     "static/media/passGen1.png": "/BNK-Port-v2/static/media/passGen1.9b227d2e123ae141c60d.png",
     "static/media/harp2.png": "/BNK-Port-v2/static/media/harp2.0ebc6a430eec027a7e7b.png",
     "index.html": "/BNK-Port-v2/index.html",
-    "main.7fea6af3.css.map": "/BNK-Port-v2/static/css/main.7fea6af3.css.map",
-    "main.118e09d6.js.map": "/BNK-Port-v2/static/js/main.118e09d6.js.map",
+    "main.df636eca.css.map": "/BNK-Port-v2/static/css/main.df636eca.css.map",
+    "main.bb6b6db5.js.map": "/BNK-Port-v2/static/js/main.bb6b6db5.js.map",
     "787.205d97c0.chunk.js.map": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fea6af3.css",
-    "static/js/main.118e09d6.js"
+    "static/css/main.df636eca.css",
+    "static/js/main.bb6b6db5.js"
   ]
 }
