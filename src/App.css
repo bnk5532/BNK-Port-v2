@@ -91,7 +91,6 @@ main {
   max-width: 30%;
 }
 
-
 .about-me {
   text-align: left;
 }
@@ -122,6 +121,7 @@ main {
 .footer {
   font-size: small;
   color: #102946;
+  
 }
 
 .footer-links {
@@ -137,6 +137,9 @@ main {
 
 .foot-bg {
   background-color: lightgrey; 
+  border-top: solid #102946;
+  border-top-width: 32px;
+
 }
 
 a {

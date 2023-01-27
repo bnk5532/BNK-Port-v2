@@ -106,7 +106,7 @@ function Resume() {
         <strong>TECHNICAL SKILLS</strong>
         <br></br>
         <br></br>
-        <strong>Languages:</strong> HTML <i class="fa-brands fa-html5"></i>, CSS <i class="fa-brands fa-css3-alt"></i>, JavaScript <i class="fa-brands fa-square-js"></i>, SQL. 
+        <strong>Languages:</strong> HTML <i className="fa-brands fa-html5"></i>, CSS <i className="fa-brands fa-css3-alt"></i>, JavaScript <i className="fa-brands fa-square-js"></i>, SQL. 
         <br></br>
         <br></br>
         <strong>Concepts:</strong> Responsive Design,
@@ -115,22 +115,22 @@ function Resume() {
         Management. 
         <br></br>
         <br></br>
-        <strong>Tools:</strong> Bootstrap <i class="fa-brands fa-bootstrap"></i>, Bulma, Materialize, Handlebars, Font Awesome <i class="fa-solid fa-font-awesome"></i>, MERN stack
-        (MongoDB <i class="fa-brands fa-mdb"></i>, Express.js, React.js <i class="fa-brands fa-react"></i>, Node.js <i class="fa-brands fa-node-js"></i>), React Router, Apollo GraphQL,
-        Heroku, Inquirer CLI, Terminal <i class="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git <i class="fa-brands fa-git"></i>, GitHub <i class="fa-brands fa-square-github"></i>, GitHub Gists, Google
-        Data Studio, MySQL, NoSQL, NPM <i class="fa-brands fa-npm"></i>, VS Code, Google Suite <i class="fa-brands fa-google"></i>,
-        Microsoft Office <i class="fa-brands fa-microsoft"></i>, Apple IOS <i class="fa-brands fa-apple"></i>.
+        <strong>Tools:</strong> Bootstrap <i className="fa-brands fa-bootstrap"></i>, Bulma, Materialize, Handlebars, Font Awesome <i className="fa-solid fa-font-awesome"></i>,
+        MongoDB <i className="fa-brands fa-mdb"></i>, Express.js, React.js <i className="fa-brands fa-react"></i>, Node.js <i className="fa-brands fa-node-js"></i>, React Router, Apollo GraphQL,
+        Heroku, Inquirer CLI, Terminal <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git <i className="fa-brands fa-git"></i>, GitHub <i className="fa-brands fa-square-github"></i>, GitHub Gists, Google
+        Data Studio, MySQL, NoSQL, NPM <i className="fa-brands fa-npm"></i>, VS Code, Google Suite <i className="fa-brands fa-google"></i>,
+        Microsoft Office <i className="fa-brands fa-microsoft"></i>, Apple IOS <i className="fa-brands fa-apple"></i>.
         <br></br>
         <br></br>
         <strong>INDUSTRY INTERESTS</strong>
         <br></br>
         <br></br>
-        Aerospace & Defense <i class="fa-solid fa-jet-fighter"></i> <br></br>
-        Commercial Aviation <i class="fa-solid fa-plane-departure"></i><br></br>
-        Web Development & DevOps <i class="fa-solid fa-code"></i><br></br>
-       Acquisitions  <i class="fa-solid fa-file-contract"></i><br></br>
-        Automation & Networking <i class="fa-solid fa-circle-nodes"></i><br></br>
-        Logistics & Supply Chain <i class="fa-solid fa-truck-fast"></i><br></br>
+        Aerospace & Defense <i className="fa-solid fa-jet-fighter"></i> <br></br>
+        Commercial Aviation <i className="fa-solid fa-plane-departure"></i><br></br>
+        Web Development & DevOps <i className="fa-solid fa-code"></i><br></br>
+        Acquisitions  <i className="fa-solid fa-file-contract"></i><br></br>
+        Automation & Networking <i className="fa-solid fa-circle-nodes"></i><br></br>
+        Logistics & Supply Chain <i className="fa-solid fa-truck-fast"></i><br></br>
        <br></br>
       </div>
       <br></br>
