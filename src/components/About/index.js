@@ -108,7 +108,7 @@ function About() {
             starting a new role as a Web Developer or DevOps Engineer!
             <br></br>
             <br></br>
-         
+            <br></br>
         </div>
       </div>
     </div>
