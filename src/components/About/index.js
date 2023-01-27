@@ -87,13 +87,13 @@ function About() {
             Operations Professional | Reporting | Sr. Analyst | Web Developer
             <p className="about-text">
               <br></br>Brian is excited and proud to share that he has just
-              survived the rigors of the coding bootcamp through the University
+              survived the rigors of the coding boot camp through the University
               of North Carolina - Chapel Hill and is a newly minted web
               developer. Having spent the better part of past 13 years of his
               professional career in business intel and reporting analytics
               while working in the telecommunications and technology industries,
               he had recently taken a pause in his career to pursue a new one in
-              software engineering. Over the past 6 months, he has learned the
+              software engineering. Over the last year, he has learned the
               tech industry's wishlist of programming languages, skills,
               methods, tools and the problem-solver mindset that is critical to
               successfully landing and maintaining a career in web development.
