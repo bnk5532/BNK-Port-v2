@@ -1,9 +1,9 @@
 import React from "react";
 import bnkCv from "../../assets/pdf/BNKCV2023v1dot3.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
-// import UNC1 from "../../assets/images/UNC1.png";
-// import UNCW from "../../assets/images/UNCW.jpeg";
-// import Strayer from "../../assets/images/Strayer1.png";
+import UNC1 from "../../assets/images/UNC1.png";
+import UNCW from "../../assets/images/uncw3.png";
+import Strayer from "../../assets/images/Strayer1.png";
 
 function Resume() {
   return (
@@ -46,30 +46,26 @@ function Resume() {
         contact center call-taking population.<br></br>
         <br></br>
         <strong>EDUCATION</strong>
-        <br></br><br></br>
-        {/* <img
-              src={UNC1}
-              width="25%"
-              height="25%"
-              className="d-inline-block align-top"
-              alt="UNC Logo"
-            />
-        <br></br> */}
-        <strong>The University of North Carolina – Chapel Hill</strong>{" "}
+        <br></br> <br></br>
+          <img
+          src={UNC1}
+          width="200px"
+          height="55px"
+          className="d-inline-block mb-1"
+          alt="UNC Logo"
+        />
         <br></br>
-        <em>Certificate, Coding Bootcamp, 2022.</em> <br></br>
-        Intensive 24-week coding bootcamp curriculum that qualifies and prepares
+        <em>Certificate, Coding Boot Camp, 2022.</em> <br></br>
+        Intensive 24-week coding boot camp curriculum that qualifies and prepares
         graduates for transition into full stack web developer roles.
         <br></br> <br></br>
-        {/* <img
-              src={Strayer}
-              width="20%"
-              height="20%"
-              className="d-inline-block align-top"
-              alt="UNC Logo"
-            /> */}
-        {/* <br></br> */}
-        <strong>Strayer University</strong>
+        <img
+          src={Strayer}
+          width="200px"
+          height="44px"
+          className="d-inline-block mb-1"
+          alt="UNC Logo"
+        />
         <br></br>
         <em>
           Master of Business Administration, M.B.A. Acquisitions, 2012.
@@ -78,15 +74,13 @@ function Resume() {
         Conferred with honors.
         <br></br>
         <br></br>
-        {/* <img
-              src={UNCW}
-              width="15%"
-              height="15%"
-              className="d-inline-block align-top"
-              alt="UNC Logo"
-            />
-        <br></br> */}
-        <strong>University of North Carolina – Wilmington </strong>
+        <img
+          src={UNCW}
+          width="200px"
+          height="53px"
+          className="d-inline-block mb-1"
+          alt="UNC Logo"
+        />
         <br></br>
         <em>Bachelor of Arts, B.A. Anthropology, 2008.</em>
         <br></br>
@@ -106,32 +100,46 @@ function Resume() {
         <strong>TECHNICAL SKILLS</strong>
         <br></br>
         <br></br>
-        <strong>Languages:</strong> HTML <i className="fa-brands fa-html5"></i>, CSS <i className="fa-brands fa-css3-alt"></i>, JavaScript <i className="fa-brands fa-square-js"></i>, SQL. 
+        <strong>Languages:</strong> HTML <i className="fa-brands fa-html5"></i>,
+        CSS <i className="fa-brands fa-css3-alt"></i>, JavaScript{" "}
+        <i className="fa-brands fa-square-js"></i>, SQL.
         <br></br>
         <br></br>
-        <strong>Concepts:</strong> Responsive Design,
-        Big O Notation, TDD, Agile Development, Data Structures, Security &
-        Session Storage, Local Storage, User Authentication and Database
-        Management. 
+        <strong>Concepts:</strong> Responsive Design, Big O Notation, TDD, Agile
+        Development, Data Structures, Security & Session Storage, Local Storage,
+        User Authentication and Database Management.
         <br></br>
         <br></br>
-        <strong>Tools:</strong> Bootstrap <i className="fa-brands fa-bootstrap"></i>, Bulma, Materialize, Handlebars, Font Awesome <i className="fa-solid fa-font-awesome"></i>,
-        MongoDB <i className="fa-brands fa-mdb"></i>, Express.js, React.js <i className="fa-brands fa-react"></i>, Node.js <i className="fa-brands fa-node-js"></i>, React Router, Apollo GraphQL,
-        Heroku, Inquirer CLI, Terminal <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git <i className="fa-brands fa-git"></i>, GitHub <i className="fa-brands fa-square-github"></i>, GitHub Gists, Google
-        Data Studio, MySQL, NoSQL, NPM <i className="fa-brands fa-npm"></i>, VS Code, Google Suite <i className="fa-brands fa-google"></i>,
-        Microsoft Office <i className="fa-brands fa-microsoft"></i>, Apple IOS <i className="fa-brands fa-apple"></i>.
-        <br></br>
+        <strong>Tools:</strong> Bootstrap{" "}
+        <i className="fa-brands fa-bootstrap"></i>, Bulma, Materialize,
+        Handlebars, Font Awesome <i className="fa-solid fa-font-awesome"></i>,
+        MongoDB <i className="fa-brands fa-mdb"></i>, Express.js, React.js{" "}
+        <i className="fa-brands fa-react"></i>, Node.js{" "}
+        <i className="fa-brands fa-node-js"></i>, React Router, Apollo GraphQL,
+        Heroku, Inquirer CLI, Terminal <i className="fa-solid fa-terminal"></i>,
+        JSON, JWT, Insomnia, Git <i className="fa-brands fa-git"></i>, GitHub{" "}
+        <i className="fa-brands fa-square-github"></i>, GitHub Gists, Google
+        Data Studio, MySQL, NoSQL, NPM <i className="fa-brands fa-npm"></i>, VS
+        Code, Google Suite <i className="fa-brands fa-google"></i>, Microsoft
+        Office <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
+        <i className="fa-brands fa-apple"></i>.<br></br>
         <br></br>
         <strong>INDUSTRY INTERESTS</strong>
         <br></br>
         <br></br>
-        Aerospace & Defense <i className="fa-solid fa-jet-fighter"></i> <br></br>
-        Commercial Aviation <i className="fa-solid fa-plane-departure"></i><br></br>
-        Web Development & DevOps <i className="fa-solid fa-code"></i><br></br>
-        Acquisitions  <i className="fa-solid fa-file-contract"></i><br></br>
-        Automation & Networking <i className="fa-solid fa-circle-nodes"></i><br></br>
-        Logistics & Supply Chain <i className="fa-solid fa-truck-fast"></i><br></br>
-       <br></br>
+        Aerospace & Defense <i className="fa-solid fa-jet-fighter"></i>{" "}
+        <br></br>
+        Commercial Aviation <i className="fa-solid fa-plane-departure"></i>
+        <br></br>
+        Web Development & DevOps <i className="fa-solid fa-code"></i>
+        <br></br>
+        Acquisitions <i className="fa-solid fa-file-contract"></i>
+        <br></br>
+        Automation & Networking <i className="fa-solid fa-circle-nodes"></i>
+        <br></br>
+        Logistics & Supply Chain <i className="fa-solid fa-truck-fast"></i>
+        <br></br>
+        <br></br>
       </div>
       <br></br>
       <br></br>

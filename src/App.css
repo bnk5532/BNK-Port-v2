@@ -153,6 +153,12 @@ a {
   cursor: pointer;
 }
 
+.universities {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 /* .pdf-icon:before{
   color: #469cd4;
 }
