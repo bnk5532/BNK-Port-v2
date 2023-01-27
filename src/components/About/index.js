@@ -7,6 +7,9 @@ import xmas22 from "../../assets/images/xmasKids22.JPG";
 import hallowKids22 from "../..//assets/images/HalloKids22.jpeg";
 import easterKids22 from "../../assets/images/EasterKids22.JPG";
 import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
+import BVPrague from "../../assets/images/BVPrague2.jpeg";
+import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
+import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -38,6 +41,13 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
+          src={BVPrague}
+          alt="Brian & Vlasta Prague 2018"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
           src={WilKids1}
           alt="Williamsburg Kids 2022"
         />
@@ -52,8 +62,22 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
+          src={OakIsland}
+          alt="Oak Island with kids 2018"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
           src={xmas22}
           alt="Christmas with Daddy 2021"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={BriVicSnow1}
+          alt="Daddy & Victoria Snow 2018"
         />
       </Carousel.Item>
       <Carousel.Item>
