@@ -73,7 +73,7 @@ function Recommendations() {
           </strong>
         </a>
         <br></br>
-        <br></br>
+       
       </div>
       <br></br>
       <br></br>
@@ -82,8 +82,10 @@ function Recommendations() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img className="badge1" src={codeBadge1} alt="" />
+        <img className="badge1" src={codeBadge1} alt="UNC Boot Camp Badge" />
       </a>
+      <br></br>
+      <br></br>
     </div>
   );
 }

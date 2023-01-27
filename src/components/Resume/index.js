@@ -4,6 +4,7 @@ import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
 import UNCW from "../../assets/images/uncw3.png";
 import Strayer from "../../assets/images/Strayer1.png";
+import Verizon from "../../assets/images/verizon1.png";
 
 function Resume() {
   return (
@@ -20,7 +21,16 @@ function Resume() {
         <strong>EXPERIENCE</strong>
         <br></br>
         <br></br>
-        <strong>Verizon, Sr. Analyst, HQ Operations, </strong>
+        <img
+          src={Verizon}
+          width="200px"
+          height="44px"
+          className="d-inline-block mb-1"
+          alt="Verizon Logo"
+        />
+        
+        <br></br>
+        <strong>Sr. Analyst, HQ Operations, </strong>
         <em>2020 - 2022.</em>
         <br></br>
         Primarily responsible for any and all reporting with regard to
@@ -28,7 +38,7 @@ function Resume() {
         President audience for the entire U.S.-based Customer Service, Tech and
         Specialty work groups.<br></br>
         <br></br>
-        <strong>Verizon, Coordinator, HQ Operations, </strong>
+        <strong>Coordinator, HQ Operations, </strong>
         <em>2016 - 2020.</em>
         <br></br>
         Operated at the leading edge of a risk management team, partnered with
@@ -37,7 +47,7 @@ function Resume() {
         vendors and adherence to headquarters HR corporate guidelines and
         compliance with Federal and State laws.<br></br>
         <br></br>
-        <strong>Verizon, Analyst, Field Operations, </strong>
+        <strong>Analyst, Field Operations, </strong>
         <em>2014 - 2016.</em>
         <br></br>
         Served as the project administrator on a small specialized team that
@@ -139,7 +149,7 @@ function Resume() {
         <br></br>
         Logistics & Supply Chain <i className="fa-solid fa-truck-fast"></i>
         <br></br>
-        <br></br>
+       
       </div>
       <br></br>
       <br></br>
@@ -148,8 +158,10 @@ function Resume() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img className="badge1" src={codeBadge1} alt="" />
+        <img className="badge1" src={codeBadge1} alt="UNC Boot Camp Badge" />
       </a>
+      <br></br>
+      <br></br>
     </div>
   );
 }
