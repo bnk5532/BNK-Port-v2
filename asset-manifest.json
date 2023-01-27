@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BNK-Port-v2/static/css/main.df636eca.css",
-    "main.js": "/BNK-Port-v2/static/js/main.bb6b6db5.js",
+    "main.js": "/BNK-Port-v2/static/js/main.19919f2f.js",
     "static/js/787.205d97c0.chunk.js": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js",
     "static/media/WilliamsKids22.JPG": "/BNK-Port-v2/static/media/WilliamsKids22.827335e262164bf6f481.JPG",
     "static/media/EasterKids22.JPG": "/BNK-Port-v2/static/media/EasterKids22.7840411c90ffe73f3a9d.JPG",
@@ -15,6 +15,9 @@
     "static/media/playerUp.png": "/BNK-Port-v2/static/media/playerUp.39f468e93d6b4165a767.png",
     "static/media/eeKeep1.png": "/BNK-Port-v2/static/media/eeKeep1.dd37be7f2eeb69d8b532.png",
     "static/media/port1.png": "/BNK-Port-v2/static/media/port1.3ad7bfd7b05fee9ba966.png",
+    "static/media/BriVicSnow1.jpeg": "/BNK-Port-v2/static/media/BriVicSnow1.f3eddd7d48d4d48c22b9.jpeg",
+    "static/media/OakIslandFam1.jpeg": "/BNK-Port-v2/static/media/OakIslandFam1.17825d47311103d8c3e7.jpeg",
+    "static/media/BVPrague2.jpeg": "/BNK-Port-v2/static/media/BVPrague2.cf1030369238dc459094.jpeg",
     "static/media/PawFect Pets.png": "/BNK-Port-v2/static/media/PawFect Pets.7ec8198fa1b704ddb992.png",
     "static/media/regex2.png": "/BNK-Port-v2/static/media/regex2.5220a2ed5eb063f95ab0.png",
     "static/media/USflag1.png": "/BNK-Port-v2/static/media/USflag1.98032cf6f2ac6cae51f0.png",
@@ -31,11 +34,11 @@
     "static/media/harp2.png": "/BNK-Port-v2/static/media/harp2.0ebc6a430eec027a7e7b.png",
     "index.html": "/BNK-Port-v2/index.html",
     "main.df636eca.css.map": "/BNK-Port-v2/static/css/main.df636eca.css.map",
-    "main.bb6b6db5.js.map": "/BNK-Port-v2/static/js/main.bb6b6db5.js.map",
+    "main.19919f2f.js.map": "/BNK-Port-v2/static/js/main.19919f2f.js.map",
     "787.205d97c0.chunk.js.map": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df636eca.css",
-    "static/js/main.bb6b6db5.js"
+    "static/js/main.19919f2f.js"
   ]
 }
