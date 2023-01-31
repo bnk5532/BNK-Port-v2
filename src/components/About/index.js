@@ -106,7 +106,6 @@ function About() {
         <div className="about-me">
           Operations | Reporting | Dashboards | Sr. Analyst | Web
           Developer
-          
             <br></br><br></br>Brian is excited and proud to share that he has just
             survived the rigors of the coding boot camp through the University
             of North Carolina - Chapel Hill and is a newly minted web developer.
