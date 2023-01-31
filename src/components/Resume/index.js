@@ -12,7 +12,7 @@ function Resume() {
       <h1>
         Resume{" "}
         <a href={bnkCv} target="_blank" rel="noopener noreferrer">
-          <i className="fa-solid fa-file-pdf pdf-icon"></i>
+        <i class="fa-solid fa-download pdf"></i>
         </a>
       </h1>
 
@@ -23,7 +23,7 @@ function Resume() {
         <br></br>
         <img
           src={Verizon}
-          width="148px"
+          width="136px"
           height="29px"
           className="d-inline-block mb-1"
           alt="Verizon Logo"
