@@ -23,8 +23,8 @@ function Resume() {
         <br></br>
         <img
           src={Verizon}
-          width="200px"
-          height="44px"
+          width="148px"
+          height="29px"
           className="d-inline-block mb-1"
           alt="Verizon Logo"
         />
