@@ -24,13 +24,19 @@ function Project() {
       link: "https://jonbullin84.github.io/PilotHub/",
       iconHTML: <i className="fa-brands fa-html5 icons"></i>,
       iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
-      iconJs: <i className="fa-brands fa-node-js icons"></i>,
+      iconJs: <i className="fa-brands fa-square-js icons"></i>,
       src: PilotHubPic,
     },
     {
       title: "PawFect Friends",
       description: "It was time our pets joined us on social media, too!",
+      github: "https://github.com/bnk5532/Pawfect-Friends",
       link: "https://pawfect-friends-app.herokuapp.com/",
+      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
+      iconJs: <i className="fa-brands fa-square-js icons"></i>,
+      iconNode: <i className="fa-brands fa-node-js icons"></i>,
+      iconNPM: <i className="fa-brands fa-npm icons"></i>,
       src: pawFectPic,
     },
     {
@@ -98,7 +104,7 @@ function Project() {
                   <Card.Link href={project.github}> <i class="fa-brands fa-square-github"></i></Card.Link>
                   </Card.Title>
                   <Card.Text>{project.description}</Card.Text>
-                  <Card.Text className="icons">{project.iconHTML}{project.iconCSS}{project.iconJs}</Card.Text>
+                  <Card.Text className="icons">{project.iconHTML}{project.iconCSS}{project.iconJs}{project.iconNode}{project.iconNPM}</Card.Text>
                   
                  
                   {/* <Button variant="primary" href={project.github} target="_blank"><i className="fa fa-github is-size-5" aria-hidden="true"></i> */}

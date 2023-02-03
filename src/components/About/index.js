@@ -121,7 +121,7 @@ function About() {
           <br></br>
           In the coming months, Brian hopes to secure a new role where he can
           continue to add value with his experience as an Operations Sr. Analyst
-          and flex those new coding skills in either a Software or DevOps
+          and flex those coding skills in either a Software or DevOps
           Engineering role at a great company with amazing talented people.
 
           <br></br> <br></br>Brian calls the lower Cape Fear region of North
