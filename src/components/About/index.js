@@ -104,35 +104,41 @@ function About() {
     <div className="container">
       <div style={{ width: "100%" }}>
         <div className="about-me">
-          Operations | Reporting | Dashboards | Sr. Analyst | Web
-          Developer
-          
-            <br></br><br></br>Brian is excited and proud to share that he has just
-            survived the rigors of the coding boot camp through the University
-            of North Carolina - Chapel Hill and is a newly minted web developer.
-            Having spent the better part of past 13 years of his professional
-            career in business intel and reporting analytics while working in
-            the telecommunications and technology industries, he had recently
-            taken a pause in his career to pursue a new one in software
-            engineering. Over the last year, he has learned the tech industry's
-            wishlist of programming languages, skills, methods, tools and the
-            problem-solver mindset that is critical to successfully landing and
-            maintaining a career in web development.
-            <br></br> <br></br>Brian calls the lower Cape Fear region of North
-            Carolina home where he shares a beautiful life with his wife and two
-            elementary school-aged children, and a yorkshire terrier. He also
-            has a love for the outdoors, history, fine cuisine, travel and an
-            ever-widening range of other interests.
-            <br></br> <br></br>
-            <span className="carousel">
-              <ControlledCarousel />
-            </span>
-            <br></br>
-            Coding camp in the rear view, Brian is looking forward to 2023, and
-            starting a new role as a Web Developer or DevOps Engineer!
-            <br></br>
-            <br></br>
-            <br></br>
+          Web Developer | DevOps Engineer | Sr. Analyst - Operations
+          <br></br>
+          <br></br>Brian is a web developer and an experienced business
+          operations analyst with specialties in reporting, interface design and
+          data visualizations, which he developed over the last 13 years of his
+          professional career in the telecommunications and technology
+          industries. Recently, he had taken a brief pause in his career to
+          reinvest and up-skill his tech portfolio, and aggressively pursue a
+          new role with a software engineering component. Over the past year, he
+          enrolled and graduated from the Full Stack Coding Boot Camp at
+          UNC-Chapel Hill to learn the latest of the in-demand programming
+          languages, skills, methods, tools and mindset that are critical in the
+          wildly dynamic world of tech.
+          <br></br>
+          <br></br>
+          In the coming months, Brian hopes to secure a new role where he can
+          continue to add value with his experience as an Operations Sr. Analyst
+          and flex those new coding skills in either a Software or DevOps
+          Engineering role at a great company with amazing talented people.
+
+          <br></br> <br></br>Brian calls the lower Cape Fear region of North
+          Carolina home where he shares a beautiful life with his wife and two
+          elementary school-aged children, and an elderly yorkshire terrier. He also has
+          a love for the outdoors, history, fine cuisine, travel and an
+          ever-widening range of other interests.
+          <br></br> <br></br>
+          <span className="carousel">
+            <ControlledCarousel />
+          </span>
+          <br></br>
+          Brian is looking forward to 2023, meeting new teammates, and
+          finding his fit at an exciting company as a Software Engineer or DevOps Engineer!
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
       </div>
     </div>
