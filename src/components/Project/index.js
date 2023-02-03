@@ -20,7 +20,11 @@ function Project() {
       title: "PilotHub",
       description:
         "Airport info to the nearest pint of beer, PilotHub has your six!",
+      github: "https://github.com/bnk5532/PilotHub",
       link: "https://jonbullin84.github.io/PilotHub/",
+      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
+      iconJs: <i className="fa-brands fa-node-js icons"></i>,
       src: PilotHubPic,
     },
     {
@@ -88,12 +92,18 @@ function Project() {
                   src={project.src}
                   style={{ height: "10rem" }}
                 /></a>
+                
                 <Card.Body>
-                  <Card.Title>{project.title}</Card.Title>
+                  <Card.Title>{project.title}
+                  <Card.Link href={project.github}> <i class="fa-brands fa-square-github"></i></Card.Link>
+                  </Card.Title>
                   <Card.Text>{project.description}</Card.Text>
-                  {/* <Button variant="primary" href={project.link} target="_blank">
-                    Check it out!
-                  </Button> */}
+                  <Card.Text className="icons">{project.iconHTML}{project.iconCSS}{project.iconJs}</Card.Text>
+                  
+                 
+                  {/* <Button variant="primary" href={project.github} target="_blank"><i className="fa fa-github is-size-5" aria-hidden="true"></i> */}
+  
+                  {/* </Button> */}
                 </Card.Body>
               </Card>
             </Col>

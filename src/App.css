@@ -159,3 +159,7 @@ a {
 .cursor {
   cursor: pointer;
 }
+
+.icons {
+  padding: 0 5px 0 5px;
+}
