@@ -111,7 +111,7 @@ function About() {
           data visualizations, which he developed over the last 13 years of his
           professional career in the telecommunications and technology
           industries. Recently, he had taken a brief pause in his career to
-          reinvest and up-skill his tech portfolio, and aggressively pursue a
+          reinvest and up-skill his tech portfolio, so that he may pursue a
           new role with a software engineering component. Over the past year, he
           enrolled and graduated from the Full Stack Coding Boot Camp at
           UNC-Chapel Hill to learn the latest of the in-demand programming
