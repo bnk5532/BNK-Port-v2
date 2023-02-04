@@ -42,45 +42,71 @@ function Project() {
     {
       title: "Player Up!",
       description: "Get your game on with locals in this new community!",
+      github: "https://github.com/bnk5532/player-up",
       link: "https://playerup2022.herokuapp.com/",
+      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
+      iconJs: <i className="fa-brands fa-square-js icons"></i>,
+      iconNode: <i className="fa-brands fa-node-js icons"></i>,
+      iconNPM: <i className="fa-brands fa-npm icons"></i>,
+      iconMDB: <i className="fa-brands fa-mdb icons"></i>,
+      iconReact: <i className="fa-brands fa-react icons"></i>,
       src: playerUp,
     },
     {
       title: "Weather AboveGround",
       description: "Check your local weather in this easy-to-use dashboard.",
+      github: "https://github.com/bnk5532/weather-aboveGround-app",
       link: "https://bnk5532.github.io/weather-aboveGround-app/",
+      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
+      iconJs: <i className="fa-brands fa-square-js icons"></i>,
       src: sunsetPic,
     },
     {
       title: "Get-The-Gist",
       description: "A handy guide to URL validation using REGEX.",
       link: "https://gist.github.com/bnk5532/569625d57471a0a33592185d77033e75",
+      iconJs: <i className="fa-brands fa-github icons"></i>,
       src: regexPic,
     },
     {
       title: "Scheduler Pro",
       description:
         "A website application to better manage daily chaos like a pro.",
+      github: "https://github.com/bnk5532/myScheduler-pro",
       link: "https://bnk5532.github.io/myScheduler-pro/",
+      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
+      iconJs: <i className="fa-brands fa-square-js icons"></i>,
       src: schedulerProPic,
     },
     {
       title: "Employee Keeper Pro",
       description:
       "Track employees stats relating to dept, title, salary and manager.",
+      github: "https://github.com/bnk5532/employee-keeper-pro",
       link: "https://watch.screencastify.com/v/BAeAlUdhEE5ilWnaY5TX",
+      iconTerm: <i className="fa-solid fa-terminal icons"></i>,
       src: eeKeepPic,
     },
     {
       title: "Random Password App",
       description: "Generates random passwords using all characters types.",
+      github: "https://github.com/bnk5532/rando-pass-gen",
       link: "https://bnk5532.github.io/rando-pass-gen/",
+      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
+      iconJs: <i className="fa-brands fa-square-js icons"></i>,
       src: passGenPic,
     },
     {
       title: "First Developer Portfolio",
       description: "Wow, just look how far we've come!",
+      github: "https://github.com/bnk5532/player-up",
       link: "https://bnk5532.github.io/BNK-Port/",
+      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
       src: portPic1,
     },
   ];
@@ -104,7 +130,7 @@ function Project() {
                   <Card.Link href={project.github}> <i class="fa-brands fa-square-github"></i></Card.Link>
                   </Card.Title>
                   <Card.Text>{project.description}</Card.Text>
-                  <Card.Text className="icons">{project.iconHTML}{project.iconCSS}{project.iconJs}{project.iconNode}{project.iconNPM}</Card.Text>
+                  <Card.Text className="icons">{project.iconHTML}{project.iconCSS}{project.iconJs}{project.iconNode}{project.iconNPM}{project.iconMDB}{project.iconReact}{project.iconTerm}</Card.Text>
                   
                  
                   {/* <Button variant="primary" href={project.github} target="_blank"><i className="fa fa-github is-size-5" aria-hidden="true"></i> */}
