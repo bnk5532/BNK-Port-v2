@@ -15,10 +15,18 @@ function Resume() {
         <i class="fa-solid fa-download pdf"></i>
         </a>
       </h1>
+      
+      <div>
+        <a href="#EXPERIENCE">EXPERIENCE</a> &nbsp;| &nbsp;
+        <a href="#EDUCATION">EDUCATION</a> &nbsp;| &nbsp;
+        <a href="#PROFESSIONAL DEVELOPMENT">PROFESSIONAL DEVELOPMENT</a> &nbsp;| &nbsp;  
+        <a href="#TECHNICAL SKILLS">TECHNICAL SKILLS</a> &nbsp;| &nbsp;
+        <a href="#INDUSTRY INTERESTS">INDUSTRY INTERESTS</a> 
+      </div>
 
       <div className="resume">
         <br></br>
-        <strong>EXPERIENCE</strong>
+        <strong id="EXPERIENCE">EXPERIENCE</strong>
         <br></br>
         <br></br>
         <img
@@ -55,7 +63,7 @@ function Resume() {
         behaviors as identified or aligned with the business objectives of the
         contact center call-taking population.<br></br>
         <br></br>
-        <strong>EDUCATION</strong>
+        <strong id="EDUCATION">EDUCATION</strong>
         <br></br> <br></br>
           <img
           src={UNC1}
@@ -97,7 +105,7 @@ function Resume() {
         Forensic Science minor. Lambda Alpha Honors Society Lifetime Member.
         <br></br>
         <br></br>
-        <strong>PROFESSIONAL DEVELOPMENT</strong>
+        <strong id="#PROFESSIONAL DEVELOPMENT">PROFESSIONAL DEVELOPMENT</strong>
         <br></br>
         <br></br>
         Verizon Scrum Master Badge <br></br>
@@ -107,7 +115,7 @@ function Resume() {
         Udemy.com – JavaScript Algorithms & Data Structures Masterclass (
         <em>In Progress</em>)<br></br>
         <br></br>
-        <strong>TECHNICAL SKILLS</strong>
+        <strong id="TECHNICAL SKILLS">TECHNICAL SKILLS</strong>
         <br></br>
         <br></br>
         <strong>Languages:</strong> HTML <i className="fa-brands fa-html5"></i>,
@@ -134,7 +142,7 @@ function Resume() {
         Office <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
         <i className="fa-brands fa-apple"></i>.<br></br>
         <br></br>
-        <strong>INDUSTRY INTERESTS</strong>
+        <strong id="#INDUSTRY INTERESTS">INDUSTRY INTERESTS</strong>
         <br></br>
         <br></br>
         Aerospace & Defense <i className="fa-solid fa-jet-fighter"></i>{" "}

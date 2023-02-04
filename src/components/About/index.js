@@ -104,7 +104,7 @@ function About() {
     <div className="container">
       <div style={{ width: "100%" }}>
         <div className="about-me">
-          Web Developer | DevOps Engineer | Sr. Analyst - Operations
+          Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst 
           <br></br>
           <br></br>Brian is a web developer and an experienced business
           operations analyst with specialties in reporting, interface design and
@@ -115,14 +115,14 @@ function About() {
           new role with a software engineering component. Over the past year, he
           enrolled and graduated from the Full Stack Coding Boot Camp at
           UNC-Chapel Hill to learn the latest of the in-demand programming
-          languages, skills, methods, tools and mindset that are critical in the
+          languages, skills, methods, tools and the mindset that are so critical in the
           wildly dynamic world of tech.
           <br></br>
           <br></br>
           In the coming months, Brian hopes to secure a new role where he can
           continue to add value with his experience as an Operations Sr. Analyst
-          and flex those coding skills in either a Software or DevOps
-          Engineering role at a great company with amazing talented people.
+          and flex those coding skills in either a Software Engineering or DevOps
+          Engineering role at a great company with amazingly talented people.
 
           <br></br> <br></br>Brian calls the lower Cape Fear region of North
           Carolina home where he shares a beautiful life with his wife and two
