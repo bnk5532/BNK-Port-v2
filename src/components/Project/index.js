@@ -127,7 +127,7 @@ function Project() {
                 
                 <Card.Body>
                   <Card.Title>{project.title}
-                  <Card.Link href={project.github} target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-square-github"></i></Card.Link>
+                  <Card.Link href={project.github} target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-square-github"></i></Card.Link>
                   </Card.Title>
                   <Card.Text>{project.description}</Card.Text>
                   <Card.Text className="icons">{project.iconHTML}{project.iconCSS}{project.iconJs}{project.iconNode}{project.iconNPM}{project.iconMDB}{project.iconReact}{project.iconTerm}</Card.Text>

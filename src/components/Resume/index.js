@@ -12,7 +12,7 @@ function Resume() {
       <h1>
         Resume{" "}
         <a href={bnkCv} target="_blank" rel="noopener noreferrer">
-          <i class="fa-solid fa-download pdf"></i>
+          <i className="fa-solid fa-download pdf"></i>
         </a>
       </h1>
 
@@ -74,7 +74,7 @@ function Resume() {
           <i className="fa-brands fa-html5"></i>, CSS{" "}
           <i className="fa-brands fa-css3-alt"></i>, JavaScript{" "}
           <i className="fa-brands fa-square-js"></i>, Python3{" "}
-          <i class="fa-brands fa-python"></i> (<em>In Progress</em>), SQL.
+          <i className="fa-brands fa-python"></i> (<em>In Progress</em>), SQL.
           <br></br>
           <br></br>
           <strong>Concepts:</strong> Responsive Design, Big O Notation, TDD,
