@@ -31,8 +31,8 @@ function Resume() {
         <br></br>
         <img
           src={Verizon}
-          width="136px"
-          height="29px"
+          width="77px"
+          height="17px"
           className="d-inline-block mb-1"
           alt="Verizon Logo"
         />
@@ -67,8 +67,8 @@ function Resume() {
         <br></br> <br></br>
           <img
           src={UNC1}
-          width="200px"
-          height="55px"
+          width="118px"
+          height="32px"
           className="d-inline-block mb-1"
           alt="UNC Logo"
         />
@@ -79,8 +79,8 @@ function Resume() {
         <br></br> <br></br>
         <img
           src={Strayer}
-          width="200px"
-          height="44px"
+          width="118px"
+          height="25px"
           className="d-inline-block mb-1"
           alt="UNC Logo"
         />
@@ -94,8 +94,8 @@ function Resume() {
         <br></br>
         <img
           src={UNCW}
-          width="200px"
-          height="53px"
+          width="118px"
+          height="32px"
           className="d-inline-block mb-1"
           alt="UNC Logo"
         />
@@ -120,8 +120,10 @@ function Resume() {
         <br></br>
         <strong>Languages:</strong> HTML <i className="fa-brands fa-html5"></i>,
         CSS <i className="fa-brands fa-css3-alt"></i>, JavaScript{" "}
-        <i className="fa-brands fa-square-js"></i>, SQL.
+        <i className="fa-brands fa-square-js"></i>, Python3 <i class="fa-brands fa-python"></i> (
+        <em>In Progress</em>), SQL.
         <br></br>
+        
         <br></br>
         <strong>Concepts:</strong> Responsive Design, Big O Notation, TDD, Agile
         Development, Data Structures, Security & Session Storage, Local Storage,
