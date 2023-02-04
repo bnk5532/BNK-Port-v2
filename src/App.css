@@ -122,11 +122,9 @@ main {
   }
 }
 
-
 .footer {
   font-size: small;
   color: #102946;
-  
 }
 
 .footer-links {
@@ -141,11 +139,10 @@ main {
 }
 
 .foot-bg {
-  background-color: lightgrey; 
+  background-color: lightgrey;
   border-top: solid #102946;
   border-top-width: 32px;
   box-shadow: 0px 0px 19px 8px grey;
-
 }
 
 a {
@@ -162,4 +159,13 @@ a {
 
 .icons {
   padding: 0 5px 0 5px;
+}
+
+.resume-header {
+  color: #102946;
+}
+
+.indent-resume {
+  margin-bottom: 5px;
+  padding-left: 25px;
 }
