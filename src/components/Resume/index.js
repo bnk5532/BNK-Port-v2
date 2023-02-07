@@ -1,5 +1,5 @@
 import React from "react";
-import bnkCv from "../../assets/pdf/BNKCV2023v1dot3.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2023v1dot4.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
 import UNCW from "../../assets/images/uncw3.png";
