@@ -7,7 +7,7 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
 import Recommendations from "./components/Recommendations";
-import Photo from "./components/Photo";
+import Pictures from "./components/Pictures";
 import wbHero from "./assets/images/WB2.png";
 
 function App() {
@@ -25,8 +25,8 @@ function App() {
         return <Resume />;
       case "Recommendations":
         return <Recommendations />;
-      case "Photo":
-        return <Photo />;
+      case "Pictures":
+        return <Pictures />;
       default:
         return <About />;
     }

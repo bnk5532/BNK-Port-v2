@@ -43,9 +43,9 @@ function NavBar({changeSelected }) {
               </Nav.Link>
               <Nav.Link
                 eventKey="5"
-                onClick={() => changeSelected("Photo")}
+                onClick={() => changeSelected("Pictures")}
               >
-                Photo
+                Album
               </Nav.Link>
               {/* <Nav.Link onClick={() => changeSelected("Contact")}>
         Contact
