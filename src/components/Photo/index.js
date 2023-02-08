@@ -44,13 +44,13 @@ function Photo() {
         <div className="header" id="myHeader">
           <h1>Image Grid</h1>
           <p>Click on the buttons to change the grid view.</p>
-          <button className="btn" onclick="one()">
+          <button className="btn" onClick="one()">
             1
           </button>
-          <button className="btn active" onclick="two()">
+          <button className="btn active" onClick="two()">
             2
           </button>
-          <button className="btn" onclick="four()">
+          <button className="btn" onClick="four()">
             4
           </button>
         </div>
