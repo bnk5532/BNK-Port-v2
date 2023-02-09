@@ -18,7 +18,7 @@ function NavBar({changeSelected }) {
             />
           </Navbar.Brand>
           <Navbar.Brand onClick={() => changeSelected("About")}>
-            <div className="cursor">{"Brian Nicholas King | Portfolio"}</div>
+            <div className="cursor">{"Brian Nicholas King"} &nbsp;|&nbsp; {"Portfolio"}</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
