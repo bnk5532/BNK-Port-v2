@@ -104,7 +104,7 @@ function About() {
     <div className="container">
       <div style={{ width: "100%" }}>
         <div className="about-me">
-          Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst 
+          Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst
           <br></br>
           <br></br>Brian is a web developer and an experienced business
           operations analyst with specialties in reporting, interface design and
