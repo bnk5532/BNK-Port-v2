@@ -10,6 +10,33 @@ import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
 import BVPrague from "../../assets/images/BVPrague2.jpeg";
 import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
+import Nav from "react-bootstrap/Nav";
+
+
+function BasicExample(changeSelected) {
+  return (
+    <Nav
+      activeKey="/home"
+      onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+    >
+      <Nav.Item>
+        <Nav.Link href="/Resume">Active</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+      <Nav.Link eventKey="link-1">Link</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="link-2">Link</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="disabled" disabled>
+          Disabled
+        </Nav.Link>
+      </Nav.Item>
+    </Nav>
+  );
+}
+
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -99,12 +126,17 @@ function ControlledCarousel() {
   );
 }
 
+
+
 function About() {
   return (
     <div className="container">
       <div style={{ width: "100%" }}>
         <div className="about-me">
           Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst 
+          <span className="carousel">
+            <BasicExample />
+          </span>
           <br></br>
           <br></br>Brian is a web developer and an experienced business
           operations analyst with specialties in reporting, interface design and
