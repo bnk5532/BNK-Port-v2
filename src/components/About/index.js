@@ -24,19 +24,42 @@ function MyDevOpsModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+          <h3>
+            Talk Ops. Talk Tech. Do A Bit Of Everything. <em>Now be human!</em>
+          </h3>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>What is a DevOps?</h4>
+        <h4>Why hire me as your DevOps Engineer?</h4>
         <p>
+          Checkout the figure below and just a few highlights from my career and
+          surely you'll see why I am an excellent candidate for your next DevOps
+          opening.
+        </p>
+        <img className="d-block w-100" src={DevOpsGraph} alt="DevOps graphic" />
+        <h4>What is DevOps?</h4>
+        <p>
+          Broadly conceived, <strong>DevOps</strong> lives at the crossroads of
+          the development, operations, and quality assurance divisions of a business and is of
+          increasing importance as a company scales, drives out costs, and
+          becomes more reliant on the technology to meet client, enterprise and
+          stakeholder needs and expectations. A <strong>DevOps Engineer</strong>{" "}
+          (<em>like me</em>) helps to ensure a seamless delivery on those
+          priorities through a broader sense of the business, a current
+          and working knowledge of available technologies and most especially,
+          excellent communication and building of cross-functional relationships.
+          You might imagine a generalist of this sort to be involved in
+          everything from designing, building, testing, deploying, automating,
+          and owning projects, processes or applications throughout their
+          respective life cycles.
+        </p>
+        {/* <p>
           DevOps is the crossroads of a business's operations, quality assurance
           and development priorities, and employing experienced generalists with operations
           experience, a tech-forward mindset and an appreciation for quality is
           increasingly important as a company scales, drives out costs, and
           becomes more reliant on the technology to meet client, enterprise and stakeholder needs.
-        </p>
-        <img className="d-block w-100" src={DevOpsGraph} alt="DevOps graphic" />
+        </p> */}
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
