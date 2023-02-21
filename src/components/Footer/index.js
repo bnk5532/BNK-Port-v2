@@ -45,16 +45,25 @@ function Footer() {
         </p>
       </div>
       <div className="footer">
-        <strong><span>&#169;</span>2022-2023 by Brian Nicholas King. All Rights Reserved.</strong>
-        <br /> bnk5532@gmail.com
+        <strong>
+          <span>&#169;</span>2022-2023 by Brian Nicholas King. All Rights
+          Reserved.
+        </strong>
+        <br />
+        <a href="mailto:bnk5532@gmail.com">bnk5532@gmail.com</a>
         <br /> Leland, North Carolina | USA
       </div>
 
       <div className="charity-title">
         <div>
-        <img className="flag" src={USflag1} width="86px" height="45px" alt="US Flag" />
+          <img
+            className="flag"
+            src={USflag1}
+            width="86px"
+            height="45px"
+            alt="US Flag"
+          />
         </div>
-     
         PROUD SUPPORTER OF:
       </div>
       <div className="charity">
@@ -63,14 +72,26 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="m-3" src={T2t} width="133px" height="52px" alt="T2T Foundation Logo" />
+          <img
+            className="m-3"
+            src={T2t}
+            width="133px"
+            height="52px"
+            alt="T2T Foundation Logo"
+          />
         </a>
         <a
           href="https://www.woundedwarriorproject.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="m-3" src={Wwp} width="140px" height="35px" alt="T2T Foundation Logo" />
+          <img
+            className="m-3"
+            src={Wwp}
+            width="140px"
+            height="35px"
+            alt="T2T Foundation Logo"
+          />
         </a>
       </div>
     </div>
