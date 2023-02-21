@@ -11,7 +11,59 @@ import BVPrague from "../../assets/images/BVPrague2.jpeg";
 import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
 import Nav from "react-bootstrap/Nav";
+import Button from 'react-bootstrap/Button';
+import Collapse from 'react-bootstrap/Collapse';
+import Modal from 'react-bootstrap/Modal';
 
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Modal heading
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Centered Modal</h4>
+        <p>
+          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+          consectetur ac, vestibulum at eros.
+        </p>
+        <img
+          className="d-block w-100"
+          src={BannerFam1}
+          alt="Banner Elk, NC Family 2022"
+        />
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
+function App() {
+  const [modalShow, setModalShow] = React.useState(false);
+
+  return (
+    <>
+      <Button variant="primary" onClick={() => setModalShow(true)}>
+        Launch vertically centered modal
+      </Button>
+
+      <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+    </>
+  );
+}
 
 function BasicExample(changeSelected) {
   return (
@@ -20,7 +72,7 @@ function BasicExample(changeSelected) {
       onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >
       <Nav.Item>
-        <Nav.Link href="/Resume">Active</Nav.Link>
+        <Nav.Link href="#Resume">Active</Nav.Link>
       </Nav.Item>
       <Nav.Item>
       <Nav.Link eventKey="link-1">Link</Nav.Link>
@@ -36,6 +88,74 @@ function BasicExample(changeSelected) {
     </Nav>
   );
 }
+
+function Example() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+      >
+        Web Developer
+      </Button>
+      <Collapse in={open}>
+        <div id="example-collapse-text">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident.
+          <img
+          className="d-block w-100"
+          src={BannerFam1}
+          alt="Banner Elk, NC Family 2022"
+        />
+        </div>
+      </Collapse>
+      <Button
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+      >
+        DevOps Engineer
+      </Button>
+      <Collapse in={open}>
+        <div id="example-collapse-text">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident.
+          <img
+          className="d-block w-100"
+          src={BannerFam1}
+          alt="Banner Elk, NC Family 2022"
+        />
+        </div>
+      </Collapse>
+      <Button
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+      >
+        Sr. Analyst
+      </Button>
+      <Collapse in={open}>
+        <div id="example-collapse-text">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident.
+          <img
+          className="d-block w-100"
+          src={BannerFam1}
+          alt="Banner Elk, NC Family 2022"
+        />
+        </div>
+      </Collapse>
+    </>
+  );
+}
+
+
 
 
 function ControlledCarousel() {
@@ -136,6 +256,9 @@ function About() {
           Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst 
           <span className="carousel">
             <BasicExample />
+            <Example />
+            <App />
+           
           </span>
           <br></br>
           <br></br>Brian is a web developer and an experienced business
