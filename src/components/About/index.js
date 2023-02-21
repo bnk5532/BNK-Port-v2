@@ -10,9 +10,7 @@ import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
 import BVPrague from "../../assets/images/BVPrague2.jpeg";
 import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
-import Nav from "react-bootstrap/Nav";
 import Button from 'react-bootstrap/Button';
-import Collapse from 'react-bootstrap/Collapse';
 import Modal from 'react-bootstrap/Modal';
 
 function MyVerticallyCenteredModal(props) {
@@ -53,8 +51,14 @@ function App() {
 
   return (
     <>
-      <Button variant="primary" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
+      <Button variant="DevOps-eng p-0" onClick={() => setModalShow(true)}>
+        Web Developer &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      </Button>
+      <Button variant="DevOps-eng p-0" onClick={() => setModalShow(true)}>
+        DevOps Engineer &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      </Button>
+      <Button variant="DevOps-eng p-0" onClick={() => setModalShow(true)}>
+        Sr. Analyst
       </Button>
 
       <MyVerticallyCenteredModal
@@ -65,95 +69,6 @@ function App() {
   );
 }
 
-function BasicExample(changeSelected) {
-  return (
-    <Nav
-      activeKey="/home"
-      onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-    >
-      <Nav.Item>
-        <Nav.Link href="#Resume">Active</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-      <Nav.Link eventKey="link-1">Link</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link-2">Link</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="disabled" disabled>
-          Disabled
-        </Nav.Link>
-      </Nav.Item>
-    </Nav>
-  );
-}
-
-function Example() {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <>
-      <Button
-        onClick={() => setOpen(!open)}
-        aria-controls="example-collapse-text"
-        aria-expanded={open}
-      >
-        Web Developer
-      </Button>
-      <Collapse in={open}>
-        <div id="example-collapse-text">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-          labore wes anderson cred nesciunt sapiente ea proident.
-          <img
-          className="d-block w-100"
-          src={BannerFam1}
-          alt="Banner Elk, NC Family 2022"
-        />
-        </div>
-      </Collapse>
-      <Button
-        onClick={() => setOpen(!open)}
-        aria-controls="example-collapse-text"
-        aria-expanded={open}
-      >
-        DevOps Engineer
-      </Button>
-      <Collapse in={open}>
-        <div id="example-collapse-text">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-          labore wes anderson cred nesciunt sapiente ea proident.
-          <img
-          className="d-block w-100"
-          src={BannerFam1}
-          alt="Banner Elk, NC Family 2022"
-        />
-        </div>
-      </Collapse>
-      <Button
-        onClick={() => setOpen(!open)}
-        aria-controls="example-collapse-text"
-        aria-expanded={open}
-      >
-        Sr. Analyst
-      </Button>
-      <Collapse in={open}>
-        <div id="example-collapse-text">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-          labore wes anderson cred nesciunt sapiente ea proident.
-          <img
-          className="d-block w-100"
-          src={BannerFam1}
-          alt="Banner Elk, NC Family 2022"
-        />
-        </div>
-      </Collapse>
-    </>
-  );
-}
 
 
 
@@ -253,10 +168,8 @@ function About() {
     <div className="container">
       <div style={{ width: "100%" }}>
         <div className="about-me">
-          Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst 
+          {/* Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst  */}
           <span className="carousel">
-            <BasicExample />
-            <Example />
             <App />
            
           </span>
