@@ -67,8 +67,7 @@ function MyDevOpsModal(props) {
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
           <h3>
-            Live Ops. Talk Tech. Do A Bit Of Everything Else. <br></br>
-            <em>Now be human!</em>
+            Live Ops. Talk Tech. Know The Audience. <em>Now Be Human!</em>
           </h3>
         </Modal.Title>
       </Modal.Header>
