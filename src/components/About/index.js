@@ -15,6 +15,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Project from "../Project";
 import Nav from "react-bootstrap/Nav";
+import Resume from "..//Resume";
 
 function MyDevOpsModal(props) {
   return (
@@ -34,7 +35,7 @@ function MyDevOpsModal(props) {
       <Modal.Body>
         <h4>Why hire me as your DevOps Engineer?</h4>
         <p>
-          Checkout the figure below and just a few highlights from my career and
+          Check out the diagram below and just a few highlights from my career and
           surely you'll see why I am an excellent candidate for your next DevOps
           opening.
         </p>
@@ -55,13 +56,6 @@ function MyDevOpsModal(props) {
           deploying, automating, and owning projects, processes or applications
           throughout their respective life cycles.
         </p>
-        {/* <p>
-          DevOps is the crossroads of a business's operations, quality assurance
-          and development priorities, and employing experienced generalists with operations
-          experience, a tech-forward mindset and an appreciation for quality is
-          increasingly important as a company scales, drives out costs, and
-          becomes more reliant on the technology to meet client, enterprise and stakeholder needs.
-        </p> */}
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
@@ -86,7 +80,7 @@ function MyWebDevModal(props) {
       <Modal.Body className="web-dev-modal">
         <h4>Why hire me as your Web Developer?</h4>
         <p>
-          Checkout just a few of my projects from the last year, and certainly,
+          Check out just a few of my projects from the last year, and certainly,
           you'll see why I am an excellent candidate for your next WebDev
           opening.
         </p>
@@ -96,8 +90,9 @@ function MyWebDevModal(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Click <i className="fa fa-github is-size-5" aria-hidden="true"></i> or anywhere else that you see the GitHub logo to
-          access my other repositories.
+          Click <i className="fa fa-github is-size-5" aria-hidden="true"></i> or
+          anywhere else that you see the GitHub logo to access my other
+          repositories.
         </Nav.Link>
       </Modal.Body>
       <Modal.Footer>
@@ -117,21 +112,12 @@ function MySrAnalystModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+          Business Ops Analyst.{" "}
+          <em>Supporting those that support our clients.</em>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
-        <img
-          className="d-block w-100"
-          src={wilFam22}
-          alt="Colonial Williamsburg Family 2022"
-        />
+        <Resume />
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
@@ -144,7 +130,7 @@ function AppDev() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
-      <Button variant="devOps-eng p-0" onClick={() => setModalShow(true)}>
+      <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
         DevOps Engineer &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       </Button>
 
@@ -157,7 +143,7 @@ function AppWeb() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
-      <Button variant="webDev p-0" onClick={() => setModalShow(true)}>
+      <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
         Web Developer &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       </Button>
 
@@ -169,7 +155,7 @@ function AppSr() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
-      <Button variant="webDev p-0" onClick={() => setModalShow(true)}>
+      <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
         Sr. Analyst
       </Button>
 

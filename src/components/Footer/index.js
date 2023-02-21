@@ -45,7 +45,7 @@ function Footer() {
         </p>
       </div>
       <div className="footer">
-        <strong>Brian Nicholas King, Portfolio, 2023.</strong>
+        <strong><span>&#169;</span>2022-2023 by Brian Nicholas King. All Rights Reserved.</strong>
         <br /> bnk5532@gmail.com
         <br /> Leland, North Carolina | USA
       </div>
