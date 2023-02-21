@@ -10,6 +10,7 @@ import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
 import BVPrague from "../../assets/images/BVPrague2.jpeg";
 import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
+import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
@@ -27,17 +28,15 @@ function MyDevOpsModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
+        <h4>What is a DevOps?</h4>
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          DevOps is the crossroads of a business's operations, quality assurance
+          and development priorities, and employing experienced generalists with operations
+          experience, a tech-forward mindset and an appreciation for quality is
+          increasingly important as a company scales, drives out costs, and
+          becomes more reliant on the technology to meet client, enterprise and stakeholder needs.
         </p>
-        <img
-          className="d-block w-100"
-          src={BannerFam1}
-          alt="Banner Elk, NC Family 2022"
-        />
+        <img className="d-block w-100" src={DevOpsGraph} alt="DevOps graphic" />
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
