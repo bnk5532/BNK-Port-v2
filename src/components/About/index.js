@@ -13,6 +13,8 @@ import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
 import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import Project from "../Project";
+import Nav from "react-bootstrap/Nav";
 
 function MyDevOpsModal(props) {
   return (
@@ -40,18 +42,18 @@ function MyDevOpsModal(props) {
         <h4>What is DevOps?</h4>
         <p>
           Broadly conceived, <strong>DevOps</strong> lives at the crossroads of
-          the development, operations, and quality assurance divisions of a business and is of
-          increasing importance as a company scales, drives out costs, and
-          becomes more reliant on the technology to meet client, enterprise and
-          stakeholder needs and expectations. A <strong>DevOps Engineer</strong>{" "}
-          (<em>like me</em>) helps to ensure a seamless delivery on those
-          priorities through a broader sense of the business, a current
-          and working knowledge of available technologies and most especially,
-          excellent communication and building of cross-functional relationships.
-          You might imagine a generalist of this sort to be involved in
-          everything from designing, building, testing, deploying, automating,
-          and owning projects, processes or applications throughout their
-          respective life cycles.
+          the development, operations, and quality assurance divisions of a
+          business and is of increasing importance as a company scales, drives
+          out costs, and becomes more reliant on the technology to meet client,
+          enterprise and stakeholder needs and expectations. A{" "}
+          <strong>DevOps Engineer</strong> (<em>like me</em>) helps to ensure a
+          seamless delivery on those priorities through a broader sense of the
+          business, a current and working knowledge of available technologies
+          and most especially, excellent communication and building of
+          cross-functional relationships. You might imagine a generalist of this
+          sort to be involved in everything from designing, building, testing,
+          deploying, automating, and owning projects, processes or applications
+          throughout their respective life cycles.
         </p>
         {/* <p>
           DevOps is the crossroads of a business's operations, quality assurance
@@ -78,21 +80,25 @@ function MyWebDevModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+          Design. Build. Test. Deploy. <em>Always Be Coding!</em>
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body>
-        <h4>Centered Modal</h4>
+      <Modal.Body className="web-dev-modal">
+        <h4>Why hire me as your Web Developer?</h4>
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          Checkout just a few of my projects from the last year, and certainly,
+          you'll see why I am an excellent candidate for your next WebDev
+          opening.
         </p>
-        <img
-          className="d-block w-100"
-          src={BVPrague}
-          alt="Brian & Vlasta Prague 2018"
-        />
+        <Project />
+        <Nav.Link
+          href="https://github.com/bnk5532"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Click <i className="fa fa-github is-size-5" aria-hidden="true"></i> or anywhere else that you see the GitHub logo to
+          access my other repositories.
+        </Nav.Link>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
