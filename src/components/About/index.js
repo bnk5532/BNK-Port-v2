@@ -10,10 +10,10 @@ import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
 import BVPrague from "../../assets/images/BVPrague2.jpeg";
 import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
-function MyVerticallyCenteredModal(props) {
+function MyDevOpsModal(props) {
   return (
     <Modal
       {...props}
@@ -46,32 +46,109 @@ function MyVerticallyCenteredModal(props) {
   );
 }
 
-function App() {
-  const [modalShow, setModalShow] = React.useState(false);
+function MyWebDevModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Modal heading
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Centered Modal</h4>
+        <p>
+          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+          consectetur ac, vestibulum at eros.
+        </p>
+        <img
+          className="d-block w-100"
+          src={BVPrague}
+          alt="Brian & Vlasta Prague 2018"
+        />
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
 
+function MySrAnalystModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Modal heading
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Centered Modal</h4>
+        <p>
+          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+          consectetur ac, vestibulum at eros.
+        </p>
+        <img
+          className="d-block w-100"
+          src={wilFam22}
+          alt="Colonial Williamsburg Family 2022"
+        />
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
+function AppDev() {
+  const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
-      <Button variant="DevOps-eng p-0" onClick={() => setModalShow(true)}>
-        Web Developer &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      </Button>
-      <Button variant="DevOps-eng p-0" onClick={() => setModalShow(true)}>
+      <Button variant="devOps-eng p-0" onClick={() => setModalShow(true)}>
         DevOps Engineer &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       </Button>
-      <Button variant="DevOps-eng p-0" onClick={() => setModalShow(true)}>
-        Sr. Analyst
-      </Button>
 
-      <MyVerticallyCenteredModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
+      <MyDevOpsModal show={modalShow} onHide={() => setModalShow(false)} />
     </>
   );
 }
 
+function AppWeb() {
+  const [modalShow, setModalShow] = React.useState(false);
+  return (
+    <>
+      <Button variant="webDev p-0" onClick={() => setModalShow(true)}>
+        Web Developer &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      </Button>
 
+      <MyWebDevModal show={modalShow} onHide={() => setModalShow(false)} />
+    </>
+  );
+}
+function AppSr() {
+  const [modalShow, setModalShow] = React.useState(false);
+  return (
+    <>
+      <Button variant="webDev p-0" onClick={() => setModalShow(true)}>
+        Sr. Analyst
+      </Button>
 
-
+      <MySrAnalystModal show={modalShow} onHide={() => setModalShow(false)} />
+    </>
+  );
+}
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -161,8 +238,6 @@ function ControlledCarousel() {
   );
 }
 
-
-
 function About() {
   return (
     <div className="container">
@@ -170,8 +245,9 @@ function About() {
         <div className="about-me">
           {/* Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst  */}
           <span className="carousel">
-            <App />
-           
+            <AppDev />
+            <AppWeb />
+            <AppSr />
           </span>
           <br></br>
           <br></br>Brian is a web developer and an experienced business
@@ -179,31 +255,32 @@ function About() {
           data visualizations, which he developed over the last 13 years of his
           professional career in the telecommunications and technology
           industries. Recently, he had taken a brief pause in his career to
-          reinvest and up-skill his tech portfolio, so that he may pursue a
-          new role with a software engineering component. Over the past year, he
+          reinvest and up-skill his tech portfolio, so that he may pursue a new
+          role with a software engineering component. Over the past year, he
           enrolled and graduated from the Full Stack Coding Boot Camp at
           UNC-Chapel Hill to learn the latest of the in-demand programming
-          languages, skills, methods, tools and the mindset that are so critical in the
-          wildly dynamic world of tech.
+          languages, skills, methods, tools and the mindset that are so critical
+          in the wildly dynamic world of tech.
           <br></br>
           <br></br>
           In the coming months, Brian hopes to secure a new role where he can
           continue to add value with his experience as an Operations Sr. Analyst
-          and flex those coding skills in either a Software Engineering or DevOps
-          Engineering role at a great company with amazingly talented people.
-
+          and flex those coding skills in either a Software Engineering or
+          DevOps Engineering role at a great company with amazingly talented
+          people.
           <br></br> <br></br>Brian calls the lower Cape Fear region of North
           Carolina home where he shares a beautiful life with his wife and two
-          elementary school-aged children, and an elderly yorkshire terrier. He also has
-          a love for the outdoors, history, fine cuisine, travel and an
+          elementary school-aged children, and an elderly yorkshire terrier. He
+          also has a love for the outdoors, history, fine cuisine, travel and an
           ever-widening range of other interests.
           <br></br> <br></br>
           <span className="carousel">
             <ControlledCarousel />
           </span>
           <br></br>
-          Brian is looking forward to 2023, meeting new teammates, and
-          finding his fit at an exciting company as a Software Engineer or DevOps Engineer!
+          Brian is looking forward to 2023, meeting new teammates, and finding
+          his fit at an exciting company as a Software Engineer or DevOps
+          Engineer!
           <br></br>
           <br></br>
           <br></br>
