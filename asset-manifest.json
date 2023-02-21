@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BNK-Port-v2/static/css/main.836693c1.css",
-    "main.js": "/BNK-Port-v2/static/js/main.3264f812.js",
+    "main.css": "/BNK-Port-v2/static/css/main.f9cc0227.css",
+    "main.js": "/BNK-Port-v2/static/js/main.c0ef88fa.js",
     "static/js/787.205d97c0.chunk.js": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js",
     "static/media/WilliamsKids22.JPG": "/BNK-Port-v2/static/media/WilliamsKids22.827335e262164bf6f481.JPG",
     "static/media/EasterKids22.JPG": "/BNK-Port-v2/static/media/EasterKids22.7840411c90ffe73f3a9d.JPG",
@@ -18,6 +18,7 @@
     "static/media/BriVicSnow1.jpeg": "/BNK-Port-v2/static/media/BriVicSnow1.f3eddd7d48d4d48c22b9.jpeg",
     "static/media/OakIslandFam1.jpeg": "/BNK-Port-v2/static/media/OakIslandFam1.17825d47311103d8c3e7.jpeg",
     "static/media/BVPrague2.jpeg": "/BNK-Port-v2/static/media/BVPrague2.cf1030369238dc459094.jpeg",
+    "static/media/DevOpsGraphic.png": "/BNK-Port-v2/static/media/DevOpsGraphic.ab2c9d98419d540cc22e.png",
     "static/media/PawFect Pets.png": "/BNK-Port-v2/static/media/PawFect Pets.7ec8198fa1b704ddb992.png",
     "static/media/regex2.png": "/BNK-Port-v2/static/media/regex2.5220a2ed5eb063f95ab0.png",
     "static/media/USflag1.png": "/BNK-Port-v2/static/media/USflag1.98032cf6f2ac6cae51f0.png",
@@ -33,12 +34,12 @@
     "static/media/passGen1.png": "/BNK-Port-v2/static/media/passGen1.9b227d2e123ae141c60d.png",
     "static/media/harp2.png": "/BNK-Port-v2/static/media/harp2.0ebc6a430eec027a7e7b.png",
     "index.html": "/BNK-Port-v2/index.html",
-    "main.836693c1.css.map": "/BNK-Port-v2/static/css/main.836693c1.css.map",
-    "main.3264f812.js.map": "/BNK-Port-v2/static/js/main.3264f812.js.map",
+    "main.f9cc0227.css.map": "/BNK-Port-v2/static/css/main.f9cc0227.css.map",
+    "main.c0ef88fa.js.map": "/BNK-Port-v2/static/js/main.c0ef88fa.js.map",
     "787.205d97c0.chunk.js.map": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.836693c1.css",
-    "static/js/main.3264f812.js"
+    "static/css/main.f9cc0227.css",
+    "static/js/main.c0ef88fa.js"
   ]
 }
