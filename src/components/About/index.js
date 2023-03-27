@@ -92,12 +92,13 @@ function MyDevOpsModal(props) {
           enterprise and stakeholder needs and expectations. A{" "}
           <strong>DevOps Analyst</strong> (<em>like me</em>) helps to ensure a
           seamless delivery on those priorities through a broader sense of the
-          business, a current and working knowledge of available technologies, knowledge of the development lifecycle
-          and most especially, excellent communication and building of
-          cross-functional relationships. You might imagine a generalist of this
-          sort to be involved in everything from designing, building, testing,
-          deploying, automating, securing, and owning projects, processes or applications
-          throughout their respective evolutions.
+          business, a current and working knowledge of available technologies,
+          knowledge of the development lifecycle and most especially, excellent
+          communication and building of cross-functional relationships. You
+          might imagine a generalist of this sort to be involved in everything
+          from designing, building, testing, deploying, automating, securing,
+          and owning projects, processes or applications throughout their
+          respective evolutions.
           {/* <br></br>
           <br></br>
           Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
@@ -135,15 +136,15 @@ function MySrAnalystModal(props) {
   );
 }
 
-function AppWeb() {
+function AppSr() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Web Developer &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        Sr. Ops Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       </Button>
 
-      <MyWebDevModal show={modalShow} onHide={() => setModalShow(false)} />
+      <MySrAnalystModal show={modalShow} onHide={() => setModalShow(false)} />
     </>
   );
 }
@@ -161,15 +162,15 @@ function AppDev() {
   );
 }
 
-function AppSr() {
+function AppWeb() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Sr. Operations Analyst
+        Web Developer 
       </Button>
 
-      <MySrAnalystModal show={modalShow} onHide={() => setModalShow(false)} />
+      <MyWebDevModal show={modalShow} onHide={() => setModalShow(false)} />
     </>
   );
 }
@@ -269,28 +270,28 @@ function About() {
         <div className="about-me">
           {/* Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst  */}
           <span className="carousel">
-            <AppWeb />
-            <AppDev />
             <AppSr />
+            <AppDev />
+            <AppWeb />
           </span>
           <br></br>
-          <br></br>Brian is an experienced business
-          operations analyst with specialties in reporting, interface design and
-          data visualizations, which he has developed over the last 13 years of his
-          professional career in the telecommunications and technology
-          industries. Recently, he had taken a brief pause in his career to
-          reinvest and up-skill his tech portfolio, so that he may pursue a new
-          role with a software engineering component. Over the past year, he
-          enrolled and graduated from the Full Stack Coding Boot Camp at
-          UNC-Chapel Hill to learn the latest of the in-demand programming
-          languages, skills, methods, tools and the mindset that are so critical
-          in the wildly dynamic world of tech.
+          <br></br>Brian is an experienced business operations analyst with
+          specialties in reporting, interface design and data visualizations,
+          which he has developed over the last 13 years of his professional
+          career in the telecommunications and technology industries. Recently,
+          he had taken a brief pause in his career to reinvest and up-skill his
+          tech portfolio, so that he may pursue a new role with a software
+          engineering component. Over the past year, he enrolled and graduated
+          from the Full Stack Coding Boot Camp at UNC-Chapel Hill to learn the
+          latest of the in-demand programming languages, skills, methods, tools
+          and the mindset that are so critical in the wildly dynamic world of
+          tech.
           <br></br>
           <br></br>
           In the coming months, Brian hopes to secure a new role where he can
           continue to add value with his experience as an Operations Sr. Analyst
-          and flex those coding skills and knowledge of the development lifecycle at a great company with amazingly talented
-          people.
+          and flex those coding skills and knowledge of the development
+          lifecycle at a great company with amazingly talented people.
           <br></br> <br></br>Brian calls the lower Cape Fear region of North
           Carolina home where he shares a beautiful life with his wife and two
           elementary school-aged children, and an elderly yorkshire terrier. He
