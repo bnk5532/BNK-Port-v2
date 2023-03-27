@@ -72,7 +72,7 @@ function MyDevOpsModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Why hire me as your DevOps Engineer?</h4>
+        <h4>Why hire me as your DevOps Analyst?</h4>
         <p>
           <em>Well,</em> have a quick look at only a few highlights from my
           career on the diagram below and I think that you'll have to agree that
@@ -90,14 +90,14 @@ function MyDevOpsModal(props) {
           business and is of increasing importance as a company scales, drives
           out costs, and becomes more reliant on the technology to meet client,
           enterprise and stakeholder needs and expectations. A{" "}
-          <strong>DevOps Engineer</strong> (<em>like me</em>) helps to ensure a
+          <strong>DevOps Analyst</strong> (<em>like me</em>) helps to ensure a
           seamless delivery on those priorities through a broader sense of the
-          business, a current and working knowledge of available technologies
+          business, a current and working knowledge of available technologies, knowledge of the development lifecycle
           and most especially, excellent communication and building of
           cross-functional relationships. You might imagine a generalist of this
           sort to be involved in everything from designing, building, testing,
-          deploying, automating, and owning projects, processes or applications
-          throughout their respective life cycles.
+          deploying, automating, securing, and owning projects, processes or applications
+          throughout their respective evolutions.
           {/* <br></br>
           <br></br>
           Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
@@ -153,7 +153,7 @@ function AppDev() {
   return (
     <>
       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        DevOps Engineer &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        DevOps Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       </Button>
 
       <MyDevOpsModal show={modalShow} onHide={() => setModalShow(false)} />
@@ -166,7 +166,7 @@ function AppSr() {
   return (
     <>
       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Sr. Analyst
+        Sr. Operations Analyst
       </Button>
 
       <MySrAnalystModal show={modalShow} onHide={() => setModalShow(false)} />
@@ -274,9 +274,9 @@ function About() {
             <AppSr />
           </span>
           <br></br>
-          <br></br>Brian is a web developer and an experienced business
+          <br></br>Brian is an experienced business
           operations analyst with specialties in reporting, interface design and
-          data visualizations, which he developed over the last 13 years of his
+          data visualizations, which he has developed over the last 13 years of his
           professional career in the telecommunications and technology
           industries. Recently, he had taken a brief pause in his career to
           reinvest and up-skill his tech portfolio, so that he may pursue a new
@@ -289,8 +289,7 @@ function About() {
           <br></br>
           In the coming months, Brian hopes to secure a new role where he can
           continue to add value with his experience as an Operations Sr. Analyst
-          and flex those coding skills in either a Software Engineering or
-          DevOps Engineering role at a great company with amazingly talented
+          and flex those coding skills and knowledge of the development lifecycle at a great company with amazingly talented
           people.
           <br></br> <br></br>Brian calls the lower Cape Fear region of North
           Carolina home where he shares a beautiful life with his wife and two
@@ -303,8 +302,7 @@ function About() {
           </span>
           <br></br>
           Brian is looking forward to 2023, meeting new teammates, and finding
-          his fit at an exciting company as a Software Engineer or DevOps
-          Engineer!
+          his fit at an exciting company in technology!
           <br></br>
           <br></br>
           <br></br>
