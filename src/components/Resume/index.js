@@ -22,7 +22,7 @@ function ShowMoreSA() {
   return (
     <>
       <Button
-        variant="btn-more p-0"
+        variant="link p-0"
         size="sm"
         onClick={() => setOpen(!open)}
         aria-controls="show-more-text"
@@ -70,7 +70,7 @@ function ShowMoreCoord() {
   return (
     <>
       <Button
-        variant="btn-more p-0"
+        variant="link p-0"
         size="sm"
         onClick={() => setOpen(!open)}
         aria-controls="show-more-text"
@@ -113,7 +113,7 @@ function ShowMoreAnalyst() {
   return (
     <>
       <Button
-        variant="btn-more p-0"
+        variant="link p-0"
         size="sm"
         onClick={() => setOpen(!open)}
         aria-controls="show-more-text"
@@ -234,9 +234,10 @@ function Resume() {
           <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git{" "}
           <i className="fa-brands fa-git"></i>, GitHub{" "}
           <i className="fa-brands fa-square-github"></i>, GitHub Gists, Google
-          Data Studio, Power BI, MySQL, NoSQL, NPM <i className="fa-brands fa-npm"></i>,
-          VS Code, Google Suite <i className="fa-brands fa-google"></i>,
-          Microsoft Office <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
+          Data Studio, Power BI, MySQL, NoSQL, NPM{" "}
+          <i className="fa-brands fa-npm"></i>, VS Code, Google Suite{" "}
+          <i className="fa-brands fa-google"></i>, Microsoft Office{" "}
+          <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
           <i className="fa-brands fa-apple"></i>.<br></br>
           <br></br>
         </div>

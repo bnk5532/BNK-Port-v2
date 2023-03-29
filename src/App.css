@@ -23,13 +23,7 @@
   text-align: left;
 }
 
-.btn-more {
-  color: blue;
-  font-size: small;
-  font-style: italic;
-  border-width: 0;
-  background-color: white;
-}
+
 
 h1 {
   text-align: left;
@@ -167,4 +161,12 @@ a {
   border-color: #102946;
   background-color: #102946;
   
+}
+
+.btn-more, .btn-more:active {
+  color: blue;
+  font-size: small;
+  font-style: italic;
+  background-color: transparent;
+  border: none !important;
 }
