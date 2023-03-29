@@ -106,6 +106,42 @@ function ShowMoreCoord() {
   );
 }
 
+function ShowMoreAnalyst() {
+  const [open, setOpen] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button
+        variant="btn-more p-0"
+        size="sm"
+        onClick={() => setOpen(!open)}
+        aria-controls="show-more-text"
+        aria-expanded={open}
+      >
+        <div>
+          <button className="btn-more" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "Show Less" : "Show More"}
+          </button>
+        </div>
+      </Button>
+      <Collapse in={open}>
+        <div id="show-more-text">
+          <strong>Key Accomplishments:</strong>
+          <ul>
+            <li>
+              Successfully launched the new gamification platform onsite for the
+              Wilmington, NC call center that was home to 1,200 corporate
+              employees, and eventually took on the Charleston, SC call center
+              and supported an additional 1,000 employees in a remote capacity.
+            </li>
+          </ul>
+        </div>
+      </Collapse>
+    </>
+  );
+}
+
 function Resume() {
   return (
     <div className="mx-3 pb-2">
@@ -166,7 +202,9 @@ function Resume() {
           Served as the project administrator on a small specialized team that
           prioritized the implementation of a digital platform that promoted
           ideal behaviors as identified or aligned with the business objectives
-          of the contact center call-taking population.<br></br>
+          of the contact center call-taking population.
+          <ShowMoreAnalyst />
+          <br></br>
           <br></br>
         </div>
         <strong className="resume-header" id="TECHNICAL SKILLS">
@@ -196,7 +234,7 @@ function Resume() {
           <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git{" "}
           <i className="fa-brands fa-git"></i>, GitHub{" "}
           <i className="fa-brands fa-square-github"></i>, GitHub Gists, Google
-          Data Studio, MySQL, NoSQL, NPM <i className="fa-brands fa-npm"></i>,
+          Data Studio, Power BI, MySQL, NoSQL, NPM <i className="fa-brands fa-npm"></i>,
           VS Code, Google Suite <i className="fa-brands fa-google"></i>,
           Microsoft Office <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
           <i className="fa-brands fa-apple"></i>.<br></br>
