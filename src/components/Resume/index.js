@@ -1,10 +1,67 @@
-import React from "react";
+// import React from "react";
+import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Collapse from "react-bootstrap/Collapse";
 import bnkCv from "../../assets/pdf/BNKCV2023v1dot4.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
 import UNCW from "../../assets/images/uncw3.png";
 import Strayer from "../../assets/images/Strayer1.png";
 import Verizon from "../../assets/images/verizon1.png";
+
+function ShowMore() {
+  const [open, setOpen] = useState(false);
+  // const initialText = 'Show More'
+  // const [buttonText, setButtonText] = useState(initialText);
+
+  // function handleClick() {
+  //   setButtonText('Show Less');
+  // }
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button
+        variant="btn-more p-0"
+        size="sm"
+        onClick={() => setOpen(!open)}
+        aria-controls="show-more-text"
+        aria-expanded={open}
+      >
+        <div>
+          {/* <button onClick={handleClick}>{buttonText}</button> */}
+          <button className="btn-more" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "Show Less" : "Show More"}
+          </button>
+        </div>
+      </Button>
+      <Collapse in={open}>
+        <div id="show-more-text">
+          <strong>Key Accomplishments:</strong>
+          <ul>
+            <li>
+              Recipient of the 2021 Operations Trailblazer Award for individual
+              contributions that directly influenced enterprise-wide change in
+              business intel tools.
+            </li>
+            <li>
+              Efforts credited with having significantly improved stakeholder
+              buy-in and utilization of refreshed reporting interfaces, which
+              delivered downstream improvement in data integrity and leader
+              efficiencies.
+            </li>
+            <li>
+              New dashboards made data more consumable with interactive
+              visualizations of KPIs as related to the overall impacts of
+              absenteeism on the business, its financials, shrink, and other
+              strategic priorities.
+            </li>
+          </ul>
+        </div>
+      </Collapse>
+    </>
+  );
+}
 
 function Resume() {
   return (
@@ -45,7 +102,9 @@ function Resume() {
           Primarily responsible for any and all reporting with regard to
           absenteeism and leave-related data for a Sr. Manager, Director, and
           Vice President audience for the entire U.S.-based Customer Service,
-          Tech and Specialty work groups.<br></br>
+          Tech and Specialty work groups.&nbsp;
+          <ShowMore />
+          <br></br>
           <br></br>
           <strong>Coordinator, HQ Operations, </strong>
           <em>2016 - 2020.</em>

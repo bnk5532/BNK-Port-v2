@@ -23,6 +23,14 @@
   text-align: left;
 }
 
+.btn-more {
+  color: blue;
+  font-size: small;
+  font-style: italic;
+  border-width: 0;
+  background-color: white;
+}
+
 h1 {
   text-align: left;
 }
