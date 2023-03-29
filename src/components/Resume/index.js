@@ -9,7 +9,7 @@ import UNCW from "../../assets/images/uncw3.png";
 import Strayer from "../../assets/images/Strayer1.png";
 import Verizon from "../../assets/images/verizon1.png";
 
-function ShowMore() {
+function ShowMoreSA() {
   const [open, setOpen] = useState(false);
   // const initialText = 'Show More'
   // const [buttonText, setButtonText] = useState(initialText);
@@ -63,6 +63,49 @@ function ShowMore() {
   );
 }
 
+function ShowMoreCoord() {
+  const [open, setOpen] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button
+        variant="btn-more p-0"
+        size="sm"
+        onClick={() => setOpen(!open)}
+        aria-controls="show-more-text"
+        aria-expanded={open}
+      >
+        <div>
+          <button className="btn-more" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "Show Less" : "Show More"}
+          </button>
+        </div>
+      </Button>
+      <Collapse in={open}>
+        <div id="show-more-text">
+          <strong>Key Accomplishments:</strong>
+          <ul>
+            <li>
+              Interfaced closely with partners in HR, business leaders and
+              vendors to ensure smooth administration of absenteeism, timesheet
+              auditing, and leave management.
+            </li>
+            <li>
+              Member of a small team whose efforts were credited with having
+              saved tens of millions of dollars annually through timesheet
+              auditing and limiting legal exposure through careful attention and
+              application of HR guidelines, and protections guaranteed by law,
+              for the domestic customer service, technical support and social
+              media workgroups accounting for over 11,000 employees.
+            </li>
+          </ul>
+        </div>
+      </Collapse>
+    </>
+  );
+}
+
 function Resume() {
   return (
     <div className="mx-3 pb-2">
@@ -102,8 +145,8 @@ function Resume() {
           Primarily responsible for any and all reporting with regard to
           absenteeism and leave-related data for a Sr. Manager, Director, and
           Vice President audience for the entire U.S.-based Customer Service,
-          Tech and Specialty work groups.&nbsp;
-          <ShowMore />
+          Tech and Specialty work groups.
+          <ShowMoreSA />
           <br></br>
           <br></br>
           <strong>Coordinator, HQ Operations, </strong>
@@ -113,7 +156,9 @@ function Resume() {
           call center business leaders, operations, and HR to ensure accurate
           time-keeping practices, leave-of-absence (LOA) claim reporting to
           vendors and adherence to headquarters HR corporate guidelines and
-          compliance with Federal and State laws.<br></br>
+          compliance with Federal and State laws.
+          <ShowMoreCoord />
+          <br></br>
           <br></br>
           <strong>Analyst, Field Operations, </strong>
           <em>2014 - 2016.</em>
