@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
 import bnkCv from "../../assets/pdf/BNKCV2023v1dot4.pdf";
+import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
 import UNCW from "../../assets/images/uncw3.png";
@@ -142,6 +143,102 @@ function ShowMoreAnalyst() {
   );
 }
 
+function ShowMoreCert() {
+  const [open, setOpen] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button
+        variant="link p-0"
+        size="sm"
+        onClick={() => setOpen(!open)}
+        aria-controls="show-more-text"
+        aria-expanded={open}
+      >
+        <div>
+          <button className="btn-more" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "Close Section" : "Learn More"}
+          </button>
+        </div>
+      </Button>
+      <Collapse in={open}>
+        <div id="show-more-text">
+          <p>
+            A 24-week intensive program focused on gaining technical programming
+            skills in front-end and back-end technologies including HTML, CSS,
+            JavaScript, jQuery, Bootstrap, React.js. Node.js, Express.js,
+            Database Theory, MySQL, NoSQL (MongoDB), Command Line, and Git.
+            Between live instructional time, asynchronous material, group
+            projects, and individual assignments, learners spend 450+ hours on
+            program content.<a
+            href={"https://bootcamp.unc.edu/coding/landing-full/?utm_source=university-badge&utm_campaign=unc-referral-fsf"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-more" type="button">
+              Program Website
+            </button>
+          </a>
+          </p>
+        </div>
+      </Collapse>
+    </>
+  );
+}
+
+function ShowGradGPA() {
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button variant="btn-gpa p-0">
+        <div>
+          <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "GPA 3.92" : "Show GPA"}
+          </button>
+        </div>
+      </Button>
+    </>
+  );
+}
+
+function ShowUngradGPA() {
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button variant="btn-gpa p-0">
+        <div>
+          <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "GPA 3.45" : "Show GPA"}
+          </button>
+        </div>
+      </Button>
+    </>
+  );
+}
+
+function Grades() {
+  return (
+    <>
+      <Button variant="btn-gpa p-0">
+        <div>
+        <a
+            href={grades}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-gpa" type="button">
+              Grades
+            </button>
+          </a>
+        </div>
+      </Button>
+    </>
+  );
+}
+
 function Resume() {
   return (
     <div className="mx-3 pb-2">
@@ -254,10 +351,26 @@ function Resume() {
             alt="UNC Logo"
           />
           <br></br>
-          <em>Certificate, Coding Boot Camp, 2022.</em> <br></br>
-          Intensive 24-week coding boot camp curriculum that qualifies and
-          prepares graduates for transition into full stack web developer roles.
-          <br></br> <br></br>
+          <em>Certificate.</em>
+          <a
+            href="https://www.credly.com/badges/a2526be3-fc55-45e8-8c4b-db81fb685808/linked_in?t=rm9jm1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-more" type="button">
+              &nbsp;
+              <i className="fa-regular fa-circle-check"></i>&nbsp;Verify at
+              Credly
+            </button>
+          </a>
+          <br></br>
+          <em> Coding Full Stack Boot Camp, 2022.</em>
+          <br></br>
+          <ShowMoreCert />
+          <br></br>
+          <Grades />
+          <br></br>
+          <br></br>
           <img
             src={Strayer}
             width="118px"
@@ -266,11 +379,12 @@ function Resume() {
             alt="UNC Logo"
           />
           <br></br>
-          <em>
-            Master of Business Administration, M.B.A. Acquisitions, 2012.
-          </em>{" "}
+          <em>Master of Business Administration, M.B.A.</em> <br></br>
+          <em>Acquisitions, 2012.</em>
           <br></br>
           Conferred with honors.
+          <br></br>
+          <ShowGradGPA />
           <br></br>
           <br></br>
           <img
@@ -281,9 +395,15 @@ function Resume() {
             alt="UNC Logo"
           />
           <br></br>
-          <em>Bachelor of Arts, B.A. Anthropology, 2008.</em>
+          <em>Bachelor of Arts, B.A.</em>
           <br></br>
-          Forensic Science minor. Lambda Alpha Honors Society Lifetime Member.
+          <em>Anthropology, 2008.</em>
+          <br></br>
+          Forensic Science minor.
+          <br></br>
+          Lambda Alpha Honors Society Lifetime Member.
+          <br></br>
+          <ShowUngradGPA />
           <br></br>
           <br></br>
         </div>

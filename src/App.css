@@ -170,3 +170,22 @@ a {
   background-color: transparent;
   border: none !important;
 }
+
+.btn-gpa {
+    background-color: #102946;
+    border: none;
+    color: white;
+    padding: 5px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: small;
+    font-weight: bold;
+}
+  
+  .btn-gpa:hover {
+    background-color: blue;
+  }
