@@ -329,20 +329,21 @@ function Grades() {
 function Resume() {
   return (
     <div className="mx-3 pb-2">
-      <h1>
-        Resume{" "}
-        <a href={bnkCv} target="_blank" rel="noopener noreferrer">
-          <i className="fa-solid fa-download pdf"></i>
-        </a>
-      </h1>
-
-      <div>
+      <div className="resume-title"> 
         <a href="#EXPERIENCE">EXPERIENCE</a> &nbsp;| &nbsp;
         <a href="#TECHNICAL SKILLS">TECHNICAL SKILLS</a> &nbsp;| &nbsp;
         <a href="#EDUCATION">EDUCATION</a> &nbsp;| &nbsp;
         <a href="#DEVELOPMENT">DEVELOPMENT</a> &nbsp;| &nbsp;
         <a href="#INDUSTRY INTERESTS">INDUSTRY INTERESTS</a>
       </div>
+      
+      <h2>
+        Resume{" "}
+        <a href={bnkCv} target="_blank" rel="noopener noreferrer">
+          <i className="fa-solid fa-download pdf"></i>
+        </a>
+      </h2>
+
 
       <div className="resume">
         <br></br>
