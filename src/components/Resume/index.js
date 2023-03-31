@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-import bnkCv from "../../assets/pdf/BNKCV2023v1dot4.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2023v1dot5.pdf";
 import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
@@ -223,12 +223,9 @@ function ShowMoreGradCourses() {
             <li>Management Economics & Globalization (ECO 550)</li>
             <li>Leadership & Organizational (BUS 520)</li>
             <li>Law, Ethics & Corporate Governance (LEG 500)</li>
-            <li>
-              Financial Management (FIN 534)
-              <li>
-                <li>Financial Accounting (ACC 557)</li>
-                <br></br>
-                <strong>Acquistions Concentration Courses:</strong>
+            <li>Financial Management (FIN 534)<li>
+            <li>Financial Accounting (ACC 557)</li>
+              <strong>Acquistions Concentration Courses:</strong>
                 <li>Government Contract Law (LEG 505)</li>
                 <li>Government Acquisition (BUS 501)</li>
                 <li>Business Strategies & Proposals (BUS 505)</li>
@@ -267,10 +264,12 @@ function ShowMoreUngradExtra() {
             {" "}
             <li>Lambda Alpha Honors Society Lifetime Member.</li>
             <li>James C. Sabella Academic Scholarship Award Recipient.</li>
+            <li>NAUI Scuba Diving Course. 2008.</li>
             <li>Spring Break Study Abroad, Rome, Italy. 2007.</li>
             <li>
-              Summer Field School Cahokia Indian Mounds, St. Louis, MO. 2006.
+              Summer Field School Cahokia Mounds, Collinsville, IL. 2006.
             </li>
+            <li>Biological Anthropology Laboratory Assistant on Hypoxia Gene Project.</li>
           </ul>
         </div>
       </Collapse>
@@ -354,8 +353,8 @@ function Resume() {
         <div className="indent-resume">
           <img
             src={Verizon}
-            width="77px"
-            height="17px"
+            width="95px"
+            height="21px"
             className="d-inline-block mb-1"
             alt="Verizon Logo"
           />
@@ -433,8 +432,8 @@ function Resume() {
         <div className="indent-resume">
           <img
             src={UNC1}
-            width="118px"
-            height="32px"
+            width="160px"
+            height="40px"
             className="d-inline-block mb-1"
             alt="UNC Logo"
           />
@@ -460,8 +459,8 @@ function Resume() {
           <br></br>
           <img
             src={Strayer}
-            width="118px"
-            height="25px"
+            width="160px"
+            height="34px"
             className="d-inline-block mb-1"
             alt="UNC Logo"
           />
@@ -477,8 +476,8 @@ function Resume() {
           <br></br>
           <img
             src={UNCW}
-            width="118px"
-            height="32px"
+            width="160px"
+            height="44px"
             className="d-inline-block mb-1"
             alt="UNC Logo"
           />

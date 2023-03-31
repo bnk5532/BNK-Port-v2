@@ -177,6 +177,10 @@ a {
   border: none !important;
 }
 
+#show-more-text {
+  font-size: small;
+}
+
 .btn-gpa {
     background-color: #102946;
     border: none;
