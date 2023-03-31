@@ -157,8 +157,8 @@ function ShowMoreCert() {
         aria-expanded={open}
       >
         <div>
-          <button className="btn-more" onClick={() => setShowMore(!showMore)}>
-            {showMore ? "Close Section" : "Learn More"}
+          <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "Close Overview" : "Overview"}
           </button>
         </div>
       </Button>
@@ -453,9 +453,8 @@ function Resume() {
           <br></br>
           <em> Coding Full Stack Boot Camp, 2022.</em>
           <br></br>
-          <ShowMoreCert />
-          <br></br>
           <Grades />
+          <ShowMoreCert />
           <br></br>
           <br></br>
           <img
