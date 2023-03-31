@@ -171,16 +171,70 @@ function ShowMoreCert() {
             Database Theory, MySQL, NoSQL (MongoDB), Command Line, and Git.
             Between live instructional time, asynchronous material, group
             projects, and individual assignments, learners spend 450+ hours on
-            program content.<a
-            href={"https://bootcamp.unc.edu/coding/landing-full/?utm_source=university-badge&utm_campaign=unc-referral-fsf"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="btn-more" type="button">
-              Program Website
-            </button>
-          </a>
+            program content.
+            <a
+              href={
+                "https://bootcamp.unc.edu/coding/landing-full/?utm_source=university-badge&utm_campaign=unc-referral-fsf"
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn-more" type="button">
+                Program Website
+              </button>
+            </a>
           </p>
+        </div>
+      </Collapse>
+    </>
+  );
+}
+
+function ShowMoreGradCourses() {
+  const [open, setOpen] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button
+        variant="link p-0"
+        size="sm"
+        onClick={() => setOpen(!open)}
+        aria-controls="show-more-text"
+        aria-expanded={open}
+      >
+        <div>
+          <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "Close Courses" : "Courses"}
+          </button>
+        </div>
+      </Button>
+
+      <Collapse in={open}>
+        <div id="show-more-text">
+          <ul>
+            {" "}
+            <strong>MBA Core Courses:</strong>
+            <li>The Business Enterprise (BUS 508)</li>
+            <li>Strategic Management (BUS 599)</li>
+            <li>Statistics (MAT 300)</li>
+            <li>Quantitative Methods (MAT 540)</li>
+            <li>Marketing Management (MKT 500)</li>
+            <li>Management Economics & Globalization (ECO 550)</li>
+            <li>Leadership & Organizational (BUS 520)</li>
+            <li>Law, Ethics & Corporate Governance (LEG 500)</li>
+            <li>
+              Financial Management (FIN 534)
+              <li>
+                <li>Financial Accounting (ACC 557)</li>
+                <br></br>
+                <strong>Acquistions Concentration Courses:</strong>
+                <li>Government Contract Law (LEG 505)</li>
+                <li>Government Acquisition (BUS 501)</li>
+                <li>Business Strategies & Proposals (BUS 505)</li>
+              </li>
+            </li>
+          </ul>
         </div>
       </Collapse>
     </>
@@ -224,11 +278,7 @@ function Grades() {
     <>
       <Button variant="btn-gpa p-0">
         <div>
-        <a
-            href={grades}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={grades} target="_blank" rel="noopener noreferrer">
             <button className="btn-gpa" type="button">
               Grades
             </button>
@@ -385,6 +435,7 @@ function Resume() {
           Conferred with honors.
           <br></br>
           <ShowGradGPA />
+          <ShowMoreGradCourses />
           <br></br>
           <br></br>
           <img
