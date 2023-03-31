@@ -241,6 +241,43 @@ function ShowMoreGradCourses() {
   );
 }
 
+function ShowMoreUngradExtra() {
+  const [open, setOpen] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button
+        variant="link p-0"
+        size="sm"
+        onClick={() => setOpen(!open)}
+        aria-controls="show-more-text"
+        aria-expanded={open}
+      >
+        <div>
+          <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "Close Extracirricular" : "Extracirricular"}
+          </button>
+        </div>
+      </Button>
+
+      <Collapse in={open}>
+        <div id="show-more-text">
+          <ul>
+            {" "}
+            <li>Lambda Alpha Honors Society Lifetime Member.</li>
+            <li>James C. Sabella Academic Scholarship Award Recipient.</li>
+            <li>Spring Break Study Abroad, Rome, Italy. 2007.</li>
+            <li>
+              Summer Field School Cahokia Indian Mounds, St. Louis, MO. 2006.
+            </li>
+          </ul>
+        </div>
+      </Collapse>
+    </>
+  );
+}
+
 function ShowGradGPA() {
   const [showMore, setShowMore] = useState(false);
 
@@ -249,7 +286,7 @@ function ShowGradGPA() {
       <Button variant="btn-gpa p-0">
         <div>
           <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
-            {showMore ? "GPA 3.92" : "Show GPA"}
+            {showMore ? "GPA 3.92" : "GPA"}
           </button>
         </div>
       </Button>
@@ -265,7 +302,7 @@ function ShowUngradGPA() {
       <Button variant="btn-gpa p-0">
         <div>
           <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
-            {showMore ? "GPA 3.45" : "Show GPA"}
+            {showMore ? "GPA 3.45" : "GPA"}
           </button>
         </div>
       </Button>
@@ -452,9 +489,8 @@ function Resume() {
           <br></br>
           Forensic Science minor.
           <br></br>
-          Lambda Alpha Honors Society Lifetime Member.
-          <br></br>
           <ShowUngradGPA />
+          <ShowMoreUngradExtra />
           <br></br>
           <br></br>
         </div>
