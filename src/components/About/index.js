@@ -16,6 +16,7 @@ import Modal from "react-bootstrap/Modal";
 import Project from "../Project";
 import Nav from "react-bootstrap/Nav";
 import Resume from "..//Resume";
+import Dashboard from "../Dashboards";
 
 function MyWebDevModal(props) {
   return (
@@ -127,6 +128,14 @@ function MySrAnalystModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        <h4>Why hire me as your Ops Analyst?</h4>
+        <p>
+          <em>For starters,</em> check out this fun dashboard visualization and
+          then review my experience as an Sr. Operations Analyst to get a little
+          taste of what I can do for you and your company!
+        </p>
+        <h2>Dashboards</h2>
+        <Dashboard />
         <Resume />
       </Modal.Body>
       <Modal.Footer>
@@ -167,7 +176,7 @@ function AppWeb() {
   return (
     <>
       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Web Developer 
+        Web Developer
       </Button>
 
       <MyWebDevModal show={modalShow} onHide={() => setModalShow(false)} />

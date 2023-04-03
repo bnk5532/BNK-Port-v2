@@ -13,6 +13,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 // import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Dashboard from "./../Dashboards"
 
 function Project() {
   const projects = [
@@ -111,8 +112,13 @@ function Project() {
     },
   ];
 
+  
   return (
     <Container fluid>
+       {/* <div className="resume-title"> 
+        <a href="#Projects">Projects</a> &nbsp;| &nbsp;
+        <a href="#Dashboards">Dashboards</a>
+      </div> */}
       <h1>Projects</h1>
       <Row>
         {projects.map((project) => {
@@ -130,7 +136,7 @@ function Project() {
                   <Card.Link href={project.github} target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-square-github"></i></Card.Link>
                   </Card.Title>
                   <Card.Text>{project.description}</Card.Text>
-                  <Card.Text className="icons">{project.iconHTML}{project.iconCSS}{project.iconJs}{project.iconNode}{project.iconNPM}{project.iconMDB}{project.iconReact}{project.iconTerm}</Card.Text>
+                  <Card.Text className="icons">{project.iconHTML}{project.iconCSS}{project.iconJs}{project.iconNode}{project.iconNPM}{project.iconMDB}{project.iconReact}{project.iconTerm}{project.iconMicro}{project.iconChart}</Card.Text>
                   
                  
                   {/* <Button variant="primary" href={project.github} target="_blank"><i className="fa fa-github is-size-5" aria-hidden="true"></i> */}
@@ -142,9 +148,12 @@ function Project() {
           );
         })}
       </Row>
+      <h1>Dashboards</h1>
+<Dashboard/>
       <br></br><br></br>
     </Container>
   );
 }
+
 
 export default Project;
