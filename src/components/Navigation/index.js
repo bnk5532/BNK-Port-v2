@@ -30,7 +30,7 @@ function NavBar({changeSelected }) {
                 eventKey="2"
                 onClick={() => changeSelected("Portfolio")}
               >
-                Portfolio
+                Projects
               </Nav.Link>
               <Nav.Link eventKey="3" onClick={() => changeSelected("Resume")}>
                 Resume
