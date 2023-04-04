@@ -1,6 +1,7 @@
 import React from "react";
 import biWidget from "../../assets/images/biWidget.png";
 import widgetPBI from "../../assets/ppt/BrianWidgetCoPBI.pptx";
+import dataStudioBWC from "../../assets/images/dataStudioBWC.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -17,6 +18,17 @@ function Dashboard() {
       iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
       src: biWidget,
     },
+    {
+      title: "Boru's Widget Company",
+      description: "Example of a Google Looker Studio dashboard visualization.",
+      link: "https://lookerstudio.google.com/reporting/0dbbdb1b-db73-4d52-9358-98cbe40ae6e9",
+      iconGoogle: <i className="fa-brands fa-google icons"></i>,
+      iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
+      src: dataStudioBWC,
+    },
+
+
+    
   ];
 
   return (
@@ -40,18 +52,19 @@ function Dashboard() {
                 <Card.Body>
                   <Card.Title>
                     {dashboard.title}
-                    <Card.Link
+                    {/* <Card.Link
                       href={dashboard.ppt}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       {" "}
                       <i className="fa-solid fa-file-powerpoint"></i>
-                    </Card.Link>
+                    </Card.Link> */}
                   </Card.Title>
                   <Card.Text>{dashboard.description}</Card.Text>
                   <Card.Text className="icons">
                     {dashboard.iconMicro}
+                    {dashboard.iconGoogle}
                     {dashboard.iconChart}
                   </Card.Text>
                 </Card.Body>
