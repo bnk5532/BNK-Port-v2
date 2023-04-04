@@ -17,6 +17,7 @@ import Project from "../Project";
 import Nav from "react-bootstrap/Nav";
 import Resume from "..//Resume";
 import Dashboard from "../Dashboards";
+import Presentation from "../Presentations";
 
 function MyWebDevModal(props) {
   return (
@@ -130,12 +131,14 @@ function MySrAnalystModal(props) {
       <Modal.Body>
         <h4>Why hire me as your Analyst?</h4>
         <p>
-          Check out this fun dashboard visualization and review my experience as
-          a Sr. Operations Analyst to get a little taste of what I can do for
-          you and your company!
+          Check out this fun dashboard visualization, my presentation building
+          skills and review my experience as a Sr. Operations Analyst to get a
+          little taste of what I can do for you and your company!
         </p>
         <h2>Dashboards</h2>
         <Dashboard />
+        <h2>Presentations</h2>
+        <Presentation />
         <Resume />
       </Modal.Body>
       <Modal.Footer>

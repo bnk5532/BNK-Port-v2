@@ -1,5 +1,6 @@
 import React from "react";
 import slidesPF from "../../assets/images/slidesPF.png";
+import slidesPU from "../../assets/images/slidesPU.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -14,6 +15,13 @@ function Presentation() {
       iconGoogle: <i className="fa-brands fa-google icons"></i>,
       src: slidesPF,
     },
+    {
+        title: "Player Up Deck",
+        description: "A Google Slides presentation.",
+        link: "https://docs.google.com/presentation/d/1e18zKzUbJW_ctse-gs-9G0CQ4kZBTQ6Zh7mtgnI7ZkI/edit?usp=sharing",
+        iconGoogle: <i className="fa-brands fa-google icons"></i>,
+        src: slidesPU,
+      },
   ];
 
   return (
