@@ -417,8 +417,8 @@ function Resume() {
           GraphQL, Heroku, Inquirer CLI, Terminal{" "}
           <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git{" "}
           <i className="fa-brands fa-git"></i>, GitHub{" "}
-          <i className="fa-brands fa-square-github"></i>, GitHub Gists, Google
-          Data Studio, Power BI, MySQL, NoSQL, NPM{" "}
+          <i className="fa-brands fa-square-github"></i>, GitHub Gists, Looker Studio (Google
+          Data Studio), Power BI, MySQL, NoSQL, NPM{" "}
           <i className="fa-brands fa-npm"></i>, VS Code, Google Suite{" "}
           <i className="fa-brands fa-google"></i>, Microsoft Office{" "}
           <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
