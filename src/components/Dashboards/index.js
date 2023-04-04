@@ -12,7 +12,7 @@ function Dashboard() {
       title: "Brian's Widget Company",
       description: "Example of a Microsoft Power BI dashboard visualization.",
       ppt: widgetPBI,
-      link: "https://app.powerbi.com/links/i3DrsJjcqI?ctid=005cca83-53fe-4863-8898-aea70d2bafa2&pbi_source=linkShare&bookmarkGuid=22a1e858-af70-4f7e-846d-d7f510522361&portalSessionId=5455c33b-e32a-4ebb-a5b8-8f044c167af1&fromEntryPoint=share",
+      link: "https://app.powerbi.com/links/i3DrsJjcqI?ctid=005cca83-53fe-4863-8898-aea70d2bafa2&pbi_source=linkShare",
       iconMicro: <i className="fa-brands fa-microsoft icons"></i>,
       iconChart: <i className="fa-solid fa-chart-line icons"></i>,
       src: biWidget,
