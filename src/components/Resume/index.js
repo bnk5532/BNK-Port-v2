@@ -122,7 +122,8 @@ function ShowMoreAnalyst() {
       >
         <div>
           <button className="btn-more" onClick={() => setShowMore(!showMore)}>
-            {showMore ? "Show Less" : "Show More"}
+            {showMore ? "Show Less" : "Show More"}{" "}
+            {/* <i className="fa-solid fa-angle-right"></i> */}
           </button>
         </div>
       </Button>
@@ -223,9 +224,11 @@ function ShowMoreGradCourses() {
             <li>Management Economics & Globalization (ECO 550)</li>
             <li>Leadership & Organizational (BUS 520)</li>
             <li>Law, Ethics & Corporate Governance (LEG 500)</li>
-            <li>Financial Management (FIN 534)<li>
-            <li>Financial Accounting (ACC 557)</li>
-              <strong>Acquistions Concentration Courses:</strong>
+            <li>
+              Financial Management (FIN 534)
+              <li>
+                <li>Financial Accounting (ACC 557)</li>
+                <strong>Acquistions Concentration Courses:</strong>
                 <li>Government Contract Law (LEG 505)</li>
                 <li>Government Acquisition (BUS 501)</li>
                 <li>Business Strategies & Proposals (BUS 505)</li>
@@ -266,10 +269,11 @@ function ShowMoreUngradExtra() {
             <li>James C. Sabella Academic Scholarship Award Recipient.</li>
             <li>NAUI Scuba Diving Course. 2008.</li>
             <li>Spring Break Study Abroad, Rome, Italy. 2007.</li>
+            <li>Summer Field School Cahokia Mounds, Collinsville, IL. 2006.</li>
             <li>
-              Summer Field School Cahokia Mounds, Collinsville, IL. 2006.
+              Biological Anthropology Laboratory Assistant on Hypoxia Gene
+              Project.
             </li>
-            <li>Biological Anthropology Laboratory Assistant on Hypoxia Gene Project.</li>
           </ul>
         </div>
       </Collapse>
@@ -328,21 +332,20 @@ function Grades() {
 function Resume() {
   return (
     <div className="mx-3 pb-2">
-      <div className="resume-title"> 
+      <div className="resume-title">
         <a href="#EXPERIENCE">EXPERIENCE</a> &nbsp;| &nbsp;
         <a href="#TECHNICAL SKILLS">TECHNICAL SKILLS</a> &nbsp;| &nbsp;
         <a href="#EDUCATION">EDUCATION</a> &nbsp;| &nbsp;
         <a href="#DEVELOPMENT">DEVELOPMENT</a> &nbsp;| &nbsp;
         <a href="#INDUSTRY INTERESTS">INDUSTRY INTERESTS</a>
       </div>
-      
+
       <h2>
         Resume{" "}
         <a href={bnkCv} target="_blank" rel="noopener noreferrer">
           <i className="fa-solid fa-download pdf"></i>
         </a>
       </h2>
-
 
       <div className="resume">
         <br></br>
@@ -417,8 +420,8 @@ function Resume() {
           GraphQL, Heroku, Inquirer CLI, Terminal{" "}
           <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git{" "}
           <i className="fa-brands fa-git"></i>, GitHub{" "}
-          <i className="fa-brands fa-square-github"></i>, GitHub Gists, Looker Studio (Google
-          Data Studio), Power BI, MySQL, NoSQL, NPM{" "}
+          <i className="fa-brands fa-square-github"></i>, GitHub Gists, Looker
+          Studio (Google Data Studio), Power BI, MySQL, NoSQL, NPM{" "}
           <i className="fa-brands fa-npm"></i>, VS Code, Google Suite{" "}
           <i className="fa-brands fa-google"></i>, Microsoft Office{" "}
           <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}

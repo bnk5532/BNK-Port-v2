@@ -172,7 +172,6 @@ a {
 .btn-more, .btn-more:active {
   color: #0a58cb;
   font-size: small;
-  font-style: italic;
   background-color: transparent;
   border: none !important;
 }

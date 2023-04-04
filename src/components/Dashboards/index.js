@@ -14,7 +14,7 @@ function Dashboard() {
       ppt: widgetPBI,
       link: "https://app.powerbi.com/links/i3DrsJjcqI?ctid=005cca83-53fe-4863-8898-aea70d2bafa2&pbi_source=linkShare",
       iconMicro: <i className="fa-brands fa-microsoft icons"></i>,
-      iconChart: <i className="fa-solid fa-chart-line icons"></i>,
+      iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
       src: biWidget,
     },
   ];
