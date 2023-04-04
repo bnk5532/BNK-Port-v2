@@ -129,9 +129,9 @@ function MySrAnalystModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Why hire me as your Analyst?</h4>
+        <h4>Why hire me as your Business Analyst?</h4>
         <p>
-          Check out this fun dashboard visualization, my presentation building
+          Check out these fun dashboard visualizations, my presentation building
           skills and review my experience as a Sr. Operations Analyst to get a
           little taste of what I can do for you and your company!
         </p>
