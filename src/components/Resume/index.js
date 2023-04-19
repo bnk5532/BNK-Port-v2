@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-import bnkCv from "../../assets/pdf/BNKCV2023v1dot5.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2023v6.pdf";
 import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
@@ -41,11 +41,6 @@ function ShowMoreSA() {
           <strong>Key Accomplishments:</strong>
           <ul>
             <li>
-              Recipient of the 2021 Operations Trailblazer Award for individual
-              contributions that directly influenced enterprise-wide change in
-              business intel tools.
-            </li>
-            <li>
               Efforts credited with having significantly improved stakeholder
               buy-in and utilization of refreshed reporting interfaces, which
               delivered downstream improvement in data integrity and leader
@@ -56,6 +51,11 @@ function ShowMoreSA() {
               visualizations of KPIs as related to the overall impacts of
               absenteeism on the business, its financials, shrink, and other
               strategic priorities.
+            </li>
+            <li>
+              Recipient of the 2021 Operations Trailblazer Award for individual
+              contributions that directly influenced enterprise-wide change in
+              business intel tools.
             </li>
           </ul>
         </div>
@@ -95,7 +95,7 @@ function ShowMoreCoord() {
             <li>
               Member of a small team whose efforts were credited with having
               saved tens of millions of dollars annually through timesheet
-              auditing and limiting legal exposure through careful attention and
+              auditing and reducing legal exposure through careful attention and
               application of HR guidelines, and protections guaranteed by law,
               for the domestic customer service, technical support and social
               media workgroups accounting for over 11,000 employees.
@@ -132,10 +132,10 @@ function ShowMoreAnalyst() {
           <strong>Key Accomplishments:</strong>
           <ul>
             <li>
-              Successfully launched the new gamification platform onsite for the
-              Wilmington, NC call center that was home to 1,200 corporate
+              Successfully launched the new gamification platform on-site for
+              the Wilmington, NC call center that was home to 1,200 corporate
               employees, and eventually took on the Charleston, SC call center
-              and supported an additional 1,000 employees in a remote capacity.
+              and remotely supported an additional 1,000 employees.
             </li>
           </ul>
         </div>
@@ -365,31 +365,32 @@ function Resume() {
           <strong>Sr. Analyst, HQ Operations, </strong>
           <em>2020 - 2022.</em>
           <br></br>
-          Primarily responsible for any and all reporting with regard to
-          absenteeism and leave-related data for a Sr. Manager, Director, and
-          Vice President audience for the entire U.S.-based Customer Service,
-          Tech and Specialty work groups.
+          Primarily responsible for any and all reporting requirements with
+          regard to absenteeism, time/attendance and leave-of-absence data for a
+          senior business leader, HRBP and executive level audience for the
+          entire U.S.-based Customer Service, Tech and Specialty work groups.
           <ShowMoreSA />
           <br></br>
           <br></br>
           <strong>Coordinator, HQ Operations, </strong>
-          <em>2016 - 2020.</em>
+          <em>2017 - 2020.</em>
           <br></br>
           Operated at the leading edge of a risk management team, partnered with
           call center business leaders, operations, and HR to ensure accurate
-          time-keeping practices, leave-of-absence (LOA) claim reporting to
-          vendors and adherence to headquarters HR corporate guidelines and
-          compliance with Federal and State laws.
+          time-keeping practices, leave-of-absence claim reporting to vendors
+          and adherence to headquarters HR corporate guidelines and compliance
+          with Federal and State laws.
           <ShowMoreCoord />
           <br></br>
           <br></br>
           <strong>Analyst, Field Operations, </strong>
-          <em>2014 - 2016.</em>
+          <em>2016 - 2017.</em>
           <br></br>
           Served as the project administrator on a small specialized team that
-          prioritized the implementation of a digital platform that promoted
-          ideal behaviors as identified or aligned with the business objectives
-          of the contact center call-taking population.
+          prioritized employee engagement with the implementation of a new
+          digital platform that incentivised key behaviors as identified or
+          aligned with the business objectives of the contact center call-taking
+          population.
           <ShowMoreAnalyst />
           <br></br>
           <br></br>
@@ -421,7 +422,7 @@ function Resume() {
           <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git{" "}
           <i className="fa-brands fa-git"></i>, GitHub{" "}
           <i className="fa-brands fa-square-github"></i>, GitHub Gists, Looker
-          Studio (Google Data Studio), Power BI, MySQL, NoSQL, NPM{" "}
+          Studio (Google Data Studio), Microsoft Power BI, MySQL, NoSQL, NPM{" "}
           <i className="fa-brands fa-npm"></i>, VS Code, Google Suite{" "}
           <i className="fa-brands fa-google"></i>, Microsoft Office{" "}
           <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
@@ -454,7 +455,7 @@ function Resume() {
             </button>
           </a>
           <br></br>
-          <em> Coding Full Stack Boot Camp, 2022.</em>
+          Coding Full Stack Boot Camp, 2022.
           <br></br>
           <Grades />
           <ShowMoreCert />
@@ -469,7 +470,7 @@ function Resume() {
           />
           <br></br>
           <em>Master of Business Administration, M.B.A.</em> <br></br>
-          <em>Acquisitions, 2012.</em>
+          Acquisitions, 2012.
           <br></br>
           Conferred with honors.
           <br></br>
@@ -487,7 +488,7 @@ function Resume() {
           <br></br>
           <em>Bachelor of Arts, B.A.</em>
           <br></br>
-          <em>Anthropology, 2008.</em>
+          Anthropology, 2008.
           <br></br>
           Forensic Science minor.
           <br></br>
@@ -525,6 +526,8 @@ function Resume() {
           Automation & Networking <i className="fa-solid fa-circle-nodes"></i>
           <br></br>
           Logistics & Supply Chain <i className="fa-solid fa-truck-fast"></i>
+          <br></br>
+          Travel Industry <i className="fa-solid fa-suitcase"></i>
           <br></br>
         </div>
       </div>
