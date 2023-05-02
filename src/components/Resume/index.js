@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-import bnkCv from "../../assets/pdf/BNKCV2023v6.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2023v7.pdf";
 import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
@@ -388,7 +388,7 @@ function Resume() {
           <br></br>
           Served as the project administrator on a small specialized team that
           prioritized employee engagement with the implementation of a new
-          digital platform that incentivised key behaviors as identified or
+          digital platform that incentivized key behaviors as identified or
           aligned with the business objectives of the contact center call-taking
           population.
           <ShowMoreAnalyst />

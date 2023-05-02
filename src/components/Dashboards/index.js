@@ -26,9 +26,6 @@ function Dashboard() {
       iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
       src: dataStudioBWC,
     },
-
-
-    
   ];
 
   return (
