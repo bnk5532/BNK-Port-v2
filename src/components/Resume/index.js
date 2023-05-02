@@ -41,21 +41,22 @@ function ShowMoreSA() {
           <strong>Key Accomplishments:</strong>
           <ul>
             <li>
-              Efforts credited with having significantly improved stakeholder
-              buy-in and utilization of refreshed reporting interfaces, which
-              delivered downstream improvement in data integrity and leader
-              efficiencies.
+              Designed the website landing page for the migration of all new
+              dashboards, supplemental reporting, tools, resources and training
+              materials for the LOA team and its internal customers.
             </li>
             <li>
-              New dashboards made data more consumable with interactive
-              visualizations of KPIs as related to the overall impacts of
-              absenteeism on the business, its financials, shrink, and other
-              strategic priorities.
+              Built new dashboards that made data more consumable with
+              interactive visualizations of KPIs as related to the overall
+              impacts of absenteeism on the business, its financials, shrink,
+              and other strategic priorities.
             </li>
             <li>
-              Recipient of the 2021 Operations Trailblazer Award for individual
-              contributions that directly influenced enterprise-wide change in
-              business intel tools.
+              Credited with having an enterprise-wide impact in stakeholder
+              buy-in and utilization of the refreshed reporting interfaces that
+              delivered downstream improvements in data integrity, storytelling,
+              leader efficiencies, and ultimately led to the winning of the
+              highly coveted 2021 Operations Trailblazer award.
             </li>
           </ul>
         </div>
@@ -88,17 +89,15 @@ function ShowMoreCoord() {
           <strong>Key Accomplishments:</strong>
           <ul>
             <li>
-              Interfaced closely with partners in HR, business leaders and
-              vendors to ensure smooth administration of absenteeism, timesheet
-              auditing, and leave management.
+              Contributor on a small team whose collective efforts were credited
+              with having saved nearly $20 million annually through persistent
+              timesheet auditing, absenteeism management, and daily leader
+              engagement.
             </li>
             <li>
-              Member of a small team whose efforts were credited with having
-              saved tens of millions of dollars annually through timesheet
-              auditing and reducing legal exposure through careful attention and
-              application of HR guidelines, and protections guaranteed by law,
-              for the domestic customer service, technical support and social
-              media workgroups accounting for over 11,000 employees.
+              Reduced legal exposure through consultation, process improvement,
+              leader education and the careful application of HR guidelines and
+              those protections guaranteed by law for 12,000+ employees.
             </li>
           </ul>
         </div>
@@ -132,10 +131,11 @@ function ShowMoreAnalyst() {
           <strong>Key Accomplishments:</strong>
           <ul>
             <li>
-              Successfully launched the new gamification platform on-site for
-              the Wilmington, NC call center that was home to 1,200 corporate
-              employees, and eventually took on the Charleston, SC call center
-              and remotely supported an additional 1,000 employees.
+              Successfully launched the new platform at the Wilmington, NC call
+              center that served 1,200 corporate employees and shortly following
+              the successful launch, assumed full administration of the
+              Charleston, SC platform and remotely supported an additional 1,000
+              employees.
             </li>
           </ul>
         </div>
@@ -365,10 +365,11 @@ function Resume() {
           <strong>Sr. Analyst, HQ Operations, </strong>
           <em>2020 - 2022.</em>
           <br></br>
-          Primarily responsible for any and all reporting requirements with
-          regard to absenteeism, time/attendance and leave-of-absence data for a
-          senior business leader, HRBP and executive level audience for the
-          entire U.S.-based Customer Service, Tech and Specialty work groups.
+          Responsible for any and all reporting requirements with regard to
+          absenteeism, time/attendance (TA) and leave-of-absence (LOA) data for
+          a senior business leader, HRBP and executive level audience for the
+          entire domestic Customer Service, Tech and Specialty work groups for
+          the wireless organization.
           <ShowMoreSA />
           <br></br>
           <br></br>
@@ -377,20 +378,20 @@ function Resume() {
           <br></br>
           Operated at the leading edge of a risk management team, partnered with
           call center business leaders, operations, and HR to ensure accurate
-          time-keeping practices, leave-of-absence claim reporting to vendors
-          and adherence to headquarters HR corporate guidelines and compliance
-          with Federal and State laws.
+          time/attendance practices, leave-of-absence management, reporting
+          obligations, vendor relationships, and adherence to headquarters HR
+          corporate guidelines and compliance with Federal and State laws.
           <ShowMoreCoord />
           <br></br>
           <br></br>
           <strong>Analyst, Field Operations, </strong>
           <em>2016 - 2017.</em>
           <br></br>
-          Served as the project administrator on a small specialized team that
-          prioritized employee engagement with the implementation of a new
-          digital platform that incentivized key behaviors as identified or
-          aligned with the business objectives of the contact center call-taking
-          population.
+          Subject-matter expert and project administrator for the implementation
+          of a digital gamification platform that promoted ideal behaviors
+          amongst the call-taking population as identified by business leaders
+          and aligned with company KPIs, sales initiatives, shrink management,
+          churn and other strategic objectives.
           <ShowMoreAnalyst />
           <br></br>
           <br></br>
@@ -407,11 +408,6 @@ function Resume() {
           <i className="fa-brands fa-python"></i> (<em>In Progress</em>), SQL.
           <br></br>
           <br></br>
-          <strong>Concepts:</strong> Responsive Design, Big O Notation, TDD,
-          Agile Development, Data Structures, Security & Session Storage, Local
-          Storage, User Authentication and Database Management.
-          <br></br>
-          <br></br>
           <strong>Tools:</strong> Bootstrap{" "}
           <i className="fa-brands fa-bootstrap"></i>, Bulma, Materialize,
           Handlebars, Font Awesome <i className="fa-solid fa-font-awesome"></i>,
@@ -423,10 +419,15 @@ function Resume() {
           <i className="fa-brands fa-git"></i>, GitHub{" "}
           <i className="fa-brands fa-square-github"></i>, GitHub Gists, Looker
           Studio (Google Data Studio), Microsoft Power BI, MySQL, NoSQL, NPM{" "}
-          <i className="fa-brands fa-npm"></i>, VS Code, Google Suite{" "}
+          <i className="fa-brands fa-npm"></i>, VS Code, G-Suite{" "}
           <i className="fa-brands fa-google"></i>, Microsoft Office{" "}
           <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
           <i className="fa-brands fa-apple"></i>.<br></br>
+          <br></br>
+          <strong>Key Concepts:</strong> Responsive Design, Big O Notation, TDD,
+          Agile Development, Data Structures, Security & Session Storage, Local
+          Storage, User Authentication, Version Control and Database Management.
+          <br></br>
           <br></br>
         </div>
         <strong className="resume-header" id="EDUCATION">
@@ -435,37 +436,10 @@ function Resume() {
         <br></br>
         <div className="indent-resume">
           <img
-            src={UNC1}
-            width="160px"
-            height="40px"
-            className="d-inline-block mb-1"
-            alt="UNC Logo"
-          />
-          <br></br>
-          <em>Certificate.</em>
-          <a
-            href="https://www.credly.com/badges/a2526be3-fc55-45e8-8c4b-db81fb685808/linked_in?t=rm9jm1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="btn-more" type="button">
-              &nbsp;
-              <i className="fa-regular fa-circle-check"></i>&nbsp;Verify at
-              Credly
-            </button>
-          </a>
-          <br></br>
-          Coding Full Stack Boot Camp, 2022.
-          <br></br>
-          <Grades />
-          <ShowMoreCert />
-          <br></br>
-          <br></br>
-          <img
             src={Strayer}
             width="160px"
             height="34px"
-            className="d-inline-block mb-1"
+            className="d-inline-block mb-1 mt-2"
             alt="UNC Logo"
           />
           <br></br>
@@ -498,9 +472,38 @@ function Resume() {
           <br></br>
         </div>
         <strong className="resume-header" id="DEVELOPMENT">
-          DEVELOPMENT
+          PROFESSIONAL DEVELOPMENT
         </strong>
         <br></br>
+        <div className="indent-resume">
+          <img
+            src={UNC1}
+            width="160px"
+            height="40px"
+            className="d-inline-block mb-1 mt-2"
+            alt="UNC Logo"
+          />
+          <br></br>
+          <em>Certificate.</em>
+          <a
+            href="https://www.credly.com/badges/a2526be3-fc55-45e8-8c4b-db81fb685808/linked_in?t=rm9jm1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-more" type="button">
+              &nbsp;
+              <i className="fa-regular fa-circle-check"></i>&nbsp;Verify at
+              Credly
+            </button>
+          </a>
+          <br></br>
+          Coding Full Stack Boot Camp, 2022.
+          <br></br>
+          <Grades />
+          <ShowMoreCert />
+          <br></br>
+          <br></br>
+        </div>
         <div className="indent-resume">
           Verizon Scrum Master Badge <br></br>
           Verizon Agile Mindset Program Badge <br></br>
