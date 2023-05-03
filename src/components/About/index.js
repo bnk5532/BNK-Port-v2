@@ -288,7 +288,7 @@ function About() {
           </span>
           <br></br>
           <br></br>Brian is an experienced business operations analyst with
-          specialties in reporting, interface design and data visualizations,
+          specialties in reporting, UI design and data visualizations,
           which he has developed over the last 13 years of his professional
           career in the telecommunications and technology industries. Recently,
           he had taken a brief pause in his career to reinvest and up-skill his
