@@ -1,6 +1,7 @@
 import React from "react";
 import T2t from "../../assets/images/T2T-2.webp";
 import Wwp from "../../assets/images/wwp1.png";
+import USO from "../../assets/images/uso.png";
 import USflag1 from "../../assets/images/USflag1.png";
 
 function Footer() {
@@ -46,7 +47,7 @@ function Footer() {
       </div>
       <div className="footer">
         <strong>
-          <span>&#169;</span>2022-2023 by Brian Nicholas King. All Rights
+          <span>&#169;</span>2023 by Brian Nicholas King. All Rights
           Reserved.
         </strong>
         <br />
@@ -64,7 +65,7 @@ function Footer() {
             alt="US Flag"
           />
         </div>
-        PROUD SUPPORTER OF:
+        PROUD FINANCIAL SUPPORTER OF:
       </div>
       <div className="charity">
         <a
@@ -78,6 +79,19 @@ function Footer() {
             width="133px"
             height="52px"
             alt="T2T Foundation Logo"
+          />
+        </a>
+        <a
+          href="https://www.uso.org/about?gclid=CjwKCAjw67ajBhAVEiwA2g_jEHVQWOvGjlRzNXbQs0WywMgiDh6_Vtktf5t5UcY2srvAyHV_Ex7xehoCfPIQAvD_BwE/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="m-3"
+            src={USO}
+            width="75px"
+            height="38px"
+            alt="USO Logo"
           />
         </a>
         <a
