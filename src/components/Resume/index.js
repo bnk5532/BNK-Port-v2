@@ -337,7 +337,8 @@ function Resume() {
         <a href="#TECHNICAL SKILLS">TECHNICAL SKILLS</a> &nbsp;| &nbsp;
         <a href="#EDUCATION">EDUCATION</a> &nbsp;| &nbsp;
         <a href="#DEVELOPMENT">DEVELOPMENT</a> &nbsp;| &nbsp;
-        <a href="#INDUSTRY INTERESTS">INDUSTRY INTERESTS</a>
+        <a href="#INDUSTRY INTERESTS">INDUSTRY INTERESTS</a> &nbsp;| &nbsp;
+        <a href="#OTHER">OTHER</a>
       </div>
 
       <h2>
@@ -532,6 +533,22 @@ function Resume() {
           <br></br>
           Travel Industry <i className="fa-solid fa-suitcase"></i>
           <br></br>
+          FinTech <i className="fa-solid fa-coins"></i>
+          <br></br>
+          <br></br>
+        </div>
+        <strong className="resume-header" id="INDUSTRY INTERESTS">
+          OTHER
+        </strong>
+        <div className="indent-resume">
+          🇺🇸 &nbsp; United States of America Citizenship*
+          <br></br>
+          🇮🇪 &nbsp; Republic of Ireland, European Union Citizenship*
+          <br></br>
+          <small>
+            *Permitted to live, work, and travel without restriction, visa, invitation, or
+            sponsorship in the above nations or unions.
+          </small>
         </div>
       </div>
       <br></br>
