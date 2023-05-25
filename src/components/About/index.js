@@ -288,34 +288,47 @@ function About() {
           </span>
           <br></br>
           <br></br>Brian is an experienced business operations analyst with
-          specialties in reporting, data analysis, storytelling, and
-          dashboard visualizations, which he has developed over the last 13 years of his
-          professional career in the telecommunications and technology
-          industries. Recently, he took the advantage of an opportunity to reinvest and up-skill his
-          portfolio to better prepare for the demands of the future job market
-          and its emphasis on technical products and services across all sectors. Over the past year, he enrolled and graduated
-          from the Full Stack Coding Boot Camp at UNC-Chapel Hill to learn the
-          latest of the in-demand programming languages, skills, methods, tools
-          and the mindset that are so critical in the wildly dynamic world of
-          technology. Brian likes to fail quick, learn fast and always maintain a strong sense of self-awareness and perspective. 
+          specialties in reporting, data analysis, quantitative/qualitative
+          methods, storytelling, and dashboard visualizations, which he has
+          developed over the last 13 years of his professional career in the
+          telecommunications and technology industries. Recently, he took
+          advantage of an opportunity to reinvest and up-skill his portfolio to
+          better prepare for the future demands of the job market and its
+          increasing reliance on technical products, solutions, and services
+          across all sectors.
           <br></br>
           <br></br>
-          In the coming months, Brian hopes to secure a new role where he can
-          continue to add value and insight with his experience in business as an Operations Sr. Analyst
-          and flex his knowledge of the development
-          lifecycle at a great company with amazingly talented people.
-          <br></br> <br></br>Brian calls the lower Cape Fear region of North
-          Carolina home where he shares a beautiful life with his wife and two
-          elementary school-aged children, and an elderly yorkshire terrier. He
-          also has a love for the outdoors, history, fine cuisine, travel and an
-          ever-widening range of other interests.
+          Over the past year, Brian enrolled and graduated from the Full Stack
+          Coding Boot Camp at UNC-Chapel Hill to learn and get hands on
+          experience with the latest of the in-demand programming languages,
+          skills, methods, tools and the mindset that are so critical in the
+          wildly dynamic world of business and technology.
+          <br></br>
+          <br></br>
+          Any day now, Brian hopes to secure a new role where he can continue to
+          add value and insight derived from his corporate business experience
+          as an Operations Sr. Analyst while flexing his knowledge of the
+          development lifecycle at a great company with amazingly talented
+          people. Brian believes that it is important fail quickly, take
+          initiative, prioritize the solution over the blame, and always
+          maintain a strong sense of humor, self-awareness, humility, and a
+          global perspective to successfully meet mission objectives.
           <br></br> <br></br>
           <span className="carousel">
             <ControlledCarousel />
           </span>
           <br></br>
-          Brian is looking forward to 2023, meeting new teammates, and finding
-          his fit at an exciting company in technology!
+          Brian calls the lower Cape Fear region of North Carolina home where he
+          shares a beautiful life with his wife and two elementary school-aged
+          children, and an elderly yorkshire terrier. He also has a love for the
+          outdoors, history, fine cuisine, travel, various hobbies, and an
+          ever-widening range of other interests.
+          <br></br>
+          <br></br>
+          Brian is looking forward to the remainder of 2023, meeting his new
+          teammates, leaders, and clients, building those relationships, and
+          earning his place at an exciting company that leads with technological
+          solutions that improve our lives, our interactions, and how we do business going forward!
           <br></br>
           <br></br>
           <br></br>
