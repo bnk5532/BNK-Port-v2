@@ -541,9 +541,11 @@ function Resume() {
           OTHER
         </strong>
         <div className="indent-resume">
-          🇺🇸 &nbsp; United States of America Citizenship*
+        <strong>Citizenship</strong>
+        <br></br>
+          🇺🇸 &nbsp; United States of America*
           <br></br>
-          🇮🇪 &nbsp; Republic of Ireland, European Union Citizenship*
+          🇮🇪 &nbsp; Republic of Ireland, European Union*
           <br></br>
           <small>
             *Permitted to live, work, and travel without restriction, visa, invitation, or
