@@ -537,7 +537,7 @@ function Resume() {
           <br></br>
           <br></br>
         </div>
-        <strong className="resume-header" id="INDUSTRY INTERESTS">
+        <strong className="resume-header" id="OTHER">
           OTHER
         </strong>
         <div className="indent-resume">
@@ -549,6 +549,19 @@ function Resume() {
             *Permitted to live, work, and travel without restriction, visa, invitation, or
             sponsorship in the above nations or unions.
           </small>
+          <br></br>
+          <br></br>
+          <strong>FAQ</strong>
+          <br></br>
+          Travel: Yes, up to 25%
+          <br></br>
+          Relocation: No
+          <br></br>
+          Drivers License: Yes
+          <br></br>
+          Job Type: Full-Time
+          <br></br>
+          Experience Level: Associate / Mid-Senior
         </div>
       </div>
       <br></br>
