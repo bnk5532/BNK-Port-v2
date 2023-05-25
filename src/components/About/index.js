@@ -318,17 +318,18 @@ function About() {
             <ControlledCarousel />
           </span>
           <br></br>
-          Brian calls the lower Cape Fear region of North Carolina home where he
-          shares a beautiful life with his wife and two elementary school-aged
-          children, and an elderly yorkshire terrier. He also has a love for the
-          outdoors, history, fine cuisine, travel, various hobbies, and an
-          ever-widening range of other interests.
+          The lower Cape Fear region of North Carolina home where Brian calls
+          home and shares a beautiful life with his wife and two elementary
+          school-aged children, and an elderly yorkshire terrier. He also has a
+          love for the outdoors, history, fine cuisine, travel, various hobbies,
+          and an ever-widening range of other interests.
           <br></br>
           <br></br>
           Brian is looking forward to the remainder of 2023, meeting his new
           teammates, leaders, and clients, building those relationships, and
           earning his place at an exciting company that leads with technological
-          solutions that improve our lives, our interactions, and how we do business going forward!
+          solutions that improve our lives, our interactions, and how we choose to do
+          business going forward!
           <br></br>
           <br></br>
           <br></br>
