@@ -113,6 +113,10 @@ main {
     border-width: 0;
     font-size: medium;
   }
+  .charity {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .footer {

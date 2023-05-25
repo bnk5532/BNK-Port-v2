@@ -288,21 +288,21 @@ function About() {
           </span>
           <br></br>
           <br></br>Brian is an experienced business operations analyst with
-          specialties in reporting, UI design and data visualizations,
-          which he has developed over the last 13 years of his professional
-          career in the telecommunications and technology industries. Recently,
-          he had taken a brief pause in his career to reinvest and up-skill his
-          tech portfolio, so that he may pursue a new role with a software
-          engineering component. Over the past year, he enrolled and graduated
+          specialties in reporting, data analysis, storytelling, and
+          dashboard visualizations, which he has developed over the last 13 years of his
+          professional career in the telecommunications and technology
+          industries. Recently, he took the advantage of an opportunity to reinvest and up-skill his
+          portfolio to better prepare for the demands of the future job market
+          and its emphasis on technical products and services across all sectors. Over the past year, he enrolled and graduated
           from the Full Stack Coding Boot Camp at UNC-Chapel Hill to learn the
           latest of the in-demand programming languages, skills, methods, tools
           and the mindset that are so critical in the wildly dynamic world of
-          tech.
+          technology. Brian likes to fail quick, learn fast and always maintain a strong sense of self-awareness and perspective. 
           <br></br>
           <br></br>
           In the coming months, Brian hopes to secure a new role where he can
-          continue to add value with his experience as an Operations Sr. Analyst
-          and flex those coding skills and knowledge of the development
+          continue to add value and insight with his experience in business as an Operations Sr. Analyst
+          and flex his knowledge of the development
           lifecycle at a great company with amazingly talented people.
           <br></br> <br></br>Brian calls the lower Cape Fear region of North
           Carolina home where he shares a beautiful life with his wife and two
