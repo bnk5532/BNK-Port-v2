@@ -309,7 +309,7 @@ function About() {
           add value and insight derived from his corporate business experience
           as an Operations Sr. Analyst while flexing his knowledge of the
           development lifecycle at a great company with amazingly talented
-          people. Brian believes that it is important fail quickly, take
+          people. Brian believes that it is important to fail quickly, take
           initiative, prioritize the solution over the blame, and always
           maintain a strong sense of humor, self-awareness, humility, and a
           global perspective to successfully meet mission objectives.

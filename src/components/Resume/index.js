@@ -419,7 +419,7 @@ function Resume() {
           <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git{" "}
           <i className="fa-brands fa-git"></i>, GitHub{" "}
           <i className="fa-brands fa-square-github"></i>, GitHub Gists, Looker
-          Studio (Google Data Studio), Microsoft Power BI, MySQL, NoSQL, NPM{" "}
+          Studio (Google Data Studio), Microsoft Power BI, MySQL, NoSQL, SaaS, WFM software (NICE IEX, Verint), Oracle PeopleSoft CRM, NPM{" "}
           <i className="fa-brands fa-npm"></i>, VS Code, G-Suite{" "}
           <i className="fa-brands fa-google"></i>, Microsoft Office{" "}
           <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
