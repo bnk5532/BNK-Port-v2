@@ -318,7 +318,7 @@ function About() {
             <ControlledCarousel />
           </span>
           <br></br>
-          The lower Cape Fear region of North Carolina home where Brian calls
+          The lower Cape Fear region of North Carolina is where Brian calls
           home and shares a beautiful life with his wife and two elementary
           school-aged children, and an elderly yorkshire terrier. He also has a
           love for the outdoors, history, fine cuisine, travel, various hobbies,
