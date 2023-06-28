@@ -228,7 +228,7 @@ function ShowMoreGradCourses() {
               Financial Management (FIN 534)
               <li>
                 <li>Financial Accounting (ACC 557)</li>
-                <strong>Acquistions Concentration Courses:</strong>
+                <strong>Acquisitions Concentration Courses:</strong>
                 <li>Government Contract Law (LEG 505)</li>
                 <li>Government Acquisition (BUS 501)</li>
                 <li>Business Strategies & Proposals (BUS 505)</li>
@@ -289,7 +289,7 @@ function ShowGradGPA() {
       <Button variant="btn-gpa p-0">
         <div>
           <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
-            {showMore ? "GPA 3.92" : "GPA"}
+            {showMore ? "GPA 3.917" : "GPA"}
           </button>
         </div>
       </Button>
@@ -305,7 +305,7 @@ function ShowUngradGPA() {
       <Button variant="btn-gpa p-0">
         <div>
           <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
-            {showMore ? "GPA 3.45" : "GPA"}
+            {showMore ? "GPA 3.4137" : "GPA"}
           </button>
         </div>
       </Button>
@@ -511,6 +511,8 @@ function Resume() {
           Verizon Lean Six Sigma (VLSS) <br></br>
           Verizon Project & Management Fundamentals <br></br>
           Udemy.com – JavaScript Algorithms & Data Structures Masterclass (
+          <em>In Progress</em>)<br></br>
+          Drone Pilot Ground School for FAA Part 107 (
           <em>In Progress</em>)<br></br>
           <br></br>
         </div>
