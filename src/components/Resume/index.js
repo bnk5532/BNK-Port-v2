@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
 import bnkCv from "../../assets/pdf/BNKCV2023v8.pdf";
+import bnkCl from "../../assets/pdf/BNKGenCL2023v2.pdf";
 import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
@@ -228,12 +229,94 @@ function ShowMoreGradCourses() {
               Financial Management (FIN 534)
               <li>
                 <li>Financial Accounting (ACC 557)</li>
+                <br></br>
                 <strong>Acquisitions Concentration Courses:</strong>
                 <li>Government Contract Law (LEG 505)</li>
                 <li>Government Acquisition (BUS 501)</li>
                 <li>Business Strategies & Proposals (BUS 505)</li>
               </li>
             </li>
+          </ul>
+        </div>
+      </Collapse>
+    </>
+  );
+}
+
+function ShowMoreUndergradCourses() {
+  const [open, setOpen] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button
+        variant="link p-0"
+        size="sm"
+        onClick={() => setOpen(!open)}
+        aria-controls="show-more-text"
+        aria-expanded={open}
+      >
+        <div>
+          <button className="btn-gpa" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "Close Courses" : "Courses"}
+          </button>
+        </div>
+      </Button>
+
+      <Collapse in={open}>
+        <div id="show-more-text">
+          <ul>
+            {" "}
+            <strong>Anthropology Major Courses:</strong>
+            <li>Cultural Anthropology (ANT 206)</li>
+            <li>Archaeology (ANT 207)</li>
+            <li>Archaeology Lab (ANTL 207)</li>
+            <li>Physical Anthropology (ANT 210)</li>
+            <li>Forensic Anthropology (ANT 211)</li>
+            <li>Collapse (ANT 292)</li>
+            <li>Anthropology of Gender (ANT 303)</li>
+            <li>Old World Archaeology (ANT 308)</li>
+            <li>Environmental Anthropology (ANT 309)</li>
+            <li>Field Methods Archaeology (ANT 311) </li>
+            <li>Human Origins (ANT 320)</li>
+            <li>Human Osteology (ANT 326)</li>
+            <li>Human Osteology Lab (ANTL 326)</li>
+            <li>Human Biological Variation (ANT 324)</li>
+            <li>Historical Anthropological Theory (ANT 450)</li>
+            <li>Directed Independent Study (ANT 491)</li>
+            <br></br>
+            <strong>Core Undergraduate Courses:</strong>
+            <li> Ancient Through Medieval (ARH 201)</li>
+            <li>Humans & Ecology (BIO 150)</li>
+            <li>Genetics In Human Affairs (BIO 160)</li>
+            <li>Principles of Biology: Cells (BIO 204)</li>
+            <li>Genetics (BIO 335)</li>
+            <li>General Chemistry (CHM 101)</li>
+            <li>Classical Literature In Translation (CLA 209)</li>
+            <li>Monuments & Sites of Ancient Rome (CLA 292)</li>
+            <li>Criminal Justice (CRJ 105)</li>
+            <li>Computing & Applications (CSC 105)</li>
+            <li>Victimology (CRM 315)</li>
+            <li>College Writing & Reading I (ENG 101)</li>
+            <li>College Writing & Reading II (ENG 201)</li>
+            <li>Environmental Studies (EVS 195)</li>
+            <li>Human Geography (GGY 140)</li>
+            <li>Environmental Geology (GLY 120)</li>
+            <li>Natural Disasters (GLY 125)</li>
+            <li>Prehistoric Life (GLY 135)</li>
+            <li>Oceanography (GLY 150)</li>
+            <li>U.S. To 1865 (HST 201)</li>
+            <li>General College Math (MAT 101)</li>
+            <li>Latin I (LAT 101)</li>
+            <li>Philosophy of Human Nature (PAR 211)</li>
+            <li>Religion (PAR 103)</li>
+            <li>Foundations of Physical Activity (PED 101)</li>
+            <li>Scuba (PED 104)</li>
+            <li>Golf (PED 113)</li>
+            <li>Sociology (SOC 105)</li>
+            <li>Freshman Seminar (UNI 101)</li>
+            <br></br>
+            <strong>129 Credit Hours Earned</strong>
           </ul>
         </div>
       </Collapse>
@@ -419,7 +502,8 @@ function Resume() {
           <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git{" "}
           <i className="fa-brands fa-git"></i>, GitHub{" "}
           <i className="fa-brands fa-square-github"></i>, GitHub Gists, Looker
-          Studio (Google Data Studio), Microsoft Power BI, MySQL, NoSQL, SaaS, WFM software (NICE IEX, Verint), Oracle PeopleSoft CRM, NPM{" "}
+          Studio (Google Data Studio), Microsoft Power BI, MySQL, NoSQL, SaaS,
+          WFM software (NICE IEX, Verint), Oracle PeopleSoft CRM, NPM{" "}
           <i className="fa-brands fa-npm"></i>, VS Code, G-Suite{" "}
           <i className="fa-brands fa-google"></i>, Microsoft Office{" "}
           <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
@@ -468,6 +552,7 @@ function Resume() {
           Forensic Science minor.
           <br></br>
           <ShowUngradGPA />
+          <ShowMoreUndergradCourses />
           <ShowMoreUngradExtra />
           <br></br>
           <br></br>
@@ -512,8 +597,8 @@ function Resume() {
           Verizon Project & Management Fundamentals <br></br>
           Udemy.com – JavaScript Algorithms & Data Structures Masterclass (
           <em>In Progress</em>)<br></br>
-          Drone Pilot Ground School for FAA Part 107 (
-          <em>In Progress</em>)<br></br>
+          Drone Pilot Ground School for FAA Part 107 (<em>In Progress</em>)
+          <br></br>
           <br></br>
         </div>
         <strong className="resume-header" id="INDUSTRY INTERESTS">
@@ -543,15 +628,15 @@ function Resume() {
           OTHER
         </strong>
         <div className="indent-resume">
-        <strong>Citizenship</strong>
-        <br></br>
+          <strong>Citizenship</strong>
+          <br></br>
           🇺🇸 &nbsp; United States of America*
           <br></br>
           🇮🇪 &nbsp; Republic of Ireland, European Union*
           <br></br>
           <small>
-            *Permitted to live, work, and travel without restriction, visa, invitation, or
-            sponsorship in the above nations or unions.
+            *Permitted to live, work, and travel without restriction, visa,
+            invitation, or sponsorship in the above nations or unions.
           </small>
           <br></br>
           <br></br>
@@ -567,6 +652,18 @@ function Resume() {
           <br></br>
           Experience Level: Associate / Mid-Senior
         </div>
+        <br></br>
+        <strong className="resume-header" id="OTHER">
+          DOWNLOADS
+        </strong>
+        <div className="indent-resume"></div>
+        <a href={bnkCv} target="_blank" rel="noopener noreferrer">
+          <i className="fa-solid fa-download pdf"></i>&nbsp;&nbsp;<strong>Resume/CV</strong>
+          <br></br>
+        </a>
+        <a href={bnkCl} target="_blank" rel="noopener noreferrer">
+          <i className="fa-solid fa-download pdf"></i>&nbsp;&nbsp;<strong>Cover Letter</strong>
+        </a>
       </div>
       <br></br>
       <br></br>
