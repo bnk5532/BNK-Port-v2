@@ -10,7 +10,7 @@ import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
 import BVPrague from "../../assets/images/BVPrague2.jpeg";
 import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
-// import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
+import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Project from "../Project";
@@ -18,6 +18,7 @@ import Nav from "react-bootstrap/Nav";
 import Resume from "..//Resume";
 import Dashboard from "../Dashboards";
 import Presentation from "../Presentations";
+import Strategy from "../Strategy";
 
 function MyWebDevModal(props) {
   return (
@@ -114,6 +115,80 @@ function MyWebDevModal(props) {
 //   );
 // }
 
+function MyStratModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          <h3>
+            Live Ops. Talk Tech. Know The Audience. <em>Now Be Human!</em>
+          </h3>
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Why hire me as your Strategy Analyst?</h4>
+        <p>
+          <em>Well,</em> have a quick look at only a few highlights from my
+          career on the diagram below and I think that you'll have to agree that
+          I am an excellent candidate for your next Strategy or Process
+          Improvement Analyst opening.
+        </p>
+        <img
+          className="d-block w-100 pb-3"
+          src={DevOpsGraph}
+          alt="DevOps graphic"
+        />
+        <h4>What is Strategy & Continuous Improvement?</h4>
+        <p>
+          Broadly conceived, a business strategist lives at the crossroads of
+          many different disciplines and specialties, which in a modern context
+          might include knowledge or experience in software development,
+          operations, project management, process improvement, and quality
+          assurance just to name a few heavy hitters. Saving money and improving
+          upon efficiencies is often as important, if not more, than finding new
+          sources of revenue for long term sustainability and growth. It is of
+          obvious and increasing importance as a company scales that they
+          continue to review and renew efforts to drives out costs, and becomes
+          more reliant on the technology to meet client, enterprise and
+          stakeholder needs and expectations. A{" "}
+          <strong>Strategy Analyst</strong> (<em>like me</em>) helps to ensure a
+          seamless delivery on those priorities through a broader sense of the
+          business, a current and working knowledge of available technologies,
+          knowledge of the development lifecycle and most especially, excellent
+          communication and building of cross-functional relationships. You
+          might imagine a generalist of this sort to be involved in everything
+          from designing, building, testing, deploying, automating, securing,
+          and owning projects, processes or applications throughout their
+          respective evolutions.
+          <br></br>
+          <br></br>
+          Problem solving is at my core and it's simply how I am wired, so
+          please check out some of the examples below to see how I think through
+          these challenges and offer up solutions that are inexpensive,
+          sustainable, agreeable, thoughtful and most importantly in my book,
+          they have the lightest touch possible to achieve our stated goals.
+          {/* <br></br>
+          <br></br>
+          Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
+          - I think that you'll find that DevOps is exactly where I belong! */}
+        </p>
+        <h2>Dashboards</h2>
+        <Dashboard />
+        <h2>Strategy & Process Improvement</h2>
+        <Strategy />
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 function MySrAnalystModal(props) {
   return (
     <Modal
@@ -173,7 +248,18 @@ function AppSr() {
 //     </>
 //   );
 // }
+function AppStrat() {
+  const [modalShow, setModalShow] = React.useState(false);
+  return (
+    <>
+      <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
+        Strategy Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      </Button>
 
+      <MyStratModal show={modalShow} onHide={() => setModalShow(false)} />
+    </>
+  );
+}
 function AppWeb() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
@@ -284,6 +370,7 @@ function About() {
           <span className="carousel">
             <AppSr />
             {/* <AppDev /> */}
+            <AppStrat />
             <AppWeb />
           </span>
           <br></br>
@@ -308,8 +395,8 @@ function About() {
           development opportunities. He has also just completed a UAV drone
           ground school, and is preparing to take the exam for his FAA Part 107
           license, which will lay the foundations for a small business that is
-          ready to spin up and take advantage of a growing and potentially lucrative
-          commercial drone market in the future.
+          ready to spin up and take advantage of a growing and potentially
+          lucrative commercial drone market in the future.
           <br></br>
           <br></br>
           Any day now, Brian hopes to secure a new role where he can continue to
