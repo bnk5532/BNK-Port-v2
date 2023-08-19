@@ -2,6 +2,7 @@ import React from "react";
 import biWidget from "../../assets/images/biWidget.png";
 import widgetPBI from "../../assets/ppt/BrianWidgetCoPBI.pptx";
 import dataStudioBWC from "../../assets/images/dataStudioBWC.png";
+import abtrack from "../../assets/images/abtrack.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -25,6 +26,14 @@ function Dashboard() {
       iconGoogle: <i className="fa-brands fa-google icons"></i>,
       iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
       src: dataStudioBWC,
+    },
+    {
+      title: "Absence Tracker",
+      description: "A Sheets tool created with pivots, slicers & logic functions.",
+      link: "https://docs.google.com/spreadsheets/d/1cFaSrSlWvoaoVg7xsuF6xe7BPfp28miRoQBataeqOXc/edit?usp=sharing",
+      iconGoogle: <i className="fa-brands fa-google icons"></i>,
+      iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
+      src: abtrack,
     },
   ];
 

@@ -120,7 +120,7 @@ function Project() {
         <a href="#Projects">Projects</a> &nbsp;| &nbsp;
         <a href="#Dashboards">Dashboards</a>
       </div> */}
-      <h1>Dashboards</h1>
+      <h1>Dashboards & Tools</h1>
       <Dashboard />
       <h1>Strategy & Process Improvement</h1>
       <Strategy />

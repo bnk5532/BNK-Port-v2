@@ -177,7 +177,7 @@ function MyStratModal(props) {
           Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
           - I think that you'll find that DevOps is exactly where I belong! */}
         </p>
-        <h2>Dashboards</h2>
+        <h2>Dashboards & Tools</h2>
         <Dashboard />
         <h2>Strategy & Process Improvement</h2>
         <Strategy />
@@ -210,8 +210,10 @@ function MySrAnalystModal(props) {
           skills and review my experience as a Sr. Operations Analyst to get a
           little taste of what I can do for you and your company!
         </p>
-        <h2>Dashboards</h2>
+        <h2>Dashboards & Tools</h2>
         <Dashboard />
+        <h2>Strategy & Process Improvement</h2>
+        <Strategy />
         <h2>Presentations</h2>
         <Presentation />
         <Resume />
@@ -390,23 +392,24 @@ function About() {
           experience with the latest of the in-demand programming languages,
           skills, methods, tools and the mindset that are so critical in the
           wildly dynamic world of business and technology. On the side, Brian
-          has been consulting at a local law firm to improve upon outreach
-          potential, marketing strategy, office efficiencies and other business
-          development opportunities. He has also just completed a UAV drone
-          ground school, and is preparing to take the exam for his FAA Part 107
-          license, which will lay the foundations for a small business that is
-          ready to spin up and take advantage of a growing and potentially
-          lucrative commercial drone market in the future.
+          has been consulting at a local law firm to improve upon marketing
+          strategy, office efficiencies and other business development
+          opportunities. He has also just completed a UAV drone ground school,
+          and is preparing to take the exam for his FAA Part 107 license, which
+          will lay the foundations for a small business that is ready to spin up
+          and take advantage of a growing and potentially lucrative commercial
+          drone market in the future.
           <br></br>
           <br></br>
-          Any day now, Brian hopes to secure a new role where he can continue to
+          Brian hopes to secure a new permanent role where he can continue to
           add value and insight derived from his corporate business experience
-          as an Operations Sr. Analyst while flexing his knowledge of the
-          development lifecycle, reporting, strategy and process improvement at
-          a great company with amazingly talented people. Brian prefers to solve
-          big problems with the lightest touch possible, and believes that it is
+          as an Operations Sr. Analyst and that as an independent Business Development
+          Consultant while also flexing his knowledge of the development
+          lifecycle, reporting, strategy and process improvement at a great
+          company with amazingly talented people. Brian prefers to solve big
+          problems with the lightest touch possible, and believes that it is
           important to fail quickly, take initiative, prioritize the solution
-          over the blame, and always maintain a strong sense of humor,
+          over the blame, and always maintain a sense of humor,
           self-awareness, humility, and a global perspective to successfully
           meet mission objectives.
           <br></br> <br></br>
