@@ -153,8 +153,8 @@ function MyStratModal(props) {
           upon efficiencies is often as important, if not more, than finding new
           sources of revenue for long term sustainability and growth. It is of
           obvious and increasing importance as a company scales that they
-          continue to review and renew efforts to drives out costs, and becomes
-          more reliant on the technology to meet client, enterprise and
+          continue to review and renew efforts to drive out costs, and become
+          more reliant on technology and LEAN methodology to meet client, enterprise and
           stakeholder needs and expectations. A{" "}
           <strong>Strategy Analyst</strong> (<em>like me</em>) helps to ensure a
           seamless delivery on those priorities through a broader sense of the
