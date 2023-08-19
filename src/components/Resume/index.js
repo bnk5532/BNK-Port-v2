@@ -2,14 +2,14 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-import bnkCv from "../../assets/pdf/BNKCV2023v8.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2023v8dot1.pdf";
 import bnkCl from "../../assets/pdf/BNKGenCL2023v2.pdf";
 import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
 import UNCW from "../../assets/images/uncw3.png";
 import Strayer from "../../assets/images/Strayer1.png";
-import Verizon from "../../assets/images/verizon1.png";
+// import Verizon from "../../assets/images/verizon1.png";
 
 function ShowMoreSA() {
   const [open, setOpen] = useState(false);
@@ -438,15 +438,32 @@ function Resume() {
         </strong>
         <br></br>
         <div className="indent-resume">
-          <img
+          {/* <img
             src={Verizon}
             width="95px"
             height="21px"
             className="d-inline-block mb-1"
             alt="Verizon Logo"
-          />
+          /> */}
+          {/* <br></br>
+          <strong>Owner & PIC, Cape Fear UAV, LLC, </strong>
+          <em>2023 - Present.</em>
+          <br></br> */}
+          <strong>
+            Business Development Consultant, Pettijohn, Attorney at Law, PLLC,{" "}
+          </strong>
+          <em>2022 - Present.</em>
           <br></br>
-          <strong>Sr. Analyst, HQ Operations, </strong>
+          Closely involved in the refinement of the firm's business strategy,
+          growth and efficiencies while also improving upon marketing efforts,
+          office management, communications, networking, revenue generation and
+          solicitation of legal services, especially with regard to veteran
+          outreach potential involving the Camp Lejeune Justice Act of 2022.
+          Consults regularly on matters involving outside business affairs and
+          government acquisitions.
+          <br></br>
+          <br></br>
+          <strong>Sr. Analyst, HQ Operations, Verizon, </strong>
           <em>2020 - 2022.</em>
           <br></br>
           Responsible for any and all reporting requirements with regard to
@@ -457,7 +474,7 @@ function Resume() {
           <ShowMoreSA />
           <br></br>
           <br></br>
-          <strong>Coordinator, HQ Operations, </strong>
+          <strong>Coordinator, HQ Operations, Verizon, </strong>
           <em>2017 - 2020.</em>
           <br></br>
           Operated at the leading edge of a risk management team, partnered with
@@ -468,7 +485,7 @@ function Resume() {
           <ShowMoreCoord />
           <br></br>
           <br></br>
-          <strong>Analyst, Field Operations, </strong>
+          <strong>Analyst, Field Operations, Verizon, </strong>
           <em>2016 - 2017.</em>
           <br></br>
           Subject-matter expert and project administrator for the implementation
@@ -507,7 +524,7 @@ function Resume() {
           <i className="fa-brands fa-npm"></i>, VS Code, G-Suite{" "}
           <i className="fa-brands fa-google"></i>, Microsoft Office{" "}
           <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
-          <i className="fa-brands fa-apple"></i>.<br></br>
+          <i className="fa-brands fa-apple"></i>, DJI sUAS.<br></br>
           <br></br>
           <strong>Key Concepts:</strong> Responsive Design, Big O Notation, TDD,
           Agile Development, Data Structures, Security & Session Storage, Local
@@ -597,7 +614,7 @@ function Resume() {
           Verizon Project & Management Fundamentals <br></br>
           Udemy.com – JavaScript Algorithms & Data Structures Masterclass (
           <em>In Progress</em>)<br></br>
-          Drone Pilot Ground School for FAA Part 107 (<em>In Progress</em>)
+          Drone Pilot Ground School for FAA Part 107
           <br></br>
           <br></br>
         </div>
@@ -608,19 +625,24 @@ function Resume() {
         <div className="indent-resume">
           Aerospace & Defense <i className="fa-solid fa-jet-fighter"></i>{" "}
           <br></br>
+          Automation & Networking <i className="fa-solid fa-circle-nodes"></i>
+          <br></br>
           Commercial Aviation <i className="fa-solid fa-plane-departure"></i>
           <br></br>
-          Web Development & DevOps <i className="fa-solid fa-code"></i>
+          FinTech <i className="fa-solid fa-coins"></i>
           <br></br>
-          Acquisitions <i className="fa-solid fa-file-contract"></i>
+          Government Acquisitions <i className="fa-solid fa-file-contract"></i>
           <br></br>
-          Automation & Networking <i className="fa-solid fa-circle-nodes"></i>
+          Legal & Contracts <i className="fa-solid fa-scale-balanced"></i>
           <br></br>
           Logistics & Supply Chain <i className="fa-solid fa-truck-fast"></i>
           <br></br>
+          Strategy & Continuous Improvement{" "}
+          <i className="fa-solid fa-chess"></i>
+          <br></br>
           Travel Industry <i className="fa-solid fa-suitcase"></i>
           <br></br>
-          FinTech <i className="fa-solid fa-coins"></i>
+          Web Development & DevOps <i className="fa-solid fa-code"></i>
           <br></br>
           <br></br>
         </div>
@@ -658,11 +680,13 @@ function Resume() {
         </strong>
         <div className="indent-resume"></div>
         <a href={bnkCv} target="_blank" rel="noopener noreferrer">
-          <i className="fa-solid fa-download pdf"></i>&nbsp;&nbsp;<strong>Resume/CV</strong>
+          <i className="fa-solid fa-download pdf"></i>&nbsp;&nbsp;
+          <strong>Resume/CV</strong>
           <br></br>
         </a>
         <a href={bnkCl} target="_blank" rel="noopener noreferrer">
-          <i className="fa-solid fa-download pdf"></i>&nbsp;&nbsp;<strong>Cover Letter</strong>
+          <i className="fa-solid fa-download pdf"></i>&nbsp;&nbsp;
+          <strong>Cover Letter</strong>
         </a>
       </div>
       <br></br>
