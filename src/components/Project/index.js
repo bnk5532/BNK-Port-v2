@@ -15,6 +15,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Dashboard from "./../Dashboards";
 import Presentation from "../Presentations";
+import Strategy from "../Strategy";
 
 function Project() {
   const projects = [
@@ -119,6 +120,12 @@ function Project() {
         <a href="#Projects">Projects</a> &nbsp;| &nbsp;
         <a href="#Dashboards">Dashboards</a>
       </div> */}
+      <h1>Dashboards</h1>
+      <Dashboard />
+      <h1>Strategy & Process Improvement</h1>
+      <Strategy />
+      <h1>Presentations</h1>
+      <Presentation />
       <h1>Applications</h1>
       <Row>
         {projects.map((project) => {
@@ -171,10 +178,7 @@ function Project() {
           );
         })}
       </Row>
-      <h1>Dashboards</h1>
-      <Dashboard />
-      <h1>Presentations</h1>
-      <Presentation />
+  
       <br></br>
       <br></br>
     </Container>
