@@ -10,7 +10,7 @@ import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
 import BVPrague from "../../assets/images/BVPrague2.jpeg";
 import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
-import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
+// import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Project from "../Project";
@@ -58,61 +58,61 @@ function MyWebDevModal(props) {
   );
 }
 
-function MyDevOpsModal(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          <h3>
-            Live Ops. Talk Tech. Know The Audience. <em>Now Be Human!</em>
-          </h3>
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <h4>Why hire me as your DevOps Analyst?</h4>
-        <p>
-          <em>Well,</em> have a quick look at only a few highlights from my
-          career on the diagram below and I think that you'll have to agree that
-          I am an excellent candidate for your next DevOps opening.
-        </p>
-        <img
-          className="d-block w-100 pb-3"
-          src={DevOpsGraph}
-          alt="DevOps graphic"
-        />
-        <h4>What is DevOps?</h4>
-        <p>
-          Broadly conceived, <strong>DevOps</strong> lives at the crossroads of
-          the development, operations, and quality assurance divisions of a
-          business and is of increasing importance as a company scales, drives
-          out costs, and becomes more reliant on the technology to meet client,
-          enterprise and stakeholder needs and expectations. A{" "}
-          <strong>DevOps Analyst</strong> (<em>like me</em>) helps to ensure a
-          seamless delivery on those priorities through a broader sense of the
-          business, a current and working knowledge of available technologies,
-          knowledge of the development lifecycle and most especially, excellent
-          communication and building of cross-functional relationships. You
-          might imagine a generalist of this sort to be involved in everything
-          from designing, building, testing, deploying, automating, securing,
-          and owning projects, processes or applications throughout their
-          respective evolutions.
-          {/* <br></br>
-          <br></br>
-          Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
-          - I think that you'll find that DevOps is exactly where I belong! */}
-        </p>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
-}
+// function MyDevOpsModal(props) {
+//   return (
+//     <Modal
+//       {...props}
+//       size="lg"
+//       aria-labelledby="contained-modal-title-vcenter"
+//       centered
+//     >
+//       <Modal.Header closeButton>
+//         <Modal.Title id="contained-modal-title-vcenter">
+//           <h3>
+//             Live Ops. Talk Tech. Know The Audience. <em>Now Be Human!</em>
+//           </h3>
+//         </Modal.Title>
+//       </Modal.Header>
+//       <Modal.Body>
+//         <h4>Why hire me as your DevOps Analyst?</h4>
+//         <p>
+//           <em>Well,</em> have a quick look at only a few highlights from my
+//           career on the diagram below and I think that you'll have to agree that
+//           I am an excellent candidate for your next DevOps opening.
+//         </p>
+//         <img
+//           className="d-block w-100 pb-3"
+//           src={DevOpsGraph}
+//           alt="DevOps graphic"
+//         />
+//         <h4>What is DevOps?</h4>
+//         <p>
+//           Broadly conceived, <strong>DevOps</strong> lives at the crossroads of
+//           the development, operations, and quality assurance divisions of a
+//           business and is of increasing importance as a company scales, drives
+//           out costs, and becomes more reliant on the technology to meet client,
+//           enterprise and stakeholder needs and expectations. A{" "}
+//           <strong>DevOps Analyst</strong> (<em>like me</em>) helps to ensure a
+//           seamless delivery on those priorities through a broader sense of the
+//           business, a current and working knowledge of available technologies,
+//           knowledge of the development lifecycle and most especially, excellent
+//           communication and building of cross-functional relationships. You
+//           might imagine a generalist of this sort to be involved in everything
+//           from designing, building, testing, deploying, automating, securing,
+//           and owning projects, processes or applications throughout their
+//           respective evolutions.
+//           {/* <br></br>
+//           <br></br>
+//           Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
+//           - I think that you'll find that DevOps is exactly where I belong! */}
+//         </p>
+//       </Modal.Body>
+//       <Modal.Footer>
+//         <Button onClick={props.onHide}>Close</Button>
+//       </Modal.Footer>
+//     </Modal>
+//   );
+// }
 
 function MySrAnalystModal(props) {
   return (
@@ -161,18 +161,18 @@ function AppSr() {
   );
 }
 
-function AppDev() {
-  const [modalShow, setModalShow] = React.useState(false);
-  return (
-    <>
-      <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        DevOps Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      </Button>
+// function AppDev() {
+//   const [modalShow, setModalShow] = React.useState(false);
+//   return (
+//     <>
+//       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
+//         DevOps Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+//       </Button>
 
-      <MyDevOpsModal show={modalShow} onHide={() => setModalShow(false)} />
-    </>
-  );
-}
+//       <MyDevOpsModal show={modalShow} onHide={() => setModalShow(false)} />
+//     </>
+//   );
+// }
 
 function AppWeb() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -283,43 +283,52 @@ function About() {
           {/* Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst  */}
           <span className="carousel">
             <AppSr />
-            <AppDev />
+            {/* <AppDev /> */}
             <AppWeb />
           </span>
           <br></br>
           <br></br>Brian is an experienced business operations analyst with
-          specialties in reporting, data analysis, quantitative/qualitative
-          methods, storytelling, and dashboard visualizations, which he has
-          developed over the last 13 years of his professional career in the
-          telecommunications and technology industries. Recently, he took
-          advantage of an opportunity to reinvest and up-skill his portfolio to
-          better prepare for the future demands of the job market and its
-          increasing reliance on technical products, solutions, and services
-          across all sectors.
+          specialties in reporting, strategy, process improvement, data
+          analysis, quantitative/qualitative methods, storytelling, and
+          dashboard visualizations, which he has developed over the last 13
+          years of his professional career in the telecommunications and
+          technology industries. Recently, he took advantage of an opportunity
+          to reinvest and up-skill his portfolio to better prepare for the
+          future demands of the job market and its increasing reliance on
+          technical products, solutions, and services across all sectors.
           <br></br>
           <br></br>
           Over the past year, Brian enrolled and graduated from the Full Stack
           Coding Boot Camp at UNC-Chapel Hill to learn and get hands on
           experience with the latest of the in-demand programming languages,
           skills, methods, tools and the mindset that are so critical in the
-          wildly dynamic world of business and technology.
+          wildly dynamic world of business and technology. On the side, Brian
+          has been consulting at a local law firm to improve upon outreach
+          potential, marketing strategy, office efficiencies and other business
+          development opportunities. He has also just completed a UAV drone
+          ground school, and is preparing to take the exam for his FAA Part 107
+          license, which will lay the foundations for a small business that is
+          ready to spin up and take advantage of a growing and potentially lucrative
+          commercial drone market in the future.
           <br></br>
           <br></br>
           Any day now, Brian hopes to secure a new role where he can continue to
           add value and insight derived from his corporate business experience
           as an Operations Sr. Analyst while flexing his knowledge of the
-          development lifecycle at a great company with amazingly talented
-          people. Brian believes that it is important to fail quickly, take
-          initiative, prioritize the solution over the blame, and always
-          maintain a strong sense of humor, self-awareness, humility, and a
-          global perspective to successfully meet mission objectives.
+          development lifecycle, reporting, strategy and process improvement at
+          a great company with amazingly talented people. Brian prefers to solve
+          big problems with the lightest touch possible, and believes that it is
+          important to fail quickly, take initiative, prioritize the solution
+          over the blame, and always maintain a strong sense of humor,
+          self-awareness, humility, and a global perspective to successfully
+          meet mission objectives.
           <br></br> <br></br>
           <span className="carousel">
             <ControlledCarousel />
           </span>
           <br></br>
-          The lower Cape Fear region of North Carolina is where Brian calls
-          home and shares a beautiful life with his wife and two elementary
+          The lower Cape Fear region of North Carolina is where Brian calls home
+          and shares a beautiful life with his wife and two elementary
           school-aged children, and an elderly yorkshire terrier. He also has a
           love for the outdoors, history, fine cuisine, travel, various hobbies,
           and an ever-widening range of other interests.
@@ -328,8 +337,8 @@ function About() {
           Brian is looking forward to the remainder of 2023, meeting his new
           teammates, leaders, and clients, building those relationships, and
           earning his place at an exciting company that leads with technological
-          solutions that improve our lives, our interactions, and how we choose to do
-          business going forward!
+          solutions that improve our lives, our interactions, and how we choose
+          to do business going forward!
           <br></br>
           <br></br>
           <br></br>
