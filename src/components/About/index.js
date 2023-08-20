@@ -154,24 +154,25 @@ function MyStratModal(props) {
           sources of revenue for long term sustainability and growth. It is of
           obvious and increasing importance as a company scales that they
           continue to review and renew efforts to drive out costs, and become
-          more reliant on technology and LEAN methodology to meet client, enterprise and
-          stakeholder needs and expectations. A{" "}
+          more reliant on technology and LEAN methodology to meet client,
+          enterprise and stakeholder needs and expectations. A{" "}
           <strong>Strategy Analyst</strong> (<em>like me</em>) helps to ensure a
           seamless delivery on those priorities through a broader sense of the
           business, a current and working knowledge of available technologies,
           knowledge of the development lifecycle and most especially, excellent
-          communication and building of cross-functional relationships. You
-          might imagine a generalist of this sort to be involved in everything
-          from designing, building, testing, deploying, automating, securing,
-          and owning projects, processes or applications throughout their
-          respective evolutions.
+          communication skills and a talent for building and maintaining
+          cross-functional relationships. You might imagine a generalist of this
+          sort to be involved in everything from designing, building, testing,
+          deploying, automating, securing, and owning projects, processes or
+          applications throughout their respective evolutions.
           <br></br>
           <br></br>
           Problem solving is at my core and it's simply how I am wired, so
           please check out some of the examples below to see how I think through
           these challenges and offer up solutions that are inexpensive,
           sustainable, agreeable, thoughtful and most importantly in my book,
-          they have the lightest touch possible to achieve our stated goals.
+          that they have the lightest touch possible to achieve our stated
+          goals.
           {/* <br></br>
           <br></br>
           Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
@@ -381,37 +382,35 @@ function About() {
           analysis, quantitative/qualitative methods, storytelling, and
           dashboard visualizations, which he has developed over the last 13
           years of his professional career in the telecommunications and
-          technology industries. Recently, he took advantage of an opportunity
+          technology industries. Last year, he took advantage of an opportunity
           to reinvest and up-skill his portfolio to better prepare for the
           future demands of the job market and its increasing reliance on
-          technical products, solutions, and services across all sectors.
-          <br></br>
-          <br></br>
-          Over the past year, Brian enrolled and graduated from the Full Stack
+          technical products, solutions, and services across all sectors. With
+          this goal in mind, Brian enrolled and graduated from the Full Stack
           Coding Boot Camp at UNC-Chapel Hill to learn and get hands on
           experience with the latest of the in-demand programming languages,
           skills, methods, tools and the mindset that are so critical in the
           wildly dynamic world of business and technology. On the side, Brian
-          has been consulting at a local law firm to improve upon marketing
-          strategy, office efficiencies and other business development
-          opportunities. He has also just completed a UAV drone ground school,
-          and is preparing to take the exam for his FAA Part 107 license, which
-          will lay the foundations for a small business that is ready to spin up
-          and take advantage of a growing and potentially lucrative commercial
-          drone market in the future.
+          has been consulting at a local law firm to improve upon the practice's
+          marketing strategy, client relations, office efficiencies and other
+          business development opportunities. He has also just completed a UAS
+          drone pilot ground school, and is preparing to take the FAA Part 107
+          licensing exam, which will lay the foundations for a small business
+          opportunity that is ready to spin up and take advantage of a growing
+          and potentially lucrative commercial market in the future.
           <br></br>
           <br></br>
           Brian hopes to secure a new permanent role where he can continue to
           add value and insight derived from his corporate business experience
-          as an Operations Sr. Analyst and that as an independent Business Development
-          Consultant while also flexing his knowledge of the development
-          lifecycle, reporting, strategy and process improvement at a great
-          company with amazingly talented people. Brian prefers to solve big
-          problems with the lightest touch possible, and believes that it is
+          as an Operations Sr. Analyst and that as an independent Business
+          Development Consultant while also flexing his knowledge of the
+          development lifecycle, reporting, strategy and process improvement at
+          a great company with amazingly talented people. Brian prefers to solve
+          big problems with the lightest touch possible, and believes that it is
           important to fail quickly, take initiative, prioritize the solution
-          over the blame, and always maintain a sense of humor,
-          self-awareness, humility, and a global perspective to successfully
-          meet mission objectives.
+          over the blame, and always maintain a sense of humor, self-awareness,
+          humility, and a global perspective to successfully meet mission
+          objectives.
           <br></br> <br></br>
           <span className="carousel">
             <ControlledCarousel />
