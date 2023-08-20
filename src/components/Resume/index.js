@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-import bnkCv from "../../assets/pdf/BNKCV2023v8dot1.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2023v8dot2.pdf";
 import bnkCl from "../../assets/pdf/BNKGenCL2023v2.pdf";
 import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
