@@ -450,7 +450,7 @@ function Resume() {
           <em>2023 - Present.</em>
           <br></br> */}
           <strong>
-            Business Development Consultant, Pettijohn, Attorney at Law, PLLC,{" "}
+            Business Development Consultant, Port City Attorney, Brandon C. Pettijohn, Attorney at Law, PLLC,{" "}
           </strong>
           <em>2022 - Present.</em>
           <br></br>
