@@ -2,6 +2,7 @@ import React from "react";
 import bbc from "../../assets/images/bbc.png";
 import landfill from "../../assets/pdf/BNKLandfill.pdf";
 import bbcland from "../../assets/images/bbcland.png";
+import autoFill from "../../assets/images/autofillDemo.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -23,6 +24,13 @@ function Strategy() {
       link: landfill,
       iconGoogle: <i className="fa-brands fa-google icons"></i>,
       src: bbcland,
+    },
+    {
+      title: "Autofill Document Script",
+      description: "Demo of an document generator from a survey response.",
+      link: "https://watch.screencastify.com/v/sEu4NDop34a4R5Y5p17c",
+      iconGoogle: <i className="fa-brands fa-google icons"></i>,
+      src: autoFill,
     },
   ];
 
