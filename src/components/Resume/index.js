@@ -11,6 +11,77 @@ import UNCW from "../../assets/images/uncw3.png";
 import Strayer from "../../assets/images/Strayer1.png";
 // import Verizon from "../../assets/images/verizon1.png";
 
+function ShowMoreBDC() {
+  const [open, setOpen] = useState(false);
+  // const initialText = 'Show More'
+  // const [buttonText, setButtonText] = useState(initialText);
+
+  // function handleClick() {
+  //   setButtonText('Show Less');
+  // }
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <>
+      <Button
+        variant="link p-0"
+        size="sm"
+        onClick={() => setOpen(!open)}
+        aria-controls="show-more-text"
+        aria-expanded={open}
+      >
+        <div>
+          {/* <button onClick={handleClick}>{buttonText}</button> */}
+          <button className="btn-more" onClick={() => setShowMore(!showMore)}>
+            {showMore ? "Show Less ^" : "Show More +"}
+          </button>
+        </div>
+      </Button>
+      <Collapse in={open}>
+        <div id="show-more-text">
+          <strong>Key Contributions:</strong>
+          <ul>
+            <strong>Autocomplete Legal Document Generator Script</strong>
+            <div className="indent-resume">
+              <li>
+                Developed a new automated process that is capable of completing
+                one or several legal documents with a single click submission of
+                an online form that is provided by the client.
+              </li>
+              <li>
+                The fully automated document generator completes in seconds
+                (~3.5 seconds/document) and replaces a manual process that would
+                otherwise take 1-2+ hours of fact finding interviews and manual
+                input per document by the attorney/paralegal, which saves the
+                practice hundreds of dollars for each transaction in actual
+                costs as well as those costs associated with lost economic
+                opportunity.
+                <a
+                  href={
+                    "https://watch.screencastify.com/v/sEu4NDop34a4R5Y5p17c"
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn-more" type="button">
+                    Click for Demo!
+                  </button>
+                </a>
+              </li>
+              <li>
+                Unlimited use case potential for this script which is low
+                maintenance, error-free, customizable, and zero-cost to the user
+                after the initial setup costs. Essentially, any document can be
+                adapted to this process regardless of business scope or sector.
+              </li>
+            </div>
+          </ul>
+        </div>
+      </Collapse>
+    </>
+  );
+}
+
 function ShowMoreSA() {
   const [open, setOpen] = useState(false);
   // const initialText = 'Show More'
@@ -33,7 +104,7 @@ function ShowMoreSA() {
         <div>
           {/* <button onClick={handleClick}>{buttonText}</button> */}
           <button className="btn-more" onClick={() => setShowMore(!showMore)}>
-            {showMore ? "Show Less" : "Show More"}
+            {showMore ? "Show Less ^" : "Show More +"}
           </button>
         </div>
       </Button>
@@ -81,7 +152,7 @@ function ShowMoreCoord() {
       >
         <div>
           <button className="btn-more" onClick={() => setShowMore(!showMore)}>
-            {showMore ? "Show Less" : "Show More"}
+            {showMore ? "Show Less ^" : "Show More +"}
           </button>
         </div>
       </Button>
@@ -122,7 +193,7 @@ function ShowMoreAnalyst() {
       >
         <div>
           <button className="btn-more" onClick={() => setShowMore(!showMore)}>
-            {showMore ? "Show Less" : "Show More"}{" "}
+            {showMore ? "Show Less ^" : "Show More +"}{" "}
             {/* <i className="fa-solid fa-angle-right"></i> */}
           </button>
         </div>
@@ -450,7 +521,8 @@ function Resume() {
           <em>2023 - Present.</em>
           <br></br> */}
           <strong>
-            Business Development Consultant, Port City Attorney, Brandon C. Pettijohn, Attorney at Law, PLLC,{" "}
+            Business Development Consultant, Port City Attorney, Brandon C.
+            Pettijohn, Attorney at Law, PLLC,{" "}
           </strong>
           <em>2022 - Present.</em>
           <br></br>
@@ -461,6 +533,7 @@ function Resume() {
           outreach potential involving the Camp Lejeune Justice Act of 2022.
           Consults regularly on matters involving outside business affairs and
           government acquisitions.
+          <ShowMoreBDC />
           <br></br>
           <br></br>
           <strong>Sr. Analyst, HQ Operations, Verizon, </strong>
@@ -509,27 +582,12 @@ function Resume() {
           <i className="fa-brands fa-python"></i> (<em>In Progress</em>), SQL.
           <br></br>
           <br></br>
-          <strong>Tools:</strong> Bootstrap{" "}
-          <i className="fa-brands fa-bootstrap"></i>, Bulma, Materialize,
-          Handlebars, Font Awesome <i className="fa-solid fa-font-awesome"></i>,
-          MongoDB <i className="fa-brands fa-mdb"></i>, Express.js, React.js{" "}
-          <i className="fa-brands fa-react"></i>, Node.js{" "}
-          <i className="fa-brands fa-node-js"></i>, React Router, Apollo
-          GraphQL, Heroku, Inquirer CLI, Terminal{" "}
-          <i className="fa-solid fa-terminal"></i>, JSON, JWT, Insomnia, Git{" "}
-          <i className="fa-brands fa-git"></i>, GitHub{" "}
-          <i className="fa-brands fa-square-github"></i>, GitHub Gists, Looker
-          Studio (Google Data Studio), Microsoft Power BI, MySQL, NoSQL, SaaS,
-          WFM software (NICE IEX, Verint), Oracle PeopleSoft CRM, NPM{" "}
-          <i className="fa-brands fa-npm"></i>, VS Code, G-Suite{" "}
-          <i className="fa-brands fa-google"></i>, Microsoft Office{" "}
-          <i className="fa-brands fa-microsoft"></i>, Apple IOS{" "}
-          <i className="fa-brands fa-apple"></i>, DJI sUAS.<br></br>
-          <br></br>
-          <strong>Key Concepts:</strong> Responsive Design, Big O Notation, TDD,
-          Agile Development, Data Structures, Security & Session Storage, Local
-          Storage, User Authentication, Version Control and Database Management.
-          <br></br>
+          <strong>Tools:</strong> Bootstrap, Bulma, Materialize, Handlebars,
+          Font Awesome, MongoDB, Express.js, React.js, Node.js, React Router,
+          Apollo GraphQL, Heroku, Inquirer CLI, Terminal, JSON, JWT, Insomnia,
+          Git, GitHub, GitHub Gists, Looker Studio (Google Data Studio),
+          Microsoft Power BI, MySQL, NoSQL, SaaS, Screencastify, WFM software
+          (NICE IEX, Verint), Apple IOS, DJI sUAS.<br></br>
           <br></br>
         </div>
         <strong className="resume-header" id="EDUCATION">
@@ -607,6 +665,9 @@ function Resume() {
           <br></br>
           <br></br>
         </div>
+        <strong className="resume-header" id="TECHNICAL SKILLS">
+          COURSEWORK
+        </strong>
         <div className="indent-resume">
           Verizon Scrum Master Badge <br></br>
           Verizon Agile Mindset Program Badge <br></br>
@@ -672,7 +733,7 @@ function Resume() {
           <br></br>
           Job Type: Full-Time
           <br></br>
-          Experience Level: Associate / Mid-Senior
+          Experience Level: Associate / Consultant / Mid-Senior
         </div>
         <br></br>
         <strong className="resume-header" id="OTHER">
