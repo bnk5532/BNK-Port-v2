@@ -58,7 +58,7 @@ function ShowMoreBDC() {
                 opportunity.
                 <a
                   href={
-                    "https://watch.screencastify.com/v/sEu4NDop34a4R5Y5p17c"
+                    "https://watch.screencastify.com/v/A0ZdALXkasGM0MDwpWhq"
                   }
                   target="_blank"
                   rel="noopener noreferrer"
