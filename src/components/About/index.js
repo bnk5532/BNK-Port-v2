@@ -386,7 +386,7 @@ function About() {
           to reinvest and up-skill his portfolio to better prepare for the
           future demands of the job market and its increasing reliance on
           technical products, solutions, and services across all sectors. With
-          this goal in mind, Brian enrolled and graduated from the Full Stack
+          this outlook in mind, Brian enrolled and graduated from the Full Stack
           Coding Boot Camp at UNC-Chapel Hill to learn and get hands on
           experience with the latest of the in-demand programming languages,
           skills, methods, tools and the mindset that are so critical in the
