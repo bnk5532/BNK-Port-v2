@@ -380,9 +380,9 @@ function About() {
           <br></br>Brian is an experienced business operations analyst with
           specialties in reporting, strategy, process improvement, data
           analysis, quantitative/qualitative methods, storytelling, and
-          dashboard visualizations, which he has developed over the last 13
-          years of his professional career in the telecommunications and
-          technology industries. Last year, he took advantage of an opportunity
+          dashboard visualizations, which he has developed over the last 14
+          years of his professional career in the telecommunications,
+          technology, and consulting industries. Last year, he took advantage of an opportunity
           to reinvest and up-skill his portfolio to better prepare for the
           future demands of the job market and its increasing reliance on
           technical products, solutions, and services across all sectors. With
@@ -393,24 +393,25 @@ function About() {
           wildly dynamic world of business and technology. On the side, Brian
           has been consulting at a local law firm to improve upon the practice's
           marketing strategy, client relations, office efficiencies and other
-          business development opportunities. He has also just completed a UAS
+          business development opportunities. He has also completed a UAS
           drone pilot ground school, and is preparing to take the FAA Part 107
           licensing exam, which will lay the foundations for a small business
           opportunity that is ready to spin up and take advantage of a growing
           and potentially lucrative commercial market in the future.
           <br></br>
           <br></br>
-          Brian hopes to secure a new permanent role where he can continue to
-          add value and insight derived from his corporate business experience
-          as an Operations Sr. Analyst and that as an independent Business
-          Development Consultant while also flexing his knowledge of the
-          development lifecycle, reporting, strategy and process improvement at
-          a great company with amazingly talented people. Brian prefers to solve
-          big problems with the lightest touch possible, and believes that it is
-          important to fail quickly, take initiative, prioritize the solution
-          over the blame, and always maintain a sense of humor, self-awareness,
-          humility, and a global perspective to successfully meet mission
-          objectives.
+          With his youngest having started Kindergarten in the Fall, and 2024 on
+          the horizon, Brian hopes to secure a new permanent role in a growing
+          and fast moving industry where he can continue to add value and
+          insight derived from his corporate business experience and that of his
+          independent consulting background while also leveraging his knowledge
+          of the development lifecycle, reporting, strategy and process
+          improvement at a great company with amazingly talented people. Brian
+          prefers to solve big problems with the lightest touch possible, and
+          believes that it is important to fail quickly, take initiative,
+          prioritize the solution over the blame, and always maintain a sense of
+          humor, self-awareness, humility, and a global perspective to avoid
+          mission creep and achieve desirable outcomes.
           <br></br> <br></br>
           <span className="carousel">
             <ControlledCarousel />
@@ -423,8 +424,9 @@ function About() {
           and an ever-widening range of other interests.
           <br></br>
           <br></br>
-          Brian is looking forward to the remainder of 2023, meeting his new
-          teammates, leaders, and clients, building those relationships, and
+          Brian is looking forward to the remainder of 2023, the holidays and a
+          fresh start in 2024! He also hopes to meet new
+          teammates, leaders, and clients, building on those relationships, and
           earning his place at an exciting company that leads with technological
           solutions that improve our lives, our interactions, and how we choose
           to do business going forward!
