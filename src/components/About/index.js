@@ -400,8 +400,7 @@ function About() {
           and potentially lucrative commercial market in the future.
           <br></br>
           <br></br>
-          With his youngest having started Kindergarten in the Fall, and 2024 on
-          the horizon, Brian hopes to secure a new permanent role in a growing
+          With his youngest having started Kindergarten this past year, Brian hopes to secure a new permanent role in a growing
           and fast moving industry where he can continue to add value and
           insight derived from his corporate business experience and that of his
           independent consulting background while also leveraging his knowledge
@@ -424,7 +423,7 @@ function About() {
           and an ever-widening range of other interests.
           <br></br>
           <br></br>
-          Brian is looking forward to the remainder of 2023, the holidays and a
+          Brian is excited for a 
           fresh start in 2024! He also hopes to meet new
           teammates, leaders, and clients, building on those relationships, and
           earning his place at an exciting company that leads with technological

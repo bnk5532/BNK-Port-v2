@@ -47,7 +47,7 @@ function Footer() {
       </div>
       <div className="footer">
         <strong>
-          <span>&#169;</span>2023 by Brian Nicholas King. All Rights
+          <span>&#169;</span>2024 by Brian Nicholas King. All Rights
           Reserved.
         </strong>
         <br />

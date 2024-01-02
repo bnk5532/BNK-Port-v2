@@ -569,6 +569,25 @@ function Resume() {
           <ShowMoreAnalyst />
           <br></br>
           <br></br>
+          <strong>Contact Center, CS & Tech (various), Verizon, </strong>
+          <em>2009 - 2016.</em>
+          <br></br>
+          <ul>
+            <li>Technical Support Expert (Advanced / Tier 2)</li>
+            <li>Technical Support Coordinator (Tier 1)</li>
+            <li>CS PRO (High Value Accounts & Churn Prevention)</li>
+            <li>Sr. CSR w/Customer Relations Team (Escalations)</li>
+            <li>Customer Service Representative (CSR)</li>
+          </ul>
+          <a
+            href={"https://www.linkedin.com/in/bnk5532/details/experience/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            For more experience details, <em>click here!</em>
+          </a>
+          <br></br>
+          <br></br>
         </div>
         <strong className="resume-header" id="TECHNICAL SKILLS">
           TECHNICAL SKILLS
@@ -578,7 +597,8 @@ function Resume() {
           <strong>Languages:</strong> HTML{" "}
           <i className="fa-brands fa-html5"></i>, CSS{" "}
           <i className="fa-brands fa-css3-alt"></i>, JavaScript{" "}
-          <i className="fa-brands fa-square-js"></i>, Python3{" "}
+          <i className="fa-brands fa-square-js"></i>, Apps Script{" "}
+          <i className="fa-brands fa-google"></i>, Python3{" "}
           <i className="fa-brands fa-python"></i> (<em>In Progress</em>), SQL.
           <br></br>
           <br></br>
@@ -586,7 +606,7 @@ function Resume() {
           Font Awesome, MongoDB, Express.js, React.js, Node.js, React Router,
           Apollo GraphQL, Heroku, Inquirer CLI, Terminal, JSON, JWT, Insomnia,
           Git, GitHub, GitHub Gists, Looker Studio (Google Data Studio),
-          Microsoft Power BI, MySQL, NoSQL, SaaS, Screencastify, WFM software
+          Microsoft Power BI, MySQL, NoSQL, SaaS, Slack, Screencastify, WFM software
           (NICE IEX, Verint), Apple IOS, DJI sUAS.<br></br>
           <br></br>
         </div>
