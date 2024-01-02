@@ -4,15 +4,15 @@ import Wwp from "../../assets/images/wwp1.png";
 import USO from "../../assets/images/uso.png";
 import USflag1 from "../../assets/images/USflag1.png";
 
-// Get the current year
-const currentYear = new Date().getFullYear();
 
-// Update the footer text
-document.getElementById('currentYear').textContent = currentYear;
+// const currentYear = new Date().getFullYear();
 
+// document.getElementById('currentYear').textContent = currentYear;
 
 function Footer() {
+  
   return (
+    
     <div className="p-3 foot-bg">
       <div className="footer-links">
         <p>
@@ -53,12 +53,14 @@ function Footer() {
         </p>
       </div>
       <div className="footer">
-          <p>&copy; <span id="currentYear"></span> by Brian Nicholas King. All Rights
-          Reserved.
+        
+          <strong>&copy; 2024 by Brian Nicholas King. All Rights
+          Reserved.</strong>
+          {/* <span id="currentYear"></span> */}
           <br></br>
           <a href="mailto:bnk5532@gmail.com">bnk5532@gmail.com</a>
         <br /> Leland, North Carolina | USA
-          </p>
+          
       </div>
 
       <div className="charity-title">
@@ -115,6 +117,9 @@ function Footer() {
         </a>
       </div>
     </div>
+  
   );
+  
 }
+
 export default Footer;
