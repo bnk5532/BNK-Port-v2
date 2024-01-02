@@ -4,6 +4,13 @@ import Wwp from "../../assets/images/wwp1.png";
 import USO from "../../assets/images/uso.png";
 import USflag1 from "../../assets/images/USflag1.png";
 
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Update the footer text
+document.getElementById('currentYear').textContent = currentYear;
+
+
 function Footer() {
   return (
     <div className="p-3 foot-bg">
@@ -46,13 +53,12 @@ function Footer() {
         </p>
       </div>
       <div className="footer">
-        <strong>
-          <span>&#169;</span>2024 by Brian Nicholas King. All Rights
+          <p>&copy; <span id="currentYear"></span> by Brian Nicholas King. All Rights
           Reserved.
-        </strong>
-        <br />
-        <a href="mailto:bnk5532@gmail.com">bnk5532@gmail.com</a>
+          <br></br>
+          <a href="mailto:bnk5532@gmail.com">bnk5532@gmail.com</a>
         <br /> Leland, North Carolina | USA
+          </p>
       </div>
 
       <div className="charity-title">

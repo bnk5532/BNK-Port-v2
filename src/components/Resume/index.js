@@ -602,7 +602,7 @@ function Resume() {
           <i className="fa-brands fa-python"></i> (<em>In Progress</em>), SQL.
           <br></br>
           <br></br>
-          <strong>Tools:</strong> Bootstrap, Bulma, Materialize, Handlebars,
+          <strong>Tools:</strong> Bootstrap, Bulma, ChatGPT, Materialize, Handlebars,
           Font Awesome, MongoDB, Express.js, React.js, Node.js, React Router,
           Apollo GraphQL, Heroku, Inquirer CLI, Terminal, JSON, JWT, Insomnia,
           Git, GitHub, GitHub Gists, Looker Studio (Google Data Studio),
