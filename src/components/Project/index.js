@@ -1,13 +1,13 @@
 import React from "react";
-import pawFectPic from "../../assets/images/PawFect Pets.png";
+// import pawFectPic from "../../assets/images/PawFect Pets.png";
 import PilotHubPic from "../../assets/images/FlightHub.png";
 import sunsetPic from "../../assets/images/Sunset 1.jpeg";
 import regexPic from "../../assets/images/regex2.png";
 import eeKeepPic from "../../assets/images/eeKeep1.png";
-import portPic1 from "../../assets/images/port1.png";
+// import portPic1 from "../../assets/images/port1.png";
 import passGenPic from "../../assets/images/passGen1.png";
 import schedulerProPic from "../../assets/images/schedulerPro.png";
-import playerUp from "../../assets/images/playerUp.png";
+// import playerUp from "../../assets/images/playerUp.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -30,32 +30,32 @@ function Project() {
       iconJs: <i className="fa-brands fa-square-js icons"></i>,
       src: PilotHubPic,
     },
-    {
-      title: "PawFect Friends",
-      description: "It was time our pets joined us on social media, too!",
-      github: "https://github.com/bnk5532/Pawfect-Friends",
-      link: "https://pawfect-friends-app.herokuapp.com/",
-      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
-      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
-      iconJs: <i className="fa-brands fa-square-js icons"></i>,
-      iconNode: <i className="fa-brands fa-node-js icons"></i>,
-      iconNPM: <i className="fa-brands fa-npm icons"></i>,
-      src: pawFectPic,
-    },
-    {
-      title: "Player Up!",
-      description: "Get your game on with locals in this new community!",
-      github: "https://github.com/bnk5532/player-up",
-      link: "https://playerup2022.herokuapp.com/",
-      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
-      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
-      iconJs: <i className="fa-brands fa-square-js icons"></i>,
-      iconNode: <i className="fa-brands fa-node-js icons"></i>,
-      iconNPM: <i className="fa-brands fa-npm icons"></i>,
-      iconMDB: <i className="fa-brands fa-mdb icons"></i>,
-      iconReact: <i className="fa-brands fa-react icons"></i>,
-      src: playerUp,
-    },
+    // {
+    //   title: "PawFect Friends",
+    //   description: "It was time our pets joined us on social media, too!",
+    //   github: "https://github.com/bnk5532/Pawfect-Friends",
+    //   link: "https://pawfect-friends-app.herokuapp.com/",
+    //   iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+    //   iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
+    //   iconJs: <i className="fa-brands fa-square-js icons"></i>,
+    //   iconNode: <i className="fa-brands fa-node-js icons"></i>,
+    //   iconNPM: <i className="fa-brands fa-npm icons"></i>,
+    //   src: pawFectPic,
+    // },
+    // {
+    //   title: "Player Up!",
+    //   description: "Get your game on with locals in this new community!",
+    //   github: "https://github.com/bnk5532/player-up",
+    //   link: "https://playerup2022.herokuapp.com/",
+    //   iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+    //   iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
+    //   iconJs: <i className="fa-brands fa-square-js icons"></i>,
+    //   iconNode: <i className="fa-brands fa-node-js icons"></i>,
+    //   iconNPM: <i className="fa-brands fa-npm icons"></i>,
+    //   iconMDB: <i className="fa-brands fa-mdb icons"></i>,
+    //   iconReact: <i className="fa-brands fa-react icons"></i>,
+    //   src: playerUp,
+    // },
     {
       title: "Weather AboveGround",
       description: "Check your local weather in this easy-to-use dashboard.",
@@ -103,15 +103,15 @@ function Project() {
       iconJs: <i className="fa-brands fa-square-js icons"></i>,
       src: passGenPic,
     },
-    {
-      title: "First Developer Portfolio",
-      description: "Wow, just look how far we've come!",
-      github: "https://github.com/bnk5532/player-up",
-      link: "https://bnk5532.github.io/BNK-Port/",
-      iconHTML: <i className="fa-brands fa-html5 icons"></i>,
-      iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
-      src: portPic1,
-    },
+    // {
+    //   title: "First Developer Portfolio",
+    //   description: "Wow, just look how far we've come!",
+    //   github: "https://github.com/bnk5532/player-up",
+    //   link: "https://bnk5532.github.io/BNK-Port/",
+    //   iconHTML: <i className="fa-brands fa-html5 icons"></i>,
+    //   iconCSS: <i className="fa-brands fa-css3-alt icons"></i>,
+    //   src: portPic1,
+    // },
   ];
 
   return (
