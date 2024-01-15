@@ -1,119 +1,12 @@
-import React, { useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
-import familyPic1 from "../../assets/images/familyPic1.png";
-import BannerFam1 from "../../assets/images/BannerFam1.JPG";
-import WilKids1 from "../../assets/images/WilliamsKids22.JPG";
-import xmas22 from "../../assets/images/xmasKids22.JPG";
-import hallowKids22 from "../..//assets/images/HalloKids22.jpeg";
-import easterKids22 from "../../assets/images/EasterKids22.JPG";
-import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
-import BVPrague from "../../assets/images/BVPrague2.jpeg";
-import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
-import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
+import React from "react";
+
 import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import Project from "../Project";
-import Nav from "react-bootstrap/Nav";
 import Resume from "..//Resume";
 import Dashboard from "../Dashboards";
 import Presentation from "../Presentations";
 import Strategy from "../Strategy";
-
-function MyWebDevModal(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Design. Build. Test. Deploy. Repeat. <br></br>
-          <em>Always Be Coding!</em>
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body className="web-dev-modal">
-        <h4>Why hire me as your Web Developer?</h4>
-        <p>
-          Check out just a few of my projects from the last year, and certainly,
-          you'll see why I am an excellent candidate for your next WebDev
-          opening.
-        </p>
-        <Project />
-        <Nav.Link
-          href="https://github.com/bnk5532"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click <i className="fa fa-github is-size-5" aria-hidden="true"></i> or
-          anywhere else that you see the GitHub logo to access my other
-          repositories.
-        </Nav.Link>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
-}
-
-// function MyDevOpsModal(props) {
-//   return (
-//     <Modal
-//       {...props}
-//       size="lg"
-//       aria-labelledby="contained-modal-title-vcenter"
-//       centered
-//     >
-//       <Modal.Header closeButton>
-//         <Modal.Title id="contained-modal-title-vcenter">
-//           <h3>
-//             Live Ops. Talk Tech. Know The Audience. <em>Now Be Human!</em>
-//           </h3>
-//         </Modal.Title>
-//       </Modal.Header>
-//       <Modal.Body>
-//         <h4>Why hire me as your DevOps Analyst?</h4>
-//         <p>
-//           <em>Well,</em> have a quick look at only a few highlights from my
-//           career on the diagram below and I think that you'll have to agree that
-//           I am an excellent candidate for your next DevOps opening.
-//         </p>
-//         <img
-//           className="d-block w-100 pb-3"
-//           src={DevOpsGraph}
-//           alt="DevOps graphic"
-//         />
-//         <h4>What is DevOps?</h4>
-//         <p>
-//           Broadly conceived, <strong>DevOps</strong> lives at the crossroads of
-//           the development, operations, and quality assurance divisions of a
-//           business and is of increasing importance as a company scales, drives
-//           out costs, and becomes more reliant on the technology to meet client,
-//           enterprise and stakeholder needs and expectations. A{" "}
-//           <strong>DevOps Analyst</strong> (<em>like me</em>) helps to ensure a
-//           seamless delivery on those priorities through a broader sense of the
-//           business, a current and working knowledge of available technologies,
-//           knowledge of the development lifecycle and most especially, excellent
-//           communication and building of cross-functional relationships. You
-//           might imagine a generalist of this sort to be involved in everything
-//           from designing, building, testing, deploying, automating, securing,
-//           and owning projects, processes or applications throughout their
-//           respective evolutions.
-//           {/* <br></br>
-//           <br></br>
-//           Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
-//           - I think that you'll find that DevOps is exactly where I belong! */}
-//         </p>
-//       </Modal.Body>
-//       <Modal.Footer>
-//         <Button onClick={props.onHide}>Close</Button>
-//       </Modal.Footer>
-//     </Modal>
-//   );
-// }
 
 function MyStratModal(props) {
   return (
@@ -231,7 +124,7 @@ function AppSr() {
   return (
     <>
       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Sr. Ops Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        Senior Operations Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       </Button>
 
       <MySrAnalystModal show={modalShow} onHide={() => setModalShow(false)} />
@@ -239,128 +132,16 @@ function AppSr() {
   );
 }
 
-// function AppDev() {
-//   const [modalShow, setModalShow] = React.useState(false);
-//   return (
-//     <>
-//       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-//         DevOps Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-//       </Button>
-
-//       <MyDevOpsModal show={modalShow} onHide={() => setModalShow(false)} />
-//     </>
-//   );
-// }
 function AppStrat() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Strategy Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        Strategist
       </Button>
 
       <MyStratModal show={modalShow} onHide={() => setModalShow(false)} />
     </>
-  );
-}
-function AppWeb() {
-  const [modalShow, setModalShow] = React.useState(false);
-  return (
-    <>
-      <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Web Developer
-      </Button>
-
-      <MyWebDevModal show={modalShow} onHide={() => setModalShow(false)} />
-    </>
-  );
-}
-
-function ControlledCarousel() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
-
-  return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={familyPic1}
-          alt="Colonial Williamsburg Family 2019"
-        />
-        {/* <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption> */}
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={BannerFam1}
-          alt="Banner Elk, NC Family 2022"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={BVPrague}
-          alt="Brian & Vlasta Prague 2018"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={WilKids1}
-          alt="Williamsburg Kids 2022"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={easterKids22}
-          alt="Easter Kids 2022"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={OakIsland}
-          alt="Oak Island with kids 2018"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={xmas22}
-          alt="Christmas with Daddy 2021"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={BriVicSnow1}
-          alt="Daddy & Victoria Snow 2018"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={hallowKids22}
-          alt="Gordonsville, VA Kids 2022"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={wilFam22}
-          alt="Colonial Williamsburg Family 2022"
-        />
-      </Carousel.Item>
-    </Carousel>
   );
 }
 
@@ -374,63 +155,49 @@ function About() {
             <AppSr />
             {/* <AppDev /> */}
             <AppStrat />
-            <AppWeb />
           </span>
           <br></br>
-          <br></br>Brian is an experienced business operations analyst with
-          specialties in reporting, strategy, process improvement, data
-          analysis, quantitative/qualitative methods, storytelling, and
-          dashboard visualizations, which he has developed over the last 14
-          years of his professional career in the telecommunications,
-          technology, and consulting industries. Last year, he took advantage of an opportunity
-          to reinvest and up-skill his portfolio to better prepare for the
-          future demands of the job market and its increasing reliance on
-          technical products, solutions, and services across all sectors. With
-          this outlook in mind, Brian enrolled and graduated from the Full Stack
-          Coding Boot Camp at UNC-Chapel Hill to learn and get hands on
-          experience with the latest of the in-demand programming languages,
-          skills, methods, tools and the mindset that are so critical in the
-          wildly dynamic world of business and technology. On the side, Brian
-          has been consulting at a local law firm to improve upon the practice's
-          marketing strategy, client relations, office efficiencies and other
-          business development opportunities. He has also completed a UAS
-          drone pilot ground school, and is preparing to take the FAA Part 107
-          licensing exam, which will lay the foundations for a small business
-          opportunity that is ready to spin up and take advantage of a growing
-          and potentially lucrative commercial market in the future.
           <br></br>
-          <br></br>
-          With his youngest having started Kindergarten this past year, Brian hopes to secure a new permanent role in a growing
-          and fast moving industry where he can continue to add value and
-          insight derived from his corporate business experience and that of his
-          independent consulting background while also leveraging his knowledge
-          of the development lifecycle, reporting, strategy and process
-          improvement at a great company with amazingly talented people. Brian
-          prefers to solve big problems with the lightest touch possible, and
-          believes that it is important to fail quickly, take initiative,
-          prioritize the solution over the blame, and always maintain a sense of
-          humor, self-awareness, humility, and a global perspective to avoid
-          mission creep and achieve desirable outcomes.
-          <br></br> <br></br>
-          <span className="carousel">
-            <ControlledCarousel />
-          </span>
-          <br></br>
-          The lower Cape Fear region of North Carolina is where Brian calls home
-          and shares a beautiful life with his wife and two elementary
-          school-aged children, and an elderly yorkshire terrier. He also has a
-          love for the outdoors, history, fine cuisine, travel, various hobbies,
-          and an ever-widening range of other interests.
-          <br></br>
-          <br></br>
-          Brian is excited for a 
-          fresh start in 2024! He also hopes to meet new
-          teammates, leaders, and clients, building on those relationships, and
-          earning his place at an exciting company that leads with technological
-          solutions that improve our lives, our interactions, and how we choose
-          to do business going forward!
-          <br></br>
-          <br></br>
+          <p>
+            Brian is a <strong>senior operations analyst</strong> with over{" "}
+            <strong>14 years</strong> of his experience in the
+            telecommunications, technology, and consulting industries.{" "}
+          </p>
+          <p>
+            {" "}
+            He earned his <strong>
+              Master of Business Administration
+            </strong>{" "}
+            with a concentration in <em>Acquisitions</em> from Strayer
+            University, and his Bachelor of Arts in <em>Anthropology</em> from
+            the University of North Carolina Wilmington.
+          </p>
+          <p>
+            Most recently, he enrolled and graduated from a{" "}
+            <strong>450+ hour, Coding Boot Camp</strong> at the University of
+            North Carolina Chapel Hill to learn Javascript web development and
+            to become better equipped to meet the challenges of a highly dynamic
+            business sector that is increasingly dependent on the seamless
+            integration of technology that touches all aspects of 21st century life.
+          </p>
+          <p>
+            At his core, Brian is a problem solver, and he enjoys the challenge
+            of working problems where others have failed or passed on
+            previously. He leads with the idea that solutions can be simple,
+            targeted, and inexpensive while having a measureable impact on those
+            things that matter.
+            <br></br>
+            <br></br>
+            <q>
+              <em>
+                Fail quick, take initiative, prioritize the solution, not the
+                blame, row as a team, and always maintain your sense of humor!
+              </em>{" "}
+            </q>
+            <br></br>
+            <em>- Brian N. King</em>
+          </p>
+
           <br></br>
         </div>
       </div>

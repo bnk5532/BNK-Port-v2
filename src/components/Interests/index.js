@@ -400,7 +400,7 @@ function Interests() {
           and potentially lucrative commercial market in the future.
           <br></br>
           <br></br>
-          With his youngest having started Kindergarten this past year, Brian hopes to secure a new permanent role in a growing
+          With his youngest having started kindergarten this past year, Brian hopes to secure a new permanent role in a growing
           and fast moving industry where he can continue to add value and
           insight derived from his corporate business experience and that of his
           independent consulting background while also leveraging his knowledge
