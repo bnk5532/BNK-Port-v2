@@ -422,7 +422,7 @@ function Interests() {
           <p>
             I have a great love for the outdoors, history, fine cuisine, travel,
             collecting, aviation, photography, wildlife, reading, DIY projects, and an
-            ever-widening range of other hobbies and interests. I am super lucky to
+            ever-widening range of other hobbies and interests. I am lucky to
             share many of these interests and experiences with my close family and friends!
           </p>
           {/* 2024 is going to be a great year, and we have so much to look forward
