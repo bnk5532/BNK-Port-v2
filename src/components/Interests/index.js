@@ -1,15 +1,33 @@
-import React, { useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
-import familyPic1 from "../../assets/images/familyPic1.png";
+// import React, {useState} from "react";
+// import Carousel from "react-bootstrap/Carousel";
+// import familyPic1 from "../../assets/images/familyPic1.png";
 import BannerFam1 from "../../assets/images/BannerFam1.JPG";
 import WilKids1 from "../../assets/images/WilliamsKids22.JPG";
 import xmas22 from "../../assets/images/xmasKids22.JPG";
 import hallowKids22 from "../..//assets/images/HalloKids22.jpeg";
 import easterKids22 from "../../assets/images/EasterKids22.JPG";
 import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
+import VEKbridge from "../../assets/images/VEKbridge.jpg";
+import Oakisl1 from "../../assets/images/OakIsl1.jpg";
+import OldPoint from "../../assets/images/OldPoint.png";
+import VAKtrump1 from "../../assets/images/VAKtrump1.jpg";
+import FtAnd2 from "../../assets/images/FtAnd2.jpg";
+import Bretzel1 from "../../assets/images/Bretzel1.jpg";
+import CWkids1 from "../../assets/images/CWkids1.png";
+import CWkids2 from "../../assets/images/CWkids2.png";
+import BelvilleKids1 from "../../assets/images/BelvilleKids1.png";
 import BVPrague from "../../assets/images/BVPrague2.jpeg";
-import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
-import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
+import VEKf2 from "../../assets/images/VEKf2.JPG";
+import KidsAzal from "../../assets/images/KidsAzaleas1.JPG";
+// import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
+// import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
+import React from "react";
+import {
+  // MDBContainer,
+  MDBCol,
+  MDBRow,
+} from "mdb-react-ui-kit";
+
 // import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
 // import Button from "react-bootstrap/Button";
 // import Modal from "react-bootstrap/Modal";
@@ -276,91 +294,207 @@ import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
 //   );
 // }
 
-function ControlledCarousel() {
-  const [index, setIndex] = useState(0);
+// function ControlledCarousel() {
+//   const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+//   const handleSelect = (selectedIndex, e) => {
+//     setIndex(selectedIndex);
+//   };
 
+//   return (
+//     <Carousel activeIndex={index} onSelect={handleSelect}>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={familyPic1}
+//           alt="Colonial Williamsburg Family 2019"
+//         />
+//         {/* <Carousel.Caption>
+//           <h3>First slide label</h3>
+//           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+//         </Carousel.Caption> */}
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={BannerFam1}
+//           alt="Banner Elk, NC Family 2022"
+//         />
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={BVPrague}
+//           alt="Brian & Vlasta Prague 2018"
+//         />
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={WilKids1}
+//           alt="Williamsburg Kids 2022"
+//         />
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={easterKids22}
+//           alt="Easter Kids 2022"
+//         />
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={OakIsland}
+//           alt="Oak Island with kids 2018"
+//         />
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={xmas22}
+//           alt="Christmas with Daddy 2021"
+//         />
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={BriVicSnow1}
+//           alt="Daddy & Victoria Snow 2018"
+//         />
+//       </Carousel.Item>
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={hallowKids22}
+//           alt="Gordonsville, VA Kids 2022"
+//         />
+//       </Carousel.Item>
+
+//       <Carousel.Item>
+//         <img
+//           className="d-block w-100"
+//           src={wilFam22}
+//           alt="Colonial Williamsburg Family 2022"
+//         />
+//       </Carousel.Item>
+//     </Carousel>
+//   );
+// }
+
+function PhotoGrid() {
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+    <MDBRow>
+      <MDBCol lg={4} md={12} className="mb-4 mb-lg-0">
         <img
-          className="d-block w-100"
-          src={familyPic1}
-          alt="Colonial Williamsburg Family 2019"
+          src={OldPoint}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Old Point Lighthouse, Virginiar"
         />
-        {/* <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption> */}
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={BannerFam1}
-          alt="Banner Elk, NC Family 2022"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={BVPrague}
-          alt="Brian & Vlasta Prague 2018"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={WilKids1}
-          alt="Williamsburg Kids 2022"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={easterKids22}
-          alt="Easter Kids 2022"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={OakIsland}
-          alt="Oak Island with kids 2018"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={xmas22}
-          alt="Christmas with Daddy 2021"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={BriVicSnow1}
-          alt="Daddy & Victoria Snow 2018"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={hallowKids22}
-          alt="Gordonsville, VA Kids 2022"
-        />
-      </Carousel.Item>
 
-      <Carousel.Item>
         <img
-          className="d-block w-100"
-          src={wilFam22}
-          alt="Colonial Williamsburg Family 2022"
+          src={WilKids1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria & Brian Jr. in Williamsburg, Virginia"
         />
-      </Carousel.Item>
-    </Carousel>
+
+        <img
+          src={FtAnd2}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Vlasta & Kids at Ft. Anderson, NC"
+        />
+
+        <img
+          src={VEKbridge}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria on bridge in Waterford"
+        />
+        <img
+          src={CWkids1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria & Brian Jr. in Colonial Williamsburg"
+        />
+        
+        <img
+          src={KidsAzal}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria & Brian Jr. in with Azaleas"
+        />
+
+
+      </MDBCol>
+
+      <MDBCol lg={4} className="mb-4 mb-lg-0">
+        <img
+          src={easterKids22}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria & Brian Jr. at Porters Neck Easter Event"
+        />
+
+        <img
+          src={hallowKids22}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria & Brian Jr. on pumpkin wagon"
+        />
+        <img
+          src={Oakisl1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Brian with kids at Oak Island, NC"
+        />
+         <img
+          src={BVPrague}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Brian & Vlasta in Prague, CZ"
+        />
+        <img
+          src={BelvilleKids1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria & Brian Jr. at Belville Park"
+        />
+          <img
+          src={Bretzel1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Yorkshire Terrier Bretzel posing in woods"
+        />
+      </MDBCol>
+
+      <MDBCol lg={4} className="mb-4 mb-lg-0">
+        <img
+          src={BannerFam1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Family at Banner Elk Winery"
+        />
+
+        <img
+          src={xmas22}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Family on Christmas morning, 2022"
+        />
+
+        <img
+          src={wilFam22}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Family in Colonial Williamsburg"
+        />
+
+<img
+          src={VAKtrump1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Vlasta at Trump winery"
+        />
+
+<img
+          src={CWkids2}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria & Brian Jr. in Colonial Williamsburg"
+        />
+        <img
+          src={VEKf2}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria in flowers"
+        />
+      </MDBCol>
+    </MDBRow>
   );
 }
 
@@ -414,7 +548,8 @@ function Interests() {
           <p>
             In this section, I wanted to take some liberties and share a bit
             more about my interests, values, motivations and those things that
-            keep me grounded and inform my decisions both in life and in business.{" "}
+            keep me grounded and inform my decisions both in life and in
+            business.{" "}
             <em>This is just for fun, so I do hope that you will enjoy!</em>
           </p>
           <p>
@@ -425,10 +560,10 @@ function Interests() {
           </p>
           <p>
             I have a great love for the outdoors, history, fine cuisine, travel,
-            collecting, aviation, photography, wildlife, DIY projects,
-            and an ever-widening range of other hobbies and interests. I am
-            lucky to share many of these interests and experiences with my close
-            family and friends!
+            collecting, aviation, photography, wildlife, DIY projects, and an
+            ever-widening range of other hobbies and interests. I am lucky to
+            share many of these interests and experiences with my close family
+            and friends!
           </p>
           {/* 2024 is going to be a great year, and we have so much to look forward
           to and to be thankful for! With our youngest having started
@@ -444,10 +579,11 @@ function Interests() {
           maintain a sense of humor, self-awareness, humility, and a global
           perspective to avoid mission creep and achieve desirable outcomes.
           <br></br> <br></br> */}
-          <span className="carousel">
+          {/* <span className="carousel">
             <ControlledCarousel />
-          </span>
-          <br></br>
+            
+          </span> */}
+          <PhotoGrid />
           <p>
             We are so fortunate and thankful for all that we have been given and
             achieved so far! Thank you, <em>thank you,</em> especially to all of
