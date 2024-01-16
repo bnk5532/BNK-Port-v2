@@ -401,7 +401,6 @@ function Interests() {
           <br></br> */}
           FAMILY &nbsp;&nbsp;|&nbsp;&nbsp; TRAVEL &nbsp;&nbsp;|&nbsp;&nbsp;
           EXPERIENCES &nbsp;&nbsp;|&nbsp;&nbsp; OUTDOORS
-          
           <br></br>
           <br></br>
           <h2>
@@ -413,16 +412,23 @@ function Interests() {
             </span>
           </h2>
           <p>
+            In this section, I wanted to take some liberties and share a bit
+            more about my interests, values, motivations and those things that
+            keep me grounded and inform my decisions both in life and in business.{" "}
+            <em>This is just for fun, so I do hope that you will enjoy!</em>
+          </p>
+          <p>
             The lower Cape Fear region of North Carolina is where I call home
-            and share a beautiful life with my wife and two elementary
-            school-aged children, Victoria and Brian Jr. and Bretzel, an elderly
-            yorkshire terrier.
+            and share a beautiful life with my wife, Vlasta and two elementary
+            school-aged children, Victoria and Brian Jr. and our 16 year old
+            yorkshire terrier, Bretzel.
           </p>
           <p>
             I have a great love for the outdoors, history, fine cuisine, travel,
-            collecting, aviation, photography, wildlife, reading, DIY projects, and an
-            ever-widening range of other hobbies and interests. I am lucky to
-            share many of these interests and experiences with my close family and friends!
+            collecting, aviation, photography, wildlife, DIY projects,
+            and an ever-widening range of other hobbies and interests. I am
+            lucky to share many of these interests and experiences with my close
+            family and friends!
           </p>
           {/* 2024 is going to be a great year, and we have so much to look forward
           to and to be thankful for! With our youngest having started

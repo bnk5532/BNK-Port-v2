@@ -4,17 +4,15 @@ import Wwp from "../../assets/images/wwp1.png";
 import USO from "../../assets/images/uso.png";
 import USflag1 from "../../assets/images/USflag1.png";
 
-
 // const currentYear = new Date().getFullYear();
+// document.getElementById("currentYear").textContent = currentYear;
 
-// document.getElementById('currentYear').textContent = currentYear;
 
 function Footer() {
-  
   return (
-    
     <div className="p-3 foot-bg">
       <div className="footer-links">
+
         <p>
           <a className="p-3" href="mailto:bnk5532@gmail.com">
             <i className="fa-solid fa-envelope" aria-hidden="true"></i>
@@ -53,14 +51,15 @@ function Footer() {
         </p>
       </div>
       <div className="footer">
-        
-          <strong>&copy; 2024 by Brian Nicholas King. All Rights
-          Reserved.</strong>
+        <strong>
+          &copy; 2024 by Brian Nicholas King. All Rights Reserved.
+        </strong>
+      
           {/* <span id="currentYear"></span> */}
-          <br></br>
-          <a href="mailto:bnk5532@gmail.com">bnk5532@gmail.com</a>
+       
+        <br></br>
+        <a href="mailto:bnk5532@gmail.com">bnk5532@gmail.com</a>
         <br /> Leland, North Carolina | USA
-          
       </div>
 
       <div className="charity-title">
@@ -117,9 +116,7 @@ function Footer() {
         </a>
       </div>
     </div>
-  
   );
-  
 }
 
 export default Footer;
