@@ -401,8 +401,7 @@ function Interests() {
           <br></br> */}
           FAMILY &nbsp;&nbsp;|&nbsp;&nbsp; TRAVEL &nbsp;&nbsp;|&nbsp;&nbsp;
           EXPERIENCES &nbsp;&nbsp;|&nbsp;&nbsp; OUTDOORS
-          &nbsp;&nbsp;|&nbsp;&nbsp; HISTORY &nbsp;&nbsp;|&nbsp;&nbsp;
-          PHOTOGRAPHY
+          
           <br></br>
           <br></br>
           <h2>
