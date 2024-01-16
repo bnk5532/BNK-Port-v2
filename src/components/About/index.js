@@ -176,26 +176,26 @@ function About() {
             Most recently, he enrolled and graduated from a{" "}
             <strong>450+ hour, Coding Boot Camp</strong> at the University of
             North Carolina Chapel Hill to learn Javascript web development and
-            to become better equipped to meet the challenges of a highly dynamic
-            business sector that is increasingly dependent on the seamless
-            integration of technology that touches all aspects of 21st century life.
+            to become better equipped to meet the challenges of a dynamic market
+            that is increasingly dependent on the seamless integration of
+            technology that touches all aspects of our 21st century existence.
           </p>
           <p>
-            At his core, Brian is a problem solver, and he enjoys the challenge
-            of working problems where others have failed or passed on
-            previously. He leads with the idea that solutions can be simple,
-            targeted, and inexpensive while having a measureable impact on those
-            things that matter.
+           A <strong>thoughtful problem solver,</strong> Brian revels in
+            the challenge of working out problems where others have failed or
+            passed on them previously. He leads with the conviction that the
+            solution can, and most often should be, simple, targeted, and
+            relatively inexpensive while having both the intended and measurable
+            impact on those things or people that actually matter in ordinary
+            life or business all the same.
             <br></br>
             <br></br>
             <q>
               <em>
-                Fail quick, take initiative, prioritize the solution, not the
-                blame, row as a team, and always maintain your sense of humor!
+                Fail quick, seize initiative, forget the blame, support the team, and always maintain a glowing sense of humor!
               </em>{" "}
             </q>
             <br></br>
-            <em>- Brian N. King</em>
           </p>
 
           <br></br>

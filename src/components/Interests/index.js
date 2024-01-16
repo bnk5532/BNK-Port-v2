@@ -10,54 +10,54 @@ import wilFam22 from "../../assets/images/WilliamsburgFam22.jpg";
 import BVPrague from "../../assets/images/BVPrague2.jpeg";
 import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
-import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
-import Project from "../Project";
-import Nav from "react-bootstrap/Nav";
-import Resume from "..//Resume";
-import Dashboard from "../Dashboards";
-import Presentation from "../Presentations";
-import Strategy from "../Strategy";
+// import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
+// import Button from "react-bootstrap/Button";
+// import Modal from "react-bootstrap/Modal";
+// import Project from "../Project";
+// import Nav from "react-bootstrap/Nav";
+// import Resume from "..//Resume";
+// import Dashboard from "../Dashboards";
+// import Presentation from "../Presentations";
+// import Strategy from "../Strategy";
 
-function MyWebDevModal(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Design. Build. Test. Deploy. Repeat. <br></br>
-          <em>Always Be Coding!</em>
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body className="web-dev-modal">
-        <h4>Why hire me as your Web Developer?</h4>
-        <p>
-          Check out just a few of my projects from the last year, and certainly,
-          you'll see why I am an excellent candidate for your next WebDev
-          opening.
-        </p>
-        <Project />
-        <Nav.Link
-          href="https://github.com/bnk5532"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click <i className="fa fa-github is-size-5" aria-hidden="true"></i> or
-          anywhere else that you see the GitHub logo to access my other
-          repositories.
-        </Nav.Link>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
-}
+// function MyWebDevModal(props) {
+//   return (
+//     <Modal
+//       {...props}
+//       size="lg"
+//       aria-labelledby="contained-modal-title-vcenter"
+//       centered
+//     >
+//       <Modal.Header closeButton>
+//         <Modal.Title id="contained-modal-title-vcenter">
+//           Design. Build. Test. Deploy. Repeat. <br></br>
+//           <em>Always Be Coding!</em>
+//         </Modal.Title>
+//       </Modal.Header>
+//       <Modal.Body className="web-dev-modal">
+//         <h4>Why hire me as your Web Developer?</h4>
+//         <p>
+//           Check out just a few of my projects from the last year, and certainly,
+//           you'll see why I am an excellent candidate for your next WebDev
+//           opening.
+//         </p>
+//         <Project />
+//         <Nav.Link
+//           href="https://github.com/bnk5532"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Click <i className="fa fa-github is-size-5" aria-hidden="true"></i> or
+//           anywhere else that you see the GitHub logo to access my other
+//           repositories.
+//         </Nav.Link>
+//       </Modal.Body>
+//       <Modal.Footer>
+//         <Button onClick={props.onHide}>Close</Button>
+//       </Modal.Footer>
+//     </Modal>
+//   );
+// }
 
 // function MyDevOpsModal(props) {
 //   return (
@@ -115,166 +115,166 @@ function MyWebDevModal(props) {
 //   );
 // }
 
-function MyStratModal(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          <h3>
-            Live Ops. Talk Tech. Know The Audience. <em>Now Be Human!</em>
-          </h3>
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <h4>Why hire me as your Strategy Analyst?</h4>
-        <p>
-          <em>Well,</em> have a quick look at only a few highlights from my
-          career on the diagram below and I think that you'll have to agree that
-          I am an excellent candidate for your next Strategy or Process
-          Improvement Analyst opening.
-        </p>
-        <img
-          className="d-block w-100 pb-3"
-          src={DevOpsGraph}
-          alt="DevOps graphic"
-        />
-        <h4>What is Strategy & Continuous Improvement?</h4>
-        <p>
-          Broadly conceived, a business strategist lives at the crossroads of
-          many different disciplines and specialties, which in a modern context
-          might include knowledge or experience in software development,
-          operations, project management, process improvement, and quality
-          assurance just to name a few heavy hitters. Saving money and improving
-          upon efficiencies is often as important, if not more, than finding new
-          sources of revenue for long term sustainability and growth. It is of
-          obvious and increasing importance as a company scales that they
-          continue to review and renew efforts to drive out costs, and become
-          more reliant on technology and LEAN methodology to meet client,
-          enterprise and stakeholder needs and expectations. A{" "}
-          <strong>Strategy Analyst</strong> (<em>like me</em>) helps to ensure a
-          seamless delivery on those priorities through a broader sense of the
-          business, a current and working knowledge of available technologies,
-          knowledge of the development lifecycle and most especially, excellent
-          communication skills and a talent for building and maintaining
-          cross-functional relationships. You might imagine a generalist of this
-          sort to be involved in everything from designing, building, testing,
-          deploying, automating, securing, and owning projects, processes or
-          applications throughout their respective evolutions.
-          <br></br>
-          <br></br>
-          Problem solving is at my core and it's simply how I am wired, so
-          please check out some of the examples below to see how I think through
-          these challenges and offer up solutions that are inexpensive,
-          sustainable, agreeable, thoughtful and most importantly in my book,
-          that they have the lightest touch possible to achieve our stated
-          goals.
-          {/* <br></br>
-          <br></br>
-          Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
-          - I think that you'll find that DevOps is exactly where I belong! */}
-        </p>
-        <h2>Dashboards & Tools</h2>
-        <Dashboard />
-        <h2>Strategy & Process Improvement</h2>
-        <Strategy />
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
-}
+// function MyStratModal(props) {
+//   return (
+//     <Modal
+//       {...props}
+//       size="lg"
+//       aria-labelledby="contained-modal-title-vcenter"
+//       centered
+//     >
+//       <Modal.Header closeButton>
+//         <Modal.Title id="contained-modal-title-vcenter">
+//           <h3>
+//             Live Ops. Talk Tech. Know The Audience. <em>Now Be Human!</em>
+//           </h3>
+//         </Modal.Title>
+//       </Modal.Header>
+//       <Modal.Body>
+//         <h4>Why hire me as your Strategy Analyst?</h4>
+//         <p>
+//           <em>Well,</em> have a quick look at only a few highlights from my
+//           career on the diagram below and I think that you'll have to agree that
+//           I am an excellent candidate for your next Strategy or Process
+//           Improvement Analyst opening.
+//         </p>
+//         <img
+//           className="d-block w-100 pb-3"
+//           src={DevOpsGraph}
+//           alt="DevOps graphic"
+//         />
+//         <h4>What is Strategy & Continuous Improvement?</h4>
+//         <p>
+//           Broadly conceived, a business strategist lives at the crossroads of
+//           many different disciplines and specialties, which in a modern context
+//           might include knowledge or experience in software development,
+//           operations, project management, process improvement, and quality
+//           assurance just to name a few heavy hitters. Saving money and improving
+//           upon efficiencies is often as important, if not more, than finding new
+//           sources of revenue for long term sustainability and growth. It is of
+//           obvious and increasing importance as a company scales that they
+//           continue to review and renew efforts to drive out costs, and become
+//           more reliant on technology and LEAN methodology to meet client,
+//           enterprise and stakeholder needs and expectations. A{" "}
+//           <strong>Strategy Analyst</strong> (<em>like me</em>) helps to ensure a
+//           seamless delivery on those priorities through a broader sense of the
+//           business, a current and working knowledge of available technologies,
+//           knowledge of the development lifecycle and most especially, excellent
+//           communication skills and a talent for building and maintaining
+//           cross-functional relationships. You might imagine a generalist of this
+//           sort to be involved in everything from designing, building, testing,
+//           deploying, automating, securing, and owning projects, processes or
+//           applications throughout their respective evolutions.
+//           <br></br>
+//           <br></br>
+//           Problem solving is at my core and it's simply how I am wired, so
+//           please check out some of the examples below to see how I think through
+//           these challenges and offer up solutions that are inexpensive,
+//           sustainable, agreeable, thoughtful and most importantly in my book,
+//           that they have the lightest touch possible to achieve our stated
+//           goals.
+//           {/* <br></br>
+//           <br></br>
+//           Dig into my experience, my credentials, reach out to my former leaders and teammates, and then let's start a conversation
+//           - I think that you'll find that DevOps is exactly where I belong! */}
+//         </p>
+//         <h2>Dashboards & Tools</h2>
+//         <Dashboard />
+//         <h2>Strategy & Process Improvement</h2>
+//         <Strategy />
+//       </Modal.Body>
+//       <Modal.Footer>
+//         <Button onClick={props.onHide}>Close</Button>
+//       </Modal.Footer>
+//     </Modal>
+//   );
+// }
 
-function MySrAnalystModal(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Business Ops Analyst.{" "}
-          <em>Supporting those that support our clients.</em>
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <h4>Why hire me as your Business Analyst?</h4>
-        <p>
-          Check out these fun dashboard visualizations, my presentation building
-          skills and review my experience as a Sr. Operations Analyst to get a
-          little taste of what I can do for you and your company!
-        </p>
-        <h2>Dashboards & Tools</h2>
-        <Dashboard />
-        <h2>Strategy & Process Improvement</h2>
-        <Strategy />
-        <h2>Presentations</h2>
-        <Presentation />
-        <Resume />
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
-}
+// function MySrAnalystModal(props) {
+//   return (
+//     <Modal
+//       {...props}
+//       size="lg"
+//       aria-labelledby="contained-modal-title-vcenter"
+//       centered
+//     >
+//       <Modal.Header closeButton>
+//         <Modal.Title id="contained-modal-title-vcenter">
+//           Business Ops Analyst.{" "}
+//           <em>Supporting those that support our clients.</em>
+//         </Modal.Title>
+//       </Modal.Header>
+//       <Modal.Body>
+//         <h4>Why hire me as your Business Analyst?</h4>
+//         <p>
+//           Check out these fun dashboard visualizations, my presentation building
+//           skills and review my experience as a Sr. Operations Analyst to get a
+//           little taste of what I can do for you and your company!
+//         </p>
+//         <h2>Dashboards & Tools</h2>
+//         <Dashboard />
+//         <h2>Strategy & Process Improvement</h2>
+//         <Strategy />
+//         <h2>Presentations</h2>
+//         <Presentation />
+//         <Resume />
+//       </Modal.Body>
+//       <Modal.Footer>
+//         <Button onClick={props.onHide}>Close</Button>
+//       </Modal.Footer>
+//     </Modal>
+//   );
+// }
 
-function AppSr() {
-  const [modalShow, setModalShow] = React.useState(false);
-  return (
-    <>
-      <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Sr. Ops Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      </Button>
-
-      <MySrAnalystModal show={modalShow} onHide={() => setModalShow(false)} />
-    </>
-  );
-}
-
-// function AppDev() {
+// function AppSr() {
 //   const [modalShow, setModalShow] = React.useState(false);
 //   return (
 //     <>
 //       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-//         DevOps Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+//         Sr. Ops Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 //       </Button>
 
-//       <MyDevOpsModal show={modalShow} onHide={() => setModalShow(false)} />
+//       <MySrAnalystModal show={modalShow} onHide={() => setModalShow(false)} />
 //     </>
 //   );
 // }
-function AppStrat() {
-  const [modalShow, setModalShow] = React.useState(false);
-  return (
-    <>
-      <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Strategy Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      </Button>
 
-      <MyStratModal show={modalShow} onHide={() => setModalShow(false)} />
-    </>
-  );
-}
-function AppWeb() {
-  const [modalShow, setModalShow] = React.useState(false);
-  return (
-    <>
-      <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Web Developer
-      </Button>
+// // function AppDev() {
+// //   const [modalShow, setModalShow] = React.useState(false);
+// //   return (
+// //     <>
+// //       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
+// //         DevOps Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+// //       </Button>
 
-      <MyWebDevModal show={modalShow} onHide={() => setModalShow(false)} />
-    </>
-  );
-}
+// //       <MyDevOpsModal show={modalShow} onHide={() => setModalShow(false)} />
+// //     </>
+// //   );
+// // }
+// function AppStrat() {
+//   const [modalShow, setModalShow] = React.useState(false);
+//   return (
+//     <>
+//       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
+//         Strategy Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+//       </Button>
+
+//       <MyStratModal show={modalShow} onHide={() => setModalShow(false)} />
+//     </>
+//   );
+// }
+// function AppWeb() {
+//   const [modalShow, setModalShow] = React.useState(false);
+//   return (
+//     <>
+//       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
+//         Web Developer
+//       </Button>
+
+//       <MyWebDevModal show={modalShow} onHide={() => setModalShow(false)} />
+//     </>
+//   );
+// }
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -371,12 +371,12 @@ function Interests() {
         <div className="about-me">
           {/* Web Developer &nbsp;|&nbsp; DevOps Engineer &nbsp;|&nbsp; Sr. Analyst  */}
           <span className="carousel">
-            <AppSr />
+            {/* <AppSr />
             {/* <AppDev /> */}
-            <AppStrat />
-            <AppWeb />
+            {/* <AppStrat /> */}
+            {/* <AppWeb /> */}
           </span>
-          <br></br>
+          {/* <br></br>
           <br></br>Brian is an experienced business operations analyst with
           specialties in reporting, strategy, process improvement, data
           analysis, quantitative/qualitative methods, storytelling, and
@@ -398,38 +398,62 @@ function Interests() {
           licensing exam, which will lay the foundations for a small business
           opportunity that is ready to spin up and take advantage of a growing
           and potentially lucrative commercial market in the future.
+          <br></br> */}
+          FAMILY &nbsp;&nbsp;|&nbsp;&nbsp; TRAVEL &nbsp;&nbsp;|&nbsp;&nbsp;
+          EXPERIENCES &nbsp;&nbsp;|&nbsp;&nbsp; OUTDOORS
+          &nbsp;&nbsp;|&nbsp;&nbsp; HISTORY &nbsp;&nbsp;|&nbsp;&nbsp;
+          PHOTOGRAPHY
           <br></br>
           <br></br>
-          With his youngest having started kindergarten this past year, Brian hopes to secure a new permanent role in a growing
-          and fast moving industry where he can continue to add value and
-          insight derived from his corporate business experience and that of his
-          independent consulting background while also leveraging his knowledge
-          of the development lifecycle, reporting, strategy and process
-          improvement at a great company with amazingly talented people. Brian
-          prefers to solve big problems with the lightest touch possible, and
-          believes that it is important to fail quickly, take initiative,
-          prioritize the solution over the blame, and always maintain a sense of
-          humor, self-awareness, humility, and a global perspective to avoid
-          mission creep and achieve desirable outcomes.
-          <br></br> <br></br>
+          <h2>
+            Interests
+            <span>
+              <h6>
+                <em>(and thank you for your interest...)</em>
+              </h6>
+            </span>
+          </h2>
+          <p>
+            The lower Cape Fear region of North Carolina is where I call home
+            and share a beautiful life with my wife and two elementary
+            school-aged children, Victoria and Brian Jr. and Bretzel, an elderly
+            yorkshire terrier.
+          </p>
+          <p>
+            I have a great love for the outdoors, history, fine cuisine, travel,
+            collecting, aviation, photography, wildlife, reading, DIY projects, and an
+            ever-widening range of other hobbies and interests. I am super lucky to
+            share many of these interests and experiences with my close family and friends!
+          </p>
+          {/* 2024 is going to be a great year, and we have so much to look forward
+          to and to be thankful for! With our youngest having started
+          kindergarten this past year, Brian hopes to secure a new permanent
+          role in a growing and fast moving industry where he can continue to
+          add value and insight derived from his corporate business experience
+          and that of his independent consulting background while also
+          leveraging his knowledge of the development lifecycle, reporting,
+          strategy and process improvement at a great company with amazingly
+          talented people. Brian prefers to solve big problems with the lightest
+          touch possible, and believes that it is important to fail quickly,
+          take initiative, prioritize the solution over the blame, and always
+          maintain a sense of humor, self-awareness, humility, and a global
+          perspective to avoid mission creep and achieve desirable outcomes.
+          <br></br> <br></br> */}
           <span className="carousel">
             <ControlledCarousel />
           </span>
           <br></br>
-          The lower Cape Fear region of North Carolina is where Brian calls home
-          and shares a beautiful life with his wife and two elementary
-          school-aged children, and an elderly yorkshire terrier. He also has a
-          love for the outdoors, history, fine cuisine, travel, various hobbies,
-          and an ever-widening range of other interests.
-          <br></br>
-          <br></br>
-          Brian is excited for a 
-          fresh start in 2024! He also hopes to meet new
+          <p>
+            We are so fortunate and thankful for all that we have been given and
+            achieved so far! Thank you, <em>thank you,</em> especially to all of
+            those that have supported us and our dreams along the way.{" "}
+            <em>Life really is good!</em>
+          </p>
+          {/* Brian is excited for a fresh start in 2024! He also hopes to meet new
           teammates, leaders, and clients, building on those relationships, and
           earning his place at an exciting company that leads with technological
           solutions that improve our lives, our interactions, and how we choose
-          to do business going forward!
-          <br></br>
+          to do business going forward! */}
           <br></br>
           <br></br>
         </div>
