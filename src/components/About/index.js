@@ -157,44 +157,49 @@ function About() {
             <AppStrat />
           </span>
           <br></br>
-          <br></br>
+
+          <h2>
+            <em>Welcome!</em>
+          </h2>
           <p>
-            Brian is a <strong>senior operations analyst</strong> with over{" "}
+            My name is Brian, and I am an experienced{" "}
+            <strong>senior operations analyst</strong> with over{" "}
             <strong>14 years</strong> of his experience in the
             telecommunications, technology, and consulting industries.{" "}
           </p>
           <p>
             {" "}
-            He earned his <strong>
-              Master of Business Administration
-            </strong>{" "}
-            with a concentration in <em>Acquisitions</em> from Strayer
-            University, and his Bachelor of Arts in <em>Anthropology</em> from
-            the University of North Carolina Wilmington.
+            I earned my <strong>Master of Business Administration</strong> with
+            a concentration in <em>Acquisitions</em> from Strayer University,
+            and my Bachelor of Arts in <em>Anthropology</em> from the University
+            of North Carolina Wilmington.
           </p>
           <p>
-            Most recently, he enrolled and graduated from a{" "}
+            Most recently, I have graduated from a{" "}
             <strong>450+ hour, Coding Boot Camp</strong> at the University of
             North Carolina Chapel Hill to learn Javascript web development and
-            to become better equipped to meet the challenges of a dynamic market
-            that is increasingly dependent on the seamless integration of
-            technology that touches all aspects of our 21st century existence.
+            to become better equipped to meet the challenges of the business
+            world as it goes full tilt into digital transformation era where
+            technology touches all aspects of our daily lives.
           </p>
           <p>
-           A <strong>thoughtful problem solver,</strong> Brian revels in
-            the challenge of working out problems where others have failed or
-            passed on them previously. He leads with the conviction that the
-            solution can, and most often should be, simple, targeted, and
-            relatively inexpensive while having both the intended and measurable
-            impact on those things or people that actually matter in ordinary
-            life or business all the same.
+            I revel in the <strong>challenge </strong> of working out problems where others have
+            failed or passed on them previously. I lead with the conviction that
+            the <strong>solution</strong> can, and most often should be, simple, targeted, and
+            relatively inexpensive to fix while having a <strong>meaningful impact </strong> on
+            those things or people that actually matter.
             <br></br>
             <br></br>
+            <p>
+              <strong>A work ethic to live by...{" "}</strong>
+             
             <q>
               <em>
-                Fail quick, seize initiative, forget the blame, support the team, and always maintain a glowing sense of humor!
+                fail quick, seize initiative, forget the blame, support the
+                team, and always maintain a glowing sense of humor!
               </em>{" "}
             </q>
+            </p>
             <br></br>
           </p>
 
