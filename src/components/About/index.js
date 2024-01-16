@@ -157,7 +157,7 @@ function About() {
             <AppStrat />
           </span>
           <br></br>
-
+          <br></br>
           <h2>
             <em>Welcome!</em>
           </h2>

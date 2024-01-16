@@ -565,6 +565,12 @@ function Interests() {
             share many of these interests and experiences with my close family
             and friends!
           </p>
+          <p>
+            We are so fortunate and thankful for all that we have been given and
+            achieved so far! Thank you, <em>thank you,</em> especially to all of
+            those that have supported us and our dreams along the way.{" "}
+            <em>Life really is good!</em>
+          </p>
           {/* 2024 is going to be a great year, and we have so much to look forward
           to and to be thankful for! With our youngest having started
           kindergarten this past year, Brian hopes to secure a new permanent
@@ -584,12 +590,7 @@ function Interests() {
             
           </span> */}
           <PhotoGrid />
-          <p>
-            We are so fortunate and thankful for all that we have been given and
-            achieved so far! Thank you, <em>thank you,</em> especially to all of
-            those that have supported us and our dreams along the way.{" "}
-            <em>Life really is good!</em>
-          </p>
+         
           {/* Brian is excited for a fresh start in 2024! He also hopes to meet new
           teammates, leaders, and clients, building on those relationships, and
           earning his place at an exciting company that leads with technological
