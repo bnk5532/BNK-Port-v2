@@ -162,18 +162,18 @@ function About() {
           <p>
             My name is Brian, and I am an experienced{" "}
             <strong>senior operations analyst</strong> with over{" "}
-            <strong>14 years</strong> of his experience in the
+            <strong>14 years</strong> of experience in the
             telecommunications, technology, and consulting industries.{" "}
           </p>
           <p>
             {" "}
-            I earned my <strong>Master of Business Administration</strong> with
+            I earned a <strong>Master of Business Administration</strong> with
             a concentration in <em>Acquisitions</em> from Strayer University,
-            and my Bachelor of Arts in <em>Anthropology</em> from the University
+            and a Bachelor of Arts in <em>Anthropology</em> from the University
             of North Carolina Wilmington.
           </p>
           <p>
-            Most recently, I have graduated from a{" "}
+            Most recently, I graduated from a{" "}
             <strong>450+ hour, Coding Boot Camp</strong> at the University of
             North Carolina Chapel Hill to learn Javascript web development and
             to become better equipped to meet the challenges of the business
@@ -183,7 +183,7 @@ function About() {
           <p>
             I revel in the <strong>challenge </strong> of working out problems where others have
             failed or passed on them previously. I lead with the conviction that
-            the <strong>solution</strong> can, and most often should be, simple, targeted, and
+            the <strong>solution</strong> can, and most often, should be, simple, targeted, and
             relatively inexpensive to fix while having a <strong>meaningful impact </strong> on
             those things or people that actually matter.
             <br></br>
