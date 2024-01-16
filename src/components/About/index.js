@@ -158,9 +158,7 @@ function About() {
           </span>
           <br></br>
           <br></br>
-          <h2>
-            <em>Welcome!</em>
-          </h2>
+          
           <p>
             My name is Brian, and I am an experienced{" "}
             <strong>senior operations analyst</strong> with over{" "}
