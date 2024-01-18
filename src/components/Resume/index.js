@@ -488,11 +488,10 @@ function Resume() {
     <div className="mx-3 pb-2">
       <div className="resume-title">
         <a href="#EXPERIENCE">EXPERIENCE</a> &nbsp;| &nbsp;
-        <a href="#TECHNICAL SKILLS">TECHNICAL SKILLS</a> &nbsp;| &nbsp;
         <a href="#EDUCATION">EDUCATION</a> &nbsp;| &nbsp;
         <a href="#DEVELOPMENT">DEVELOPMENT</a> &nbsp;| &nbsp;
-        <a href="#INDUSTRY INTERESTS">INDUSTRY INTERESTS</a> &nbsp;| &nbsp;
-        <a href="#OTHER">OTHER</a>
+        <a href="#TECHNICAL SKILLS">TECHNICAL SKILLS</a> &nbsp;| &nbsp;
+        <a href="#INDUSTRY INTERESTS">INDUSTRY INTERESTS</a>
       </div>
 
       <h2>
@@ -589,27 +588,7 @@ function Resume() {
           <br></br>
           <br></br>
         </div>
-        <strong className="resume-header" id="TECHNICAL SKILLS">
-          TECHNICAL SKILLS
-        </strong>
-        <br></br>
-        <div className="indent-resume">
-          <strong>Languages:</strong> HTML{" "}
-          <i className="fa-brands fa-html5"></i>, CSS{" "}
-          <i className="fa-brands fa-css3-alt"></i>, JavaScript{" "}
-          <i className="fa-brands fa-square-js"></i>, Apps Script{" "}
-          <i className="fa-brands fa-google"></i>, Python3{" "}
-          <i className="fa-brands fa-python"></i> (<em>In Progress</em>), SQL.
-          <br></br>
-          <br></br>
-          <strong>Tools:</strong> Bootstrap, Bulma, ChatGPT, Materialize, Handlebars,
-          Font Awesome, MongoDB, Express.js, React.js, Node.js, React Router,
-          Apollo GraphQL, Heroku, Inquirer CLI, Terminal, JSON, JWT, Insomnia,
-          Git, GitHub, GitHub Gists, Looker Studio (Google Data Studio),
-          Microsoft Power BI, MySQL, NoSQL, SaaS, Slack, Screencastify, WFM software
-          (NICE IEX, Verint), Apple IOS, DJI sUAS.<br></br>
-          <br></br>
-        </div>
+
         <strong className="resume-header" id="EDUCATION">
           EDUCATION
         </strong>
@@ -686,6 +665,29 @@ function Resume() {
           <br></br>
         </div>
         <strong className="resume-header" id="TECHNICAL SKILLS">
+          TECHNICAL SKILLS
+        </strong>
+        <br></br>
+        <div className="indent-resume">
+          <strong>Languages:</strong> HTML{" "}
+          <i className="fa-brands fa-html5"></i>, CSS{" "}
+          <i className="fa-brands fa-css3-alt"></i>, JavaScript{" "}
+          <i className="fa-brands fa-square-js"></i>, Apps Script{" "}
+          <i className="fa-brands fa-google"></i>, Python3{" "}
+          <i className="fa-brands fa-python"></i> (<em>In Progress</em>), SQL.
+          <br></br>
+          <br></br>
+          <strong>Tools:</strong> Apple IOS, Apollo GraphQL, Android, Bootstrap,
+          Bulma, ChatGPT, DJI sUAS, Git, GitHub, GitHub Gists, Google Data
+          Studio (Looker), Google Workspace (G-Suite), Handlebars, Heroku,
+          Inquirer CLI, Insomnia, JWT, Materialize, MERN stack (MongoDB,
+          Express.js, React.js, Node.js), Microsoft Power BI, Microsoft Office,
+          MySQL, NoSQL, NICE IEX, NPM packages, PeopleSoft, React Router,
+          Screencastify, Terminal, Verint, VS Code and Windows. <br></br>
+          <br></br>
+        </div>
+
+        <strong className="resume-header" id="TECHNICAL SKILLS">
           COURSEWORK
         </strong>
         <div className="indent-resume">
@@ -699,6 +701,7 @@ function Resume() {
           <br></br>
           <br></br>
         </div>
+
         <strong className="resume-header" id="INDUSTRY INTERESTS">
           INDUSTRY INTERESTS
         </strong>
