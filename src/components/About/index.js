@@ -177,7 +177,7 @@ function About() {
             <strong>450+ hour, Coding Boot Camp</strong> at the University of
             North Carolina Chapel Hill to learn Javascript web development and
             to become better equipped to meet the challenges of the business
-            world as it goes full tilt into digital transformation era where
+            world as it goes full tilt into the digital transformation era where
             technology touches all aspects of our daily lives.
           </p>
           <p>
