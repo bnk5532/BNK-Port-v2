@@ -28,7 +28,7 @@ function Strategy() {
     {
       title: "Autofill Document Script",
       description: "Demo of an automated document generator from a survey response.",
-      link: "https://watch.screencastify.com/v/A0ZdALXkasGM0MDwpWhq",
+      link: "https://drive.google.com/file/d/1Kbs3XbO0XY5dPQIkQL6Af1IfGcaMx4FK/view",
       iconGoogle: <i className="fa-brands fa-google icons"></i>,
       src: autoFill,
     },
