@@ -1,6 +1,7 @@
 import React from "react";
 import slidesPF from "../../assets/images/slidesPF.png";
 import slidesPU from "../../assets/images/slidesPU.png";
+import BBslides1 from "../../assets/images/BBPetHealth1.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -8,6 +9,13 @@ import Card from "react-bootstrap/Card";
 
 function Presentation() {
   const presentations = [
+    {
+      title: "Brian Boru Pet Health",
+      description: "A Google Slides presentation.",
+      link: "https://docs.google.com/presentation/d/1lzdwl14D0CimK5tsg2zzZWWGrXSoX1D5AsoX2pANPZo/edit?usp=sharing",
+      iconGoogle: <i className="fa-brands fa-google icons"></i>,
+      src: BBslides1,
+    },
     {
       title: "Pawfect Friends Deck",
       description: "A Google Slides presentation.",
@@ -21,7 +29,7 @@ function Presentation() {
         link: "https://docs.google.com/presentation/d/1e18zKzUbJW_ctse-gs-9G0CQ4kZBTQ6Zh7mtgnI7ZkI/edit?usp=sharing",
         iconGoogle: <i className="fa-brands fa-google icons"></i>,
         src: slidesPU,
-      },
+      }, 
   ];
 
   return (
