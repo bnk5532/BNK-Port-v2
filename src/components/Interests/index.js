@@ -555,8 +555,7 @@ function Interests() {
           <p>
             The lower Cape Fear region of North Carolina is where I call home
             and share a beautiful life with my wife, Vlasta and two elementary
-            school-aged children, Victoria and Brian Jr. and our 16 year old
-            yorkshire terrier, Bretzel.
+            school-aged children, Victoria and Brian Jr.
           </p>
           <p>
             I have a great love for the outdoors, history, fine cuisine, travel,

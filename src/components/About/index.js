@@ -195,7 +195,7 @@ function About() {
               <em>
                 fail quick, seize initiative, forget the blame, support the
                 team, and always maintain a glowing sense of humor!
-              </em>{" "}
+              </em>{""}
             </q>
             </p>
             <br></br>

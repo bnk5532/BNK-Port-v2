@@ -1,5 +1,6 @@
 import React from "react";
 import biWidget from "../../assets/images/biWidget.png";
+import bbPetHealth2 from "../../assets/images/bbpethealth2.png";
 import widgetPBI from "../../assets/ppt/BrianWidgetCoPBI.pptx";
 import dataStudioBWC from "../../assets/images/dataStudioBWC.png";
 import abtrack from "../../assets/images/abtrack.png";
@@ -11,7 +12,7 @@ import Card from "react-bootstrap/Card";
 function Dashboard() {
   const dashboards = [
     {
-      title: "Brian's Widget Company",
+      title: "Brian's Widget Co.",
       description: "Example of a Microsoft Power BI dashboard visualization.",
       ppt: widgetPBI,
       link: "https://app.powerbi.com/links/i3DrsJjcqI?ctid=005cca83-53fe-4863-8898-aea70d2bafa2&pbi_source=linkShare",
@@ -20,7 +21,15 @@ function Dashboard() {
       src: biWidget,
     },
     {
-      title: "Boru's Widget Company",
+      title: "Boru's Pet Health Co.",
+      description: "Example of a Google Looker Studio dashboard visualization.",
+      link: "https://lookerstudio.google.com/reporting/2ec21757-c81b-4ccd-8b2c-24373b6d4d34",
+      iconGoogle: <i className="fa-brands fa-google icons"></i>,
+      iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
+      src: bbPetHealth2,
+    },
+    {
+      title: "Boru's Widget Co.",
       description: "Example of a Google Looker Studio dashboard visualization.",
       link: "https://lookerstudio.google.com/reporting/0dbbdb1b-db73-4d52-9358-98cbe40ae6e9",
       iconGoogle: <i className="fa-brands fa-google icons"></i>,

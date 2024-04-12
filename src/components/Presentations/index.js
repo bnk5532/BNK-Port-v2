@@ -10,10 +10,11 @@ import Card from "react-bootstrap/Card";
 function Presentation() {
   const presentations = [
     {
-      title: "Brian Boru Pet Health",
+      title: "Data Modeling & Forecast",
       description: "A Google Slides presentation.",
       link: "https://docs.google.com/presentation/d/1lzdwl14D0CimK5tsg2zzZWWGrXSoX1D5AsoX2pANPZo/edit?usp=sharing",
       iconGoogle: <i className="fa-brands fa-google icons"></i>,
+      iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
       src: BBslides1,
     },
     {
@@ -57,6 +58,7 @@ function Presentation() {
                   <Card.Text>{presentation.description}</Card.Text>
                   <Card.Text className="icons">
                     {presentation.iconGoogle}
+                    {presentation.iconChart}
                   </Card.Text>
                 </Card.Body>
               </Card>
