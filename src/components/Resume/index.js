@@ -717,6 +717,8 @@ function Resume() {
           <br></br>
           Government Acquisitions <i className="fa-solid fa-file-contract"></i>
           <br></br>
+          HealthTech <i className="fa-solid fa-suitcase-medical"></i>
+          <br></br>
           Legal & Contracts <i className="fa-solid fa-scale-balanced"></i>
           <br></br>
           Logistics & Supply Chain <i className="fa-solid fa-truck-fast"></i>
