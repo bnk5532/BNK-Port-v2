@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-import bnkCv from "../../assets/pdf/BNKCV2024v1.2.pdf";
-import bnkCl from "../../assets/pdf/BNKGenCL2023v3.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2024v2.1.pdf";
+import bnkCl from "../../assets/pdf/BNKGenCL2024v2.1.pdf";
 import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
@@ -525,13 +525,15 @@ function Resume() {
           </strong>
           <em>2022 - Present.</em>
           <br></br>
-          Closely involved in the refinement of the firm's business strategy,
-          growth and efficiencies while also improving upon marketing efforts,
-          office management, communications, networking, revenue generation and
-          solicitation of legal services, especially with regard to veteran
-          outreach potential involving the Camp Lejeune Justice Act of 2022.
-          Consults regularly on matters involving outside business affairs and
-          government acquisitions.
+          Closely involved in the refinement of the firm's long-term growth
+          strategy while improving upon process, client relations,
+          communication, solicitation and the implementation of technological
+          solutions to better manage costs and drive overall efficiency. Primary
+          focus is on building out a template repository of legal documents that
+          use my custom automation script to programmatically insert customer
+          details in mere seconds and eliminates a manual process that could
+          otherwise take hours and cost hundreds of dollars per document to
+          complete.
           <ShowMoreBDC />
           <br></br>
           <br></br>

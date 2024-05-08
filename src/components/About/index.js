@@ -161,8 +161,8 @@ function About() {
           
           <p>
             My name is Brian, and I am an experienced{" "}
-            <strong>senior operations analyst</strong> with over{" "}
-            <strong>14 years</strong> of experience in the
+            <strong>Senior Operations Analyst</strong> with over{" "}
+            <strong>15 years</strong> of experience in the
             telecommunications, technology, and consulting industries.{" "}
           </p>
           <p>
