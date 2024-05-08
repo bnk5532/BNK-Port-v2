@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BNK-Port-v2/static/css/main.c64650ff.css",
-    "main.js": "/BNK-Port-v2/static/js/main.a2962a25.js",
+    "main.js": "/BNK-Port-v2/static/js/main.be064575.js",
     "static/js/787.205d97c0.chunk.js": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js",
     "static/media/CWkids1.png": "/BNK-Port-v2/static/media/CWkids1.2f607729453d994af6c1.png",
     "static/media/OldPoint.png": "/BNK-Port-v2/static/media/OldPoint.5c9077e0cb04f5b941ab.png",
@@ -40,7 +40,7 @@
     "static/media/autofillDemo.png": "/BNK-Port-v2/static/media/autofillDemo.c9f376723d7bb433f2d6.png",
     "static/media/regex2.png": "/BNK-Port-v2/static/media/regex2.5220a2ed5eb063f95ab0.png",
     "static/media/BNKGenCL2024v2.1.pdf": "/BNK-Port-v2/static/media/BNKGenCL2024v2.1.f236b0d5e6fec64a27da.pdf",
-    "static/media/BNKCV2024v2.1.pdf": "/BNK-Port-v2/static/media/BNKCV2024v2.1.583f0a089a4a5cdca517.pdf",
+    "static/media/BNKCV2024v2.2.pdf": "/BNK-Port-v2/static/media/BNKCV2024v2.2.3a5f1c40a162618ef63f.pdf",
     "static/media/USflag1.png": "/BNK-Port-v2/static/media/USflag1.98032cf6f2ac6cae51f0.png",
     "static/media/uncw3.png": "/BNK-Port-v2/static/media/uncw3.74caafafc691dad6de6d.png",
     "static/media/codeBadge1.png": "/BNK-Port-v2/static/media/codeBadge1.3f29876d12cc1351081a.png",
@@ -54,11 +54,11 @@
     "static/media/harp2.png": "/BNK-Port-v2/static/media/harp2.0ebc6a430eec027a7e7b.png",
     "index.html": "/BNK-Port-v2/index.html",
     "main.c64650ff.css.map": "/BNK-Port-v2/static/css/main.c64650ff.css.map",
-    "main.a2962a25.js.map": "/BNK-Port-v2/static/js/main.a2962a25.js.map",
+    "main.be064575.js.map": "/BNK-Port-v2/static/js/main.be064575.js.map",
     "787.205d97c0.chunk.js.map": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c64650ff.css",
-    "static/js/main.a2962a25.js"
+    "static/js/main.be064575.js"
   ]
 }
