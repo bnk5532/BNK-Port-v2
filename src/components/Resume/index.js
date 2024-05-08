@@ -537,7 +537,7 @@ function Resume() {
           <ShowMoreBDC />
           <br></br>
           <br></br>
-          <strong>Sr. Analyst, HQ Operations, Verizon, </strong>
+          <strong>Senior Operations Analyst, HQ Operations, Verizon, </strong>
           <em>2020 - 2022.</em>
           <br></br>
           Responsible for any and all reporting requirements with regard to
