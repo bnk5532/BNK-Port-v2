@@ -540,15 +540,15 @@ function Resume() {
           <strong>Senior Operations Analyst, HQ Operations, Verizon, </strong>
           <em>2020 - 2022.</em>
           <br></br>
-          Responsible for any and all reporting requirements with regard to
-          absenteeism, time/attendance (TA) and leave-of-absence (LOA) data for
-          a senior business leader, HRBP and executive level audience for the
-          entire domestic Customer Service, Tech and Specialty work groups for
-          the wireless organization.
+          High visibility role, responsible for any and all reporting
+          requirements with regard to absenteeism, time/attendance and
+          leave-of-absence data for a senior business leader, HRBP and executive
+          level audience for the entire domestic Customer Service, Tech and
+          Specialty work groups for the wireless organization.
           <ShowMoreSA />
           <br></br>
           <br></br>
-          <strong>Coordinator, HQ Operations, Verizon, </strong>
+          <strong>Business Coordinator, HQ Operations, Verizon, </strong>
           <em>2017 - 2020.</em>
           <br></br>
           Operated at the leading edge of a risk management team, partnered with
