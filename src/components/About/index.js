@@ -145,6 +145,20 @@ function AppStrat() {
   );
 }
 
+// function AppPilot() {
+//   const [modalShow, setModalShow] = React.useState(false);
+//   return (
+//     <>
+//       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
+//         Remote Pilot
+//       </Button>
+
+//       <MyStratModal show={modalShow} onHide={() => setModalShow(false)} />
+//     </>
+//   );
+// }
+
+
 function About() {
   return (
     <div className="container">
@@ -155,22 +169,23 @@ function About() {
             <AppSr />
             {/* <AppDev /> */}
             <AppStrat />
+            {/* <AppPilot /> */}
           </span>
           <br></br>
           <br></br>
-          
+
           <p>
             My name is Brian, and I am an experienced{" "}
             <strong>Senior Operations Analyst</strong> with over{" "}
-            <strong>15 years</strong> of experience in the
-            telecommunications, technology, and consulting industries.{" "}
+            <strong>15 years</strong> of experience in the telecommunications,
+            technology, and consulting industries.{" "}
           </p>
           <p>
             {" "}
-            I earned a <strong>Master of Business Administration</strong> with
-            a concentration in <em>Acquisitions</em> from Strayer University,
-            and a Bachelor of Arts in <em>Anthropology</em> from the University
-            of North Carolina Wilmington.
+            I earned a <strong>Master of Business Administration</strong> with a
+            concentration in <em>Acquisitions</em> from Strayer University, and
+            a Bachelor of Arts in <em>Anthropology</em> from the University of
+            North Carolina Wilmington.
           </p>
           <p>
             Most recently, I graduated from a{" "}
@@ -181,22 +196,29 @@ function About() {
             technology touches all aspects of our daily lives.
           </p>
           <p>
-            I revel in the <strong>challenge </strong> of working out problems where others have
-            failed or passed on them previously. I lead with the conviction that
-            the <strong>solution</strong> can, and most often, should be, simple, targeted, and
-            relatively inexpensive to fix while having a <strong>meaningful impact </strong> on
-            those things or people that actually matter.
+            I am a <strong>FAA Part 107 Remote Pilot</strong> authorized to
+            commercially operate sUAS in U.S. airspace with more than 8 years of
+            quadcopter flying and aerial photography experience.
+          </p>
+          <p>
+            I revel in the <strong>challenge </strong> of working out problems
+            where others have failed or passed on them previously. I lead with
+            the conviction that the <strong>solution</strong> can, and most
+            often, should be, simple, targeted, and relatively inexpensive to
+            fix while having a <strong>meaningful impact </strong> on those
+            things or people that actually matter.
             <br></br>
             <br></br>
             <p>
-              <strong>A work ethic to live by...{" "}</strong>
-             
-            <q>
-              <em>
-                fail quick, seize initiative, forget the blame, support the
-                team, and always maintain a glowing sense of humor!
-              </em>{""}
-            </q>
+              <strong>A work ethic to live by... </strong>
+
+              <q>
+                <em>
+                  fail quick, seize initiative, forget the blame, support the
+                  team, and always maintain a glowing sense of humor!
+                </em>
+                {""}
+              </q>
             </p>
             <br></br>
           </p>

@@ -2,13 +2,15 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-import bnkCv from "../../assets/pdf/BNKCV2024v2.2.pdf";
-import bnkCl from "../../assets/pdf/BNKGenCL2024v2.1.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2024v2.3.pdf";
+import bnkCl from "../../assets/pdf/BNKCL2024GENv2.3.pdf";
 import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 import UNC1 from "../../assets/images/UNC1.png";
 import UNCW from "../../assets/images/uncw3.png";
 import Strayer from "../../assets/images/Strayer1.png";
+import FAA from "../../assets/images/FAAlogo1.png";
+import DroneCert from "../../assets/pdf/DroneSchoolCert.pdf";
 // import Verizon from "../../assets/images/verizon1.png";
 
 function ShowMoreBDC() {
@@ -615,8 +617,8 @@ function Resume() {
           <br></br>
           <img
             src={UNCW}
-            width="160px"
-            height="44px"
+            width="143px"
+            height="38px"
             className="d-inline-block mb-1"
             alt="UNC Logo"
           />
@@ -638,6 +640,20 @@ function Resume() {
         </strong>
         <br></br>
         <div className="indent-resume">
+          <img
+            src={FAA}
+            width="160px"
+            height="50px"
+            className="d-inline-block mb-1 mt-2"
+            alt="FAA Logo"
+          />
+          <br></br>
+          <em>Airman Certificate.</em>
+          
+          <br></br>
+          FAA Part 107 Remote Pilot, 2024.
+          <br></br>
+          <br></br>
           <img
             src={UNC1}
             width="160px"
@@ -697,9 +713,20 @@ function Resume() {
           Verizon Agile Mindset Program Badge <br></br>
           Verizon Lean Six Sigma (VLSS) <br></br>
           Verizon Project & Management Fundamentals <br></br>
-          Udemy.com – JavaScript Algorithms & Data Structures Masterclass (
-          <em>In Progress</em>)<br></br>
+          Udemy.com – JavaScript Algorithms & Data Structures Masterclass{" "}
+          <br></br>
           Drone Pilot Ground School for FAA Part 107
+          <a
+            href={DroneCert}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-more" type="button">
+              &nbsp;
+              <i className="fa-regular fa-circle-check"></i>&nbsp;Certificate of Completion
+            </button>
+          </a>
+          
           <br></br>
           <br></br>
         </div>
