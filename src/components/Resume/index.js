@@ -44,6 +44,17 @@ function ShowMoreBDC() {
           <strong>Key Contributions:</strong>
           <ul>
             <strong>Autocomplete Legal Document Generator Script</strong>
+            <a
+              href={
+                "https://drive.google.com/file/d/1Kbs3XbO0XY5dPQIkQL6Af1IfGcaMx4FK/view"
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn-more" type="button">
+                Click for Demo!
+              </button>
+            </a>
             <div className="indent-resume">
               <li>
                 Developed a new automated process that is capable of completing
@@ -58,17 +69,6 @@ function ShowMoreBDC() {
                 practice hundreds of dollars for each transaction in actual
                 costs as well as those costs associated with lost economic
                 opportunity.
-                <a
-                  href={
-                    "https://watch.screencastify.com/v/A0ZdALXkasGM0MDwpWhq"
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="btn-more" type="button">
-                    Click for Demo!
-                  </button>
-                </a>
               </li>
               <li>
                 Unlimited use case potential for this script which is low
@@ -649,9 +649,12 @@ function Resume() {
           />
           <br></br>
           <em>Airman Certificate.</em>
-          
           <br></br>
-          FAA Part 107 Remote Pilot, 2024.
+          FAA Part 107 Remote Pilot
+          <br></br>
+          Certificate Number: 5007112
+          <br></br>
+          Issued: 05/25/2024
           <br></br>
           <br></br>
           <img
@@ -675,7 +678,9 @@ function Resume() {
             </button>
           </a>
           <br></br>
-          Coding Full Stack Boot Camp, 2022.
+          Coding Full Stack Boot Camp
+          <br></br>
+          Issued: 12/02/2022
           <br></br>
           <Grades />
           <ShowMoreCert />
@@ -716,17 +721,13 @@ function Resume() {
           Udemy.com – JavaScript Algorithms & Data Structures Masterclass{" "}
           <br></br>
           Drone Pilot Ground School for FAA Part 107
-          <a
-            href={DroneCert}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={DroneCert} target="_blank" rel="noopener noreferrer">
             <button className="btn-more" type="button">
               &nbsp;
-              <i className="fa-regular fa-circle-check"></i>&nbsp;Certificate of Completion
+              <i className="fa-regular fa-circle-check"></i>&nbsp;Certificate of
+              Completion
             </button>
           </a>
-          
           <br></br>
           <br></br>
         </div>
