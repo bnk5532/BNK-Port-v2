@@ -12,15 +12,6 @@ import Card from "react-bootstrap/Card";
 function Dashboard() {
   const dashboards = [
     {
-      title: "Brian's Widget Co.",
-      description: "Example of a Microsoft Power BI dashboard visualization.",
-      ppt: widgetPBI,
-      link: "https://app.powerbi.com/links/i3DrsJjcqI?ctid=005cca83-53fe-4863-8898-aea70d2bafa2&pbi_source=linkShare",
-      iconMicro: <i className="fa-brands fa-microsoft icons"></i>,
-      iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
-      src: biWidget,
-    },
-    {
       title: "Boru's Pet Health Co.",
       description: "Example of a Google Looker Studio dashboard visualization.",
       link: "https://lookerstudio.google.com/reporting/2ec21757-c81b-4ccd-8b2c-24373b6d4d34",
@@ -37,8 +28,18 @@ function Dashboard() {
       src: dataStudioBWC,
     },
     {
+      title: "Brian's Widget Co.",
+      description: "Example of a Microsoft Power BI dashboard visualization.",
+      ppt: widgetPBI,
+      link: "https://app.powerbi.com/links/i3DrsJjcqI?ctid=005cca83-53fe-4863-8898-aea70d2bafa2&pbi_source=linkShare",
+      iconMicro: <i className="fa-brands fa-microsoft icons"></i>,
+      iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
+      src: biWidget,
+    },
+    {
       title: "Absence Tracker",
-      description: "A Sheets tool created with pivots, slicers & logic functions.",
+      description:
+        "A Sheets tool created with pivots, slicers & logic functions.",
       link: "https://docs.google.com/spreadsheets/d/1cFaSrSlWvoaoVg7xsuF6xe7BPfp28miRoQBataeqOXc/edit?usp=sharing",
       iconGoogle: <i className="fa-brands fa-google icons"></i>,
       iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
