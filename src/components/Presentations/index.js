@@ -2,6 +2,7 @@ import React from "react";
 import slidesPF from "../../assets/images/slidesPF.png";
 import slidesPU from "../../assets/images/slidesPU.png";
 import BBslides1 from "../../assets/images/BBPetHealth1.png";
+import BBHPro1 from "../../assets/images/bbhProduct1.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -16,6 +17,13 @@ function Presentation() {
       iconGoogle: <i className="fa-brands fa-google icons"></i>,
       iconChart: <i className="fa-solid fa-chart-pie icons"></i>,
       src: BBslides1,
+    },
+    {
+      title: "New Product Feature",
+      description: "A 24-HR Product Case Study.",
+      link: "https://docs.google.com/presentation/d/1OEzFR5_IT0Po46voDXvkC-kBc92UHVEpYwLhVyKNwRs/edit?usp=sharing",
+      iconGoogle: <i className="fa-brands fa-google icons"></i>,
+      src: BBHPro1,
     },
     {
       title: "Pawfect Friends Deck",

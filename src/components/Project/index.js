@@ -124,7 +124,7 @@ function Project() {
       <Dashboard />
       <h1>Strategy & Process Improvement</h1>
       <Strategy />
-      <h1>Presentations</h1>
+      <h1>Case Study & Presentations</h1>
       <Presentation />
       <h1>Applications</h1>
       <Row>
