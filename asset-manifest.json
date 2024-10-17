@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BNK-Port-v2/static/css/main.c64650ff.css",
-    "main.js": "/BNK-Port-v2/static/js/main.b8fdb1e1.js",
+    "main.js": "/BNK-Port-v2/static/js/main.8da78b80.js",
     "static/js/787.205d97c0.chunk.js": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js",
     "static/media/CWkids1.png": "/BNK-Port-v2/static/media/CWkids1.2f607729453d994af6c1.png",
     "static/media/OldPoint.png": "/BNK-Port-v2/static/media/OldPoint.5c9077e0cb04f5b941ab.png",
@@ -35,6 +35,7 @@
     "static/media/BNKLandfill.pdf": "/BNK-Port-v2/static/media/BNKLandfill.96d8e739041110fca275.pdf",
     "static/media/BVPrague2.jpeg": "/BNK-Port-v2/static/media/BVPrague2.cf1030369238dc459094.jpeg",
     "static/media/bbcland.png": "/BNK-Port-v2/static/media/bbcland.adb920f13814e84861e9.png",
+    "static/media/bbhProduct1.png": "/BNK-Port-v2/static/media/bbhProduct1.2dd4afe3c1450d1be0df.png",
     "static/media/dataStudioBWC.png": "/BNK-Port-v2/static/media/dataStudioBWC.aa46d8f3a550578e8760.png",
     "static/media/DevOpsGraphic.png": "/BNK-Port-v2/static/media/DevOpsGraphic.ab2c9d98419d540cc22e.png",
     "static/media/slidesPU.png": "/BNK-Port-v2/static/media/slidesPU.102b66a0c589436daec5.png",
@@ -56,11 +57,11 @@
     "static/media/harp2.png": "/BNK-Port-v2/static/media/harp2.0ebc6a430eec027a7e7b.png",
     "index.html": "/BNK-Port-v2/index.html",
     "main.c64650ff.css.map": "/BNK-Port-v2/static/css/main.c64650ff.css.map",
-    "main.b8fdb1e1.js.map": "/BNK-Port-v2/static/js/main.b8fdb1e1.js.map",
+    "main.8da78b80.js.map": "/BNK-Port-v2/static/js/main.8da78b80.js.map",
     "787.205d97c0.chunk.js.map": "/BNK-Port-v2/static/js/787.205d97c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c64650ff.css",
-    "static/js/main.b8fdb1e1.js"
+    "static/js/main.8da78b80.js"
   ]
 }
