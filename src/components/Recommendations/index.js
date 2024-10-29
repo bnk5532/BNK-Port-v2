@@ -1,7 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
 
 function Recommendations() {
+
+  useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="mx-3 pb-2">
       <h1>Recommendations</h1>

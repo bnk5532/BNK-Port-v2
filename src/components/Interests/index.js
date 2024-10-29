@@ -21,7 +21,7 @@ import VEKf2 from "../../assets/images/VEKf2.JPG";
 import KidsAzal from "../../assets/images/KidsAzaleas1.JPG";
 // import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 // import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
-import React from "react";
+import React, {useEffect} from "react";
 import {
   // MDBContainer,
   MDBCol,
@@ -499,6 +499,12 @@ function PhotoGrid() {
 }
 
 function Interests() {
+
+  useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="container">
       <div style={{ width: "100%" }}>

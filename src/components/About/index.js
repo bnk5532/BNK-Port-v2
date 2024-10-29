@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, {useEffect} from "react";
 
 import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
 import Button from "react-bootstrap/Button";
@@ -159,6 +160,12 @@ function AppStrat() {
 // }
 
 function About() {
+
+  useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="container">
       <div style={{ width: "100%" }}>

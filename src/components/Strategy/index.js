@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import bbc from "../../assets/images/bbc.png";
 import landfill from "../../assets/pdf/BNKLandfill.pdf";
 import bbcland from "../../assets/images/bbcland.png";
@@ -33,6 +33,11 @@ function Strategy() {
       src: autoFill,
     },
   ];
+
+  useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <Container fluid>

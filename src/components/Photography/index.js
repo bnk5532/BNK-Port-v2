@@ -4,6 +4,7 @@
 // import Battleship1 from "../../assets/photography/Battleship1.jpeg";
 // import Tig1 from "../../assets/photography/Tig1.jpeg";
 // import VECharles from "../../assets/photography/VEcharleston1.jpeg";
+
 import IRL1 from "../../assets/photography/IRL1.jpeg";
 import IRL2 from "../../assets/photography/IRL2.jpeg";
 import IRL3 from "../../assets/photography/IRL3.jpeg";
@@ -66,7 +67,7 @@ import DUCK1 from "../../assets/photography/Duck1.jpeg";
 import HORSE2 from "../../assets/photography/IRLH2.jpg";
 import RB1 from "../../assets/photography/RB1.jpg";
 
-import React from "react";
+import React, {useEffect} from "react";
 import {
   // MDBContainer,
   MDBCol,
@@ -497,6 +498,12 @@ function WildlifeGrid1() {
 
 
 function Photography() {
+
+  useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="container">
       <div style={{ width: "100%" }}>
