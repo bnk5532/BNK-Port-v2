@@ -293,18 +293,21 @@ function IrelandGrid1() {
 
 function Photography() {
   return (
+    
     <div className="container">
       <div style={{ width: "100%" }}>
         <div className="about-me">
           <span className="carousel">
             <div className="resume-title">
+            <h1>Photography</h1>
+            <strong>ALBUMS</strong> &nbsp;| &nbsp;
               <a href="#CZ">CZECH REPUBLIC</a> &nbsp;| &nbsp;
               <a href="#BA">BLUE ANGELS</a> &nbsp;| &nbsp;
               <a href="#BH">BLUE HERON</a> &nbsp;| &nbsp;
               <a href="#IRL">IRELAND</a> &nbsp;
             </div>
           </span>
-       <h1>Photography</h1>
+       
           <br></br>
           {/* <span className="carousel">
             <ControlledCarousel />

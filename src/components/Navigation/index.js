@@ -1,10 +1,19 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Harp from "../../assets/images/harp2.png";
 
-function NavBar({changeSelected }) {
+function NavBar({ changeSelected }) {
+  const renderTooltip = (text) => (props) =>
+    (
+      <Tooltip id="button-tooltip" {...props}>
+        {text}
+      </Tooltip>
+    );
+
   return (
     <>
       <Navbar collapseOnSelect fixed="top" expand="md" bg="dark" variant="dark">
@@ -19,47 +28,81 @@ function NavBar({changeSelected }) {
             />
           </Navbar.Brand>
           <Navbar.Brand onClick={() => changeSelected("About")}>
-            <div className="cursor">{"Brian Nicholas King"} &nbsp;|&nbsp; {"Portfolio"}</div>
+            <div className="cursor">
+              {"Brian Nicholas King"} &nbsp;|&nbsp; {"Portfolio"}
+            </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav>
-              <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>
-              <i className="fa-solid fa-circle-user"></i>
-              </Nav.Link>
-              <Nav.Link
-                eventKey="2"
-                onClick={() => changeSelected("Portfolio")}
+            <Nav>
+              <OverlayTrigger
+                placement="bottom"
+                overlay={renderTooltip("About Me")}
               >
-                <i className="fa-solid fa-briefcase"></i>
-              </Nav.Link>
-              <Nav.Link eventKey="3" onClick={() => changeSelected("Resume")}>
-              <i className="fa-solid fa-address-card"></i>
-              </Nav.Link>
-              <Nav.Link
-                eventKey="4"
-                onClick={() => changeSelected("Recommendations")}
+                <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>
+                  <i className="fa-solid fa-circle-user"></i>
+                </Nav.Link>
+              </OverlayTrigger>
+
+              <OverlayTrigger
+                placement="bottom"
+                overlay={renderTooltip("Projects")}
               >
-                <i className="fa-solid fa-heart-circle-plus"></i>
-                
-              </Nav.Link>
-              <Nav.Link
-                eventKey="5"
-                onClick={() => changeSelected("Interests")}
+                <Nav.Link
+                  eventKey="2"
+                  onClick={() => changeSelected("Portfolio")}
+                >
+                  <i className="fa-solid fa-briefcase"></i>
+                </Nav.Link>
+              </OverlayTrigger>
+
+              <OverlayTrigger
+                placement="bottom"
+                overlay={renderTooltip("My Resume")}
               >
-                <i className="fa-solid fa-icons"></i>
-              </Nav.Link>
-              <Nav.Link
-                eventKey="6"
-                onClick={() => changeSelected("Photography")}
+                <Nav.Link eventKey="3" onClick={() => changeSelected("Resume")}>
+                  <i className="fa-solid fa-address-card"></i>
+                </Nav.Link>
+              </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                overlay={renderTooltip("Recommendations")}
               >
-                <i className="fa-solid fa-camera"></i>
-              </Nav.Link>
+                <Nav.Link
+                  eventKey="4"
+                  onClick={() => changeSelected("Recommendations")}
+                >
+                  <i className="fa-solid fa-heart-circle-plus"></i>
+                </Nav.Link>
+              </OverlayTrigger>
+
+              <OverlayTrigger
+                placement="bottom"
+                overlay={renderTooltip("Interests")}
+              >
+                <Nav.Link
+                  eventKey="5"
+                  onClick={() => changeSelected("Interests")}
+                >
+                  <i className="fa-solid fa-icons"></i>
+                </Nav.Link>
+              </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                overlay={renderTooltip("Photography")}
+              >
+                <Nav.Link
+                  eventKey="6"
+                  onClick={() => changeSelected("Photography")}
+                >
+                  <i className="fa-solid fa-camera"></i>
+                </Nav.Link>
+              </OverlayTrigger>
               {/* <Nav.Link onClick={() => changeSelected("Contact")}>
         Contact
       </Nav.Link> */}
 
-              <Nav.Link
+              {/* <Nav.Link
                 href="https://github.com/bnk5532"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -80,9 +123,8 @@ function NavBar({changeSelected }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa-brands fa-youtube" aria-hidden="true"></i>
-              </Nav.Link>
-              {/* </OverlayTrigger> */}
+                <i className="fa-brands fa-youtube" aria-hidden="true"></i> */}
+              {/* </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
