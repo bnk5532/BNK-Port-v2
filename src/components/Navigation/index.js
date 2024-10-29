@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+// import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import Harp from "../../assets/images/harp2.png";
 
 function NavBar({changeSelected }) {
@@ -24,28 +25,35 @@ function NavBar({changeSelected }) {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
               <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>
-                About
+              <i className="fa-solid fa-circle-user"></i>
               </Nav.Link>
               <Nav.Link
                 eventKey="2"
                 onClick={() => changeSelected("Portfolio")}
               >
-                Projects
+                <i className="fa-solid fa-briefcase"></i>
               </Nav.Link>
               <Nav.Link eventKey="3" onClick={() => changeSelected("Resume")}>
-                Resume
+              <i className="fa-solid fa-address-card"></i>
               </Nav.Link>
               <Nav.Link
                 eventKey="4"
                 onClick={() => changeSelected("Recommendations")}
               >
-                Recommendations
+                <i className="fa-solid fa-heart-circle-plus"></i>
+                
               </Nav.Link>
               <Nav.Link
                 eventKey="5"
                 onClick={() => changeSelected("Interests")}
               >
-                Interests
+                <i className="fa-solid fa-icons"></i>
+              </Nav.Link>
+              <Nav.Link
+                eventKey="6"
+                onClick={() => changeSelected("Photography")}
+              >
+                <i className="fa-solid fa-camera"></i>
               </Nav.Link>
               {/* <Nav.Link onClick={() => changeSelected("Contact")}>
         Contact

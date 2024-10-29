@@ -9,6 +9,7 @@ import Resume from "./components/Resume";
 import Recommendations from "./components/Recommendations";
 import Interests from "./components/Interests";
 import wbHero from "./assets/images/WB2.png";
+import Photography from "./components/Photography";
 
 function App() {
   const [currentCategory, setCurrentCategory] = useState("About");
@@ -27,6 +28,8 @@ function App() {
         return <Recommendations />;
       case "Interests":
         return <Interests />;
+        case "Photography":
+        return <Photography />;
       default:
         return <About />;
     }
