@@ -43,7 +43,7 @@ function NavBar({ changeSelected }) {
               >
                 <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>
                   <i className="fa-solid fa-circle-user">
-                    <span id="sm-menu">&nbsp;About Me</span>{" "}
+                    <span id="sm-menu">&nbsp; About Me</span>{" "}
                   </i>
                 </Nav.Link>
               </OverlayTrigger>
