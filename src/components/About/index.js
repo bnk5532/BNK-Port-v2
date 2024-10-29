@@ -124,7 +124,7 @@ function AppSr() {
   return (
     <>
       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Senior Operations Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        {/* Senior Operations Analyst &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; */}
       </Button>
 
       <MySrAnalystModal show={modalShow} onHide={() => setModalShow(false)} />
@@ -137,7 +137,7 @@ function AppStrat() {
   return (
     <>
       <Button variant="btn-title p-0" onClick={() => setModalShow(true)}>
-        Strategist
+        {/* Strategist */}
       </Button>
 
       <MyStratModal show={modalShow} onHide={() => setModalShow(false)} />
@@ -158,7 +158,6 @@ function AppStrat() {
 //   );
 // }
 
-
 function About() {
   return (
     <div className="container">
@@ -171,9 +170,6 @@ function About() {
             <AppStrat />
             {/* <AppPilot /> */}
           </span>
-          <br></br>
-          <br></br>
-
           <p>
             My name is Brian, and I am an experienced{" "}
             <strong>Senior Operations Analyst</strong> with over{" "}
@@ -188,12 +184,9 @@ function About() {
             North Carolina Wilmington.
           </p>
           <p>
-            Most recently, I graduated from a{" "}
-            <strong>450+ hour, Coding Boot Camp</strong> at the University of
-            North Carolina Chapel Hill to learn Javascript web development and
-            to become better equipped to meet the challenges of the business
-            world as it goes full tilt into the digital transformation era where
-            technology touches all aspects of our daily lives.
+            I graduated from a rigorous <strong>450+ hour, Coding Boot Camp</strong> program at
+            the University of North Carolina Chapel Hill to learn Javascript web development and to better understand the challenges that
+            all businesses invariably face while fully embracing technological innovation and transformation in the digital era. 
           </p>
           <p>
             I am a <strong>FAA Part 107 Remote Pilot</strong> authorized to
@@ -203,10 +196,10 @@ function About() {
           <p>
             I revel in the <strong>challenge </strong> of working out problems
             where others have failed or passed on them previously. I lead with
-            the conviction that the <strong>solution</strong> can, and most
-            often, should be, simple, targeted, and relatively inexpensive to
-            fix while having a <strong>meaningful impact </strong> on those
-            things or people that actually matter.
+            the conviction that the <strong>solution</strong> can, and ought to
+            be, simple, targeted, and relatively inexpensive to fix while having
+            a <strong>meaningful impact </strong> on those things or people that
+            actually matter.
             <br></br>
             <br></br>
             <p>
