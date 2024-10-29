@@ -502,8 +502,8 @@ function Photography() {
       <div style={{ width: "100%" }}>
         <div className="about-me">
           <span className="carousel">
-            <div className="resume-title">
-              <h1>Photography Albums</h1>
+            <div className="photo-title">
+              <h2>Photography Albums</h2>
               <a href="#TRAVEL">TRAVEL</a> &nbsp;| &nbsp;
               <a href="#AVIATION">AVIATION</a> &nbsp;| &nbsp;
               <a href="#WILD">WILDLIFE</a> &nbsp;

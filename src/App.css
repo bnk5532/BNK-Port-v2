@@ -7,7 +7,9 @@
   display: flex;
   justify-content: flex-end;
 }
-
+.navbar-nav {
+  align-items: baseline;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,11 +21,21 @@
   color: white;
 }
 
+#sm-menu {
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 300;
+  align-items: baseline;
+}
+
 .resume {
   text-align: left;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: left;
 }
 
@@ -79,25 +91,34 @@ main {
   box-shadow: 0px 0px 9px 5px grey;
 }
 
-
 .btn-btn-title {
   border-width: 0;
   font-size: 16;
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 575px) {
+  #sm-menu {
+    display: contents;
+    align-items: left;
+  }
   .w-beach {
     display: none;
   }
   .picture {
     padding-top: 55px;
   }
-  h1, .resume-title {
+  h1,
+  .resume-title {
     padding-top: 55px;
   }
 
   h2 {
-    padding-top:20px;
+    padding-top: 20px;
+  }
+  h2,
+  .photo-title {
+    padding-top: 0px;
+    margin: 0;
   }
   .recommendations {
     text-align: left;
@@ -105,6 +126,7 @@ main {
   .navbar-collapse {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
   }
   .about-me {
     padding-top: 60px;
@@ -116,6 +138,9 @@ main {
   .charity {
     display: flex;
     flex-direction: column;
+  }
+  #header1 {
+    display: none;
   }
 }
 
@@ -170,10 +195,10 @@ a {
 .btn-primary {
   border-color: #102946;
   background-color: #102946;
-  
 }
 
-.btn-more, .btn-more:active {
+.btn-more,
+.btn-more:active {
   color: #0a58cb;
   font-size: small;
   background-color: transparent;
@@ -185,20 +210,20 @@ a {
 }
 
 .btn-gpa {
-    background-color: #102946;
-    border: none;
-    color: white;
-    padding: 3px 14px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 25px;
-    font-size: x-small;
-    font-weight: bold;
+  background-color: #102946;
+  border: none;
+  color: white;
+  padding: 3px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: x-small;
+  font-weight: bold;
 }
-  
-  .btn-gpa:hover {
-    background-color: #0a58cb;
-  }
+
+.btn-gpa:hover {
+  background-color: #0a58cb;
+}

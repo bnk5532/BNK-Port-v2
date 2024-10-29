@@ -29,7 +29,8 @@ function NavBar({ changeSelected }) {
           </Navbar.Brand>
           <Navbar.Brand onClick={() => changeSelected("About")}>
             <div className="cursor">
-              {"Brian Nicholas King"} &nbsp;|&nbsp; {"Portfolio"}
+              {"Brian Nicholas King"}{" "}
+              <span id="header1">&nbsp;|&nbsp; {"Portfolio"}</span>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -40,7 +41,9 @@ function NavBar({ changeSelected }) {
                 overlay={renderTooltip("About Me")}
               >
                 <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>
-                  <i className="fa-solid fa-circle-user"></i>
+                  <i className="fa-solid fa-circle-user">
+                    <span id="sm-menu">&nbsp;About Me</span>{" "}
+                  </i>
                 </Nav.Link>
               </OverlayTrigger>
 
@@ -52,7 +55,9 @@ function NavBar({ changeSelected }) {
                   eventKey="2"
                   onClick={() => changeSelected("Portfolio")}
                 >
-                  <i className="fa-solid fa-briefcase"></i>
+                  <i className="fa-solid fa-briefcase">
+                    <span id="sm-menu">&nbsp; Projects</span>
+                  </i>
                 </Nav.Link>
               </OverlayTrigger>
 
@@ -61,7 +66,9 @@ function NavBar({ changeSelected }) {
                 overlay={renderTooltip("My Resume")}
               >
                 <Nav.Link eventKey="3" onClick={() => changeSelected("Resume")}>
-                  <i className="fa-solid fa-address-card"></i>
+                  <i className="fa-solid fa-address-card">
+                    <span id="sm-menu">&nbsp; Resume</span>
+                  </i>
                 </Nav.Link>
               </OverlayTrigger>
               <OverlayTrigger
@@ -72,7 +79,9 @@ function NavBar({ changeSelected }) {
                   eventKey="4"
                   onClick={() => changeSelected("Recommendations")}
                 >
-                  <i className="fa-solid fa-heart-circle-plus"></i>
+                  <i className="fa-solid fa-heart-circle-plus">
+                    <span id="sm-menu">&nbsp; Recommendations</span>
+                  </i>
                 </Nav.Link>
               </OverlayTrigger>
 
@@ -84,7 +93,9 @@ function NavBar({ changeSelected }) {
                   eventKey="5"
                   onClick={() => changeSelected("Interests")}
                 >
-                  <i className="fa-solid fa-icons"></i>
+                  <i className="fa-solid fa-icons">
+                    <span id="sm-menu">&nbsp; Interests</span>
+                  </i>
                 </Nav.Link>
               </OverlayTrigger>
               <OverlayTrigger
@@ -95,7 +106,9 @@ function NavBar({ changeSelected }) {
                   eventKey="6"
                   onClick={() => changeSelected("Photography")}
                 >
-                  <i className="fa-solid fa-camera"></i>
+                  <i className="fa-solid fa-camera">
+                    <span id="sm-menu">&nbsp; Photography</span>
+                  </i>
                 </Nav.Link>
               </OverlayTrigger>
               {/* <Nav.Link onClick={() => changeSelected("Contact")}>
