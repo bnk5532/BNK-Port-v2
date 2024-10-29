@@ -72,26 +72,14 @@ function NavBar({ changeSelected }) {
                   </i>
                 </Nav.Link>
               </OverlayTrigger>
-              <OverlayTrigger
-                placement="bottom"
-                overlay={renderTooltip("Recommendations")}
-              >
-                <Nav.Link
-                  eventKey="4"
-                  onClick={() => changeSelected("Recommendations")}
-                >
-                  <i className="fa-solid fa-heart-circle-plus">
-                    <span id="sm-menu">&nbsp; Recommendations</span>
-                  </i>
-                </Nav.Link>
-              </OverlayTrigger>
+              
 
               <OverlayTrigger
                 placement="bottom"
                 overlay={renderTooltip("Interests")}
               >
                 <Nav.Link
-                  eventKey="5"
+                  eventKey="4"
                   onClick={() => changeSelected("Interests")}
                 >
                   <i className="fa-solid fa-icons">
@@ -104,11 +92,25 @@ function NavBar({ changeSelected }) {
                 overlay={renderTooltip("Photography")}
               >
                 <Nav.Link
-                  eventKey="6"
+                  eventKey="5"
                   onClick={() => changeSelected("Photography")}
                 >
                   <i className="fa-solid fa-camera">
                     <span id="sm-menu">&nbsp; Photography</span>
+                  </i>
+                </Nav.Link>
+              </OverlayTrigger>
+
+              <OverlayTrigger
+                placement="bottom"
+                overlay={renderTooltip("Recommendations")}
+              >
+                <Nav.Link
+                  eventKey="6"
+                  onClick={() => changeSelected("Recommendations")}
+                >
+                  <i className="fa-solid fa-heart-circle-plus">
+                    <span id="sm-menu">&nbsp; Recommendations</span>
                   </i>
                 </Nav.Link>
               </OverlayTrigger>
