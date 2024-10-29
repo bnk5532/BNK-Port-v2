@@ -23,7 +23,7 @@ function NavBar({changeSelected }) {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav>
+          <Nav>
               <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>
               <i className="fa-solid fa-circle-user"></i>
               </Nav.Link>
@@ -82,6 +82,7 @@ function NavBar({changeSelected }) {
               >
                 <i className="fa-brands fa-youtube" aria-hidden="true"></i>
               </Nav.Link>
+              {/* </OverlayTrigger> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
