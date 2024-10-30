@@ -486,7 +486,6 @@ function Grades() {
 }
 
 function Resume() {
-
   useEffect(() => {
     // Scroll to top when component mounts
     window.scrollTo(0, 0);
@@ -498,17 +497,36 @@ function Resume() {
         <a href="#EXPERIENCE">EXPERIENCE</a> &nbsp;| &nbsp;
         <a href="#EDUCATION">EDUCATION</a> &nbsp;| &nbsp;
         <a href="#DEVELOPMENT">DEVELOPMENT</a> &nbsp;| &nbsp;
-        <a href="#TECHNICAL SKILLS">TECHNICAL SKILLS</a> &nbsp;| &nbsp;
-        <a href="#INDUSTRY INTERESTS">INDUSTRY INTERESTS</a>
+        <a href="#TECHNICAL SKILLS">TECH SKILLS</a>
       </div>
-
-      <h2>
-        Resume{" "}
-        <a href={bnkCv} target="_blank" rel="noopener noreferrer">
-          <i className="fa-solid fa-download pdf"></i>
-        </a>
-      </h2>
-
+      <br></br>
+      <div
+        className="cv-icons-container"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div
+          className="cv-icons"
+          style={{ textAlign: "center", margin: "0 15px" }}
+        >
+          <a href={bnkCv} target="_blank" rel="noopener noreferrer">
+            <i className="fa-solid fa-file-lines"></i>
+          </a>
+          <div id="cv-text">Resume</div>
+        </div>
+        <div
+          className="cv-icons"
+          style={{ textAlign: "center", margin: "0 15px" }}
+        >
+          <a href={bnkCl} target="_blank" rel="noopener noreferrer">
+            <i className="fa-solid fa-envelope-open-text"></i>
+          </a>
+          <div id="cv-text">Cover Letter</div>
+        </div>
+      </div>
       <div className="resume">
         <br></br>
         <strong className="resume-header" id="EXPERIENCE">
@@ -738,9 +756,7 @@ function Resume() {
           <br></br>
         </div>
 
-        <strong className="resume-header" id="INDUSTRY INTERESTS">
-          INDUSTRY INTERESTS
-        </strong>
+        <strong className="resume-header">INDUSTRY INTERESTS</strong>
         <br></br>
         <div className="indent-resume">
           Aerospace & Defense <i className="fa-solid fa-jet-fighter"></i>{" "}
@@ -797,21 +813,7 @@ function Resume() {
           Experience Level: Associate / Consultant / Mid-Senior
         </div>
         <br></br>
-        <strong className="resume-header" id="OTHER">
-          DOWNLOADS
-        </strong>
-        <div className="indent-resume"></div>
-        <a href={bnkCv} target="_blank" rel="noopener noreferrer">
-          <i className="fa-solid fa-download pdf"></i>&nbsp;&nbsp;
-          <strong>Resume/CV</strong>
-          <br></br>
-        </a>
-        <a href={bnkCl} target="_blank" rel="noopener noreferrer">
-          <i className="fa-solid fa-download pdf"></i>&nbsp;&nbsp;
-          <strong>Cover Letter</strong>
-        </a>
       </div>
-      <br></br>
       <br></br>
       <a
         href="https://www.credly.com/badges/a2526be3-fc55-45e8-8c4b-db81fb685808/linked_in?t=rm9jm1"

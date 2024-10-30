@@ -113,25 +113,35 @@ function Project() {
     //   src: portPic1,
     // },
   ];
-
+  
   return (
+
     <Container fluid>
       {/* <div className="resume-title"> 
         <a href="#Projects">Projects</a> &nbsp;| &nbsp;
         <a href="#Dashboards">Dashboards</a>
       </div> */}
-      <h1>Dashboards & Tools</h1>
+
+<div className="resume-title">
+        <a href="#DASH">DASHBOARDS</a> &nbsp;| &nbsp;
+        <a href="#STRAP">STRATEGY </a> &nbsp;| &nbsp;
+        <a href="#STRAP">PROCESS IMPROVEMENT</a> &nbsp;| &nbsp;
+        <a href="#PRES">PRESENTATIONS</a> &nbsp;| &nbsp;
+        <a href="#APPS">APPS</a>
+      </div>
+<br></br>
+      <h1 className="resume-header" id="DASH">Dashboards & Tools</h1>
       <Dashboard />
-      <h1>Strategy & Process Improvement</h1>
+      <h1 className="resume-header" id="STRAP">Strategy & Process Improvement</h1>
       <Strategy />
-      <h1>Case Study & Presentations</h1>
+      <h1 className="resume-header" id="PRES">Case Study & Presentations</h1>
       <Presentation />
-      <h1>Applications</h1>
+      <h1 className="resume-header" id="APPS">Applications</h1>
       <Row>
         {projects.map((project) => {
           return (
             <Col
-              className="p-3 d-flex justify-content-center"
+              className="p-3 d-flex justify-content-center" 
               key={project.title}
             >
               <Card style={{ width: "18rem" }}>
