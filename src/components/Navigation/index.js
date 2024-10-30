@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Harp from "../../assets/images/harp2.png";
 
 function NavBar({ changeSelected }) {
@@ -21,17 +20,22 @@ function NavBar({ changeSelected }) {
       setIsOpen(!isOpen);
     };
 
+    const handleItemClick = (item) => {
+      changeSelected(item);
+      setIsOpen(false); // Close the menu on item selection
+    };
   return (
     <>
       <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand onClick={() => changeSelected("About")}>
+          <Navbar.Brand>
             <img
               src={Harp}
               width="30"
               height="30"
               className="d-inline-block align-top cursor"
               alt="Boru Harp"
+              
             />
             &nbsp;&nbsp;{"Brian Nicholas King"}{" "}
             <span id="header1">&nbsp;|&nbsp; {"Portfolio"}</span>
@@ -73,12 +77,12 @@ function NavBar({ changeSelected }) {
             )}
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto ms-2">
+            <Nav className={isOpen ? "me-auto" : "ms-auto"}>
               <OverlayTrigger
                 placement="bottom"
                 overlay={renderTooltip("About Me")}
               >
-                <Nav.Link eventKey="1" onClick={() => changeSelected("About")}>
+                <Nav.Link eventKey="1" onClick={() => handleItemClick("About")}>
                   <i className="fa-solid fa-circle-user">
                     <span id="sm-menu">&nbsp; About Me</span>{" "}
                   </i>
@@ -91,7 +95,7 @@ function NavBar({ changeSelected }) {
               >
                 <Nav.Link
                   eventKey="2"
-                  onClick={() => changeSelected("Portfolio")}
+                  onClick={() => handleItemClick("Portfolio")}
                 >
                   <i className="fa-solid fa-square-poll-vertical">
                     <span id="sm-menu">&nbsp; Projects</span>
@@ -103,7 +107,7 @@ function NavBar({ changeSelected }) {
                 placement="bottom"
                 overlay={renderTooltip("My Resume")}
               >
-                <Nav.Link eventKey="3" onClick={() => changeSelected("Resume")}>
+                <Nav.Link eventKey="3" onClick={() => handleItemClick("Resume")}>
                   <i className="fa-solid fa-address-card">
                     <span id="sm-menu">&nbsp; Resume</span>
                   </i>
@@ -116,7 +120,7 @@ function NavBar({ changeSelected }) {
               >
                 <Nav.Link
                   eventKey="4"
-                  onClick={() => changeSelected("Interests")}
+                  onClick={() => handleItemClick("Interests")}
                 >
                   <i className="fa-solid fa-icons">
                     <span id="sm-menu">&nbsp; Interests</span>
@@ -129,7 +133,7 @@ function NavBar({ changeSelected }) {
               >
                 <Nav.Link
                   eventKey="5"
-                  onClick={() => changeSelected("Photography")}
+                  onClick={() => handleItemClick("Photography")}
                 >
                   <i className="fa-solid fa-camera">
                     <span id="sm-menu">&nbsp; Photography</span>
@@ -143,40 +147,13 @@ function NavBar({ changeSelected }) {
               >
                 <Nav.Link
                   eventKey="6"
-                  onClick={() => changeSelected("Recommendations")}
+                  onClick={() => handleItemClick("Recommendations")}
                 >
                   <i className="fa-solid fa-heart-circle-plus">
                     <span id="sm-menu">&nbsp; Recommendations</span>
                   </i>
                 </Nav.Link>
               </OverlayTrigger>
-              {/* <Nav.Link onClick={() => changeSelected("Contact")}>
-        Contact
-      </Nav.Link> */}
-
-              {/* <Nav.Link
-                href="https://github.com/bnk5532"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-github is-size-5" aria-hidden="true"></i>
-              </Nav.Link>
-
-              <Nav.Link
-                href="https://linkedin.com/in/bnk5532"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
-              </Nav.Link>
-
-              <Nav.Link
-                href="https://youtube.com/user/briguy618"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-youtube" aria-hidden="true"></i> */}
-              {/* </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -185,4 +162,6 @@ function NavBar({ changeSelected }) {
   );
 }
 
+
 export default NavBar;
+
