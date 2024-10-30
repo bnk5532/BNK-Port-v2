@@ -118,6 +118,11 @@ main {
   border-width: 0;
   font-size: 16;
 }
+.recommendations {
+  text-align: left;
+  font-size: small;
+  
+}
 
 @media screen and (max-width: 575px) {
   #sm-menu {
@@ -142,8 +147,13 @@ main {
     padding-top: 9px;
     margin: 0;
   }
+  .recom{
+    padding: 50px;
+  }
   .recommendations {
     text-align: left;
+    font-size: small;
+    padding: 10px;
   }
   .navbar-collapse {
     display: flex;

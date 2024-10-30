@@ -9,9 +9,9 @@ function Recommendations() {
   }, []);
 
   return (
-    <div className="mx-3 pb-2">
-      <h1>Recommendations</h1>
-      <br></br>
+    <div className="mx-3 pb-2 recom">
+      <h2>Recommendations</h2>
+      
       <div className="recommendations">
         "Brian stood out in many ways as a student, but a couple of things that
         really set him apart were his perfect attendance and the fact that he
@@ -48,6 +48,7 @@ function Recommendations() {
         speak to them in a way that is unique and engaging. His ability to
         deliver consistently strong results make him an asset to any team.”
         <br></br>
+        
         <a
           href="https://www.linkedin.com/in/jason-forgey-mba-pmp-7b816a6/"
           target="_blank"
