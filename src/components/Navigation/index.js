@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -8,12 +8,18 @@ import Tooltip from "react-bootstrap/Tooltip";
 import Harp from "../../assets/images/harp2.png";
 
 function NavBar({ changeSelected }) {
+  const [isOpen, setIsOpen] = useState(false);
+
   const renderTooltip = (text) => (props) =>
     (
       <Tooltip id="button-tooltip" {...props}>
         {text}
       </Tooltip>
     );
+
+    const handleToggle = () => {
+      setIsOpen(!isOpen);
+    };
 
   return (
     <>
@@ -30,9 +36,44 @@ function NavBar({ changeSelected }) {
             &nbsp;&nbsp;{"Brian Nicholas King"}{" "}
             <span id="header1">&nbsp;|&nbsp; {"Portfolio"}</span>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            onClick={handleToggle}
+            className="custom-toggle"
+          >
+            {isOpen ? (
+              // "X" icon when menu is expanded
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="none"
+                stroke="white"
+                strokeWidth="1.5"
+                viewBox="0 0 24 24"
+              >
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            ) : (
+              // Hamburger icon when menu is collapsed
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="none"
+                stroke="white"
+                strokeWidth="1.5"
+                viewBox="0 0 24 24"
+              >
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            )}
+          </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav>
+            <Nav className="me-auto ms-2">
               <OverlayTrigger
                 placement="bottom"
                 overlay={renderTooltip("About Me")}
@@ -52,7 +93,7 @@ function NavBar({ changeSelected }) {
                   eventKey="2"
                   onClick={() => changeSelected("Portfolio")}
                 >
-                  <i className="fa-solid fa-briefcase">
+                  <i className="fa-solid fa-square-poll-vertical">
                     <span id="sm-menu">&nbsp; Projects</span>
                   </i>
                 </Nav.Link>

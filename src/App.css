@@ -1,11 +1,30 @@
+body {
+  min-width: 300px; /* Set the minimum width for the entire page */
+}
 .App {
   text-align: center;
   width: 100%;
 }
-
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  background-color: rgba(--bs-dark-rgb);
+  border: none;
+}
 .navbar-collapse {
   display: flex;
   justify-content: flex-end;
+}
+.custom-toggle {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.custom-toggle:focus,
+.custom-toggle:active {
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .navbar-nav {
   align-items: baseline;
@@ -84,7 +103,7 @@ main {
 
 .about-me {
   text-align: left;
-  padding-top: 7px;
+  padding-top: 0px;
 }
 
 .resume-title {
@@ -133,7 +152,7 @@ main {
     align-items: flex-start;
   }
   .about-me {
-    padding-top: 60px;
+    padding-top: 40px;
   }
   .btn-btn-title {
     border-width: 0;
@@ -146,7 +165,11 @@ main {
   #header1 {
     display: none;
   }
+  .navbar-dark .nav-link {
+    color: #ffffff !important;
+  }
 }
+
 
 .footer {
   font-size: small;
