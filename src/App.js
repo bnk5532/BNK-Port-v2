@@ -1,7 +1,8 @@
+// import { AppRoutes } from "./Routes";
 import "./App.css";
+
 import React, { useState } from "react";
 import Nav from "./components/Navigation";
-import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Project from "./components/Project";
@@ -10,6 +11,19 @@ import Recommendations from "./components/Recommendations";
 import Interests from "./components/Interests";
 import wbHero from "./assets/images/WB2.png";
 import Photography from "./components/Photography";
+
+// import {Routes} from "./Routes";
+// import {Route} from "react-router";
+
+
+// // import NavBar from "./components/Navigation";
+
+
+// // import React from "react";
+// // import ReactDOM from "react-dom";
+// // import { BrowserRouter } from "react-router-dom";
+
+
 
 function App() {
   const [currentCategory, setCurrentCategory] = useState("About");
@@ -20,8 +34,6 @@ function App() {
     switch (currentCategory) {
       case "Portfolio":
         return <Project />;
-      case "Contact":
-        return <ContactForm />;
       case "Resume":
         return <Resume />;
       case "Recommendations":
@@ -38,6 +50,7 @@ function App() {
   return (
     <div className="App">
       <header>
+     
         <Nav
           currentCategory={currentCategory}
           changeSelected={changeSelected}
@@ -51,7 +64,8 @@ function App() {
             <img className="w-100 w-beach" src={wbHero} alt="Wrightsville Beach, NC" />
           </div>
         </div>
-
+       {/* <Route />
+       <Routes /> */}
         {renderPage()}
       </main>
 
@@ -61,4 +75,6 @@ function App() {
     </div>
   );
 }
+
+
 export default App;
