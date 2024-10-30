@@ -30,6 +30,10 @@
   align-items: baseline;
 }
 
+#header1 {
+  font-weight: 200;
+}
+
 .resume {
   text-align: left;
 }

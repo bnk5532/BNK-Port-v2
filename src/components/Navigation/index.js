@@ -27,12 +27,8 @@ function NavBar({ changeSelected }) {
               className="d-inline-block align-top cursor"
               alt="Boru Harp"
             />
-          </Navbar.Brand>
-          <Navbar.Brand onClick={() => changeSelected("About")}>
-            <div className="cursor">
-              {"Brian Nicholas King"}{" "}
-              <span id="header1">&nbsp;|&nbsp; {"Portfolio"}</span>
-            </div>
+            &nbsp;&nbsp;{"Brian Nicholas King"}{" "}
+            <span id="header1">&nbsp;|&nbsp; {"Portfolio"}</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -72,7 +68,6 @@ function NavBar({ changeSelected }) {
                   </i>
                 </Nav.Link>
               </OverlayTrigger>
-              
 
               <OverlayTrigger
                 placement="bottom"

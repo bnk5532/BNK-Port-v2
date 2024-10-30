@@ -1,5 +1,4 @@
-
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 import DevOpsGraph from "../../assets/images/DevOpsGraphic.png";
 import Button from "react-bootstrap/Button";
@@ -160,7 +159,6 @@ function AppStrat() {
 // }
 
 function About() {
-
   useEffect(() => {
     // Scroll to top when component mounts
     window.scrollTo(0, 0);
@@ -178,10 +176,11 @@ function About() {
             {/* <AppPilot /> */}
           </span>
           <p>
-            My name is Brian, and I am an experienced{" "}
+            <em>Greetings and welcome!</em> {" "}
+            My name is <strong>Brian</strong>, and I am an experienced{" "}
             <strong>Senior Operations Analyst</strong> with over{" "}
-            <strong>15 years</strong> of experience in the telecommunications,
-            technology, and consulting industries.{" "}
+            <strong>15 years</strong> of experience in the telecommunications, human resources,
+            technology, and consulting space.{" "}
           </p>
           <p>
             {" "}
@@ -191,21 +190,23 @@ function About() {
             North Carolina Wilmington.
           </p>
           <p>
-            I graduated from a rigorous <strong>450+ hour, Coding Boot Camp</strong> program at
-            the University of North Carolina Chapel Hill to learn Javascript web development and to better understand the challenges that
-            all businesses invariably face while fully embracing technological innovation and transformation in the digital era. 
+            I graduated from a rigorous 450+ hour, {" "}
+            <strong>Coding Boot Camp</strong> at the University of
+            North Carolina Chapel Hill to learn Javascript web development and
+            to better understand both the opportunities and challenges that all businesses will invariably
+            face while fully embracing the modern digital era.
           </p>
           <p>
             I am a <strong>FAA Part 107 Remote Pilot</strong> authorized to
-            commercially operate sUAS in U.S. airspace with more than 8 years of
+            commercially operate sUAS in U.S. airspace with more than <strong>8 years</strong> of
             quadcopter flying and aerial photography experience.
           </p>
           <p>
-            I revel in the <strong>challenge </strong> of working out problems
-            where others have failed or passed on them previously. I lead with
-            the conviction that the <strong>solution</strong> can, and ought to
+            I am <strong>energized</strong> by the challenge of working out problems
+            where others have failed or avoided them previously. I <strong>lead</strong> with
+            the view that the <strong>solution</strong> can, and ought to
             be, simple, targeted, and relatively inexpensive to fix while having
-            a <strong>meaningful impact </strong> on those things or people that
+            a <strong>meaningful impact </strong> on those things or <strong>people</strong> that
             actually matter.
             <br></br>
             <br></br>
