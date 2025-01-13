@@ -74,7 +74,7 @@ function Footer() {
       </div>
       <div className="footer">
         <strong>
-          &copy; 2024 by Brian Nicholas King. All Rights Reserved.
+          &copy; 2025 by Brian Nicholas King. All Rights Reserved.
         </strong>
       
           {/* <span id="currentYear"></span> */}
