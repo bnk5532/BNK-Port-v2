@@ -545,11 +545,24 @@ function Resume() {
           <strong>Owner & PIC, Cape Fear UAV, LLC, </strong>
           <em>2023 - Present.</em>
           <br></br> */}
+          <strong>Senior Strategy Operations Analyst, Cohere Health, </strong>
+          <em>2025 - Present.</em>
+          <br></br>
+          Supports strategy, process design, planning, implementation and
+          management of new programs including ongoing leadership of specific
+          key initiatives within the Service Operations and Client Success
+          teams. Assists in defining Operational Excellence through process and
+          policy design work that drives scale for operations. Works
+          fiercely to make sense of disjointed processes or systems,
+          continually striving for the best possible operational outcomes in a
+          Care and Service Center Operations model.
+          <br></br>
+          <br></br>
           <strong>
             Business Development Consultant, Port City Attorney, Brandon C.
             Pettijohn, Attorney at Law, PLLC,{" "}
           </strong>
-          <em>2022 - Present.</em>
+          <em>2022 - 2025.</em>
           <br></br>
           Closely involved in the refinement of the firm's long-term growth
           strategy while improving upon process, client relations,
