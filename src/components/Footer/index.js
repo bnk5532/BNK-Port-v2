@@ -5,6 +5,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 import T2t from "../../assets/images/T2T-2.webp";
 import Wwp from "../../assets/images/wwp1.png";
 import USO from "../../assets/images/uso.png";
+import Jude from "../../assets/images/stjude1.png";
 import USflag1 from "../../assets/images/USflag1.png";
 
 // const currentYear = new Date().getFullYear();
@@ -134,6 +135,19 @@ function Footer() {
             width="140px"
             height="35px"
             alt="T2T Foundation Logo"
+          />
+        </a>
+        <a
+          href="https://www.stjude.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="m-2"
+            src={Jude}
+            width="110px"
+            height="55px"
+            alt="St. Jude Research Hospital Logo"
           />
         </a>
       </div>

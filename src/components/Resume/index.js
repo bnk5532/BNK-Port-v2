@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-import bnkCv from "../../assets/pdf/BNKCV2024v2.3.pdf";
+import bnkCv from "../../assets/pdf/BNKCV2025v1.0.pdf";
 import bnkCl from "../../assets/pdf/BNKCL2024GENv2.3.pdf";
 import grades from "../../assets/pdf/BootCampGrades.pdf";
 import codeBadge1 from "../../assets/images/codeBadge1.png";
@@ -813,7 +813,7 @@ function Resume() {
           </small>
           <br></br>
           <br></br>
-          <strong>FAQ</strong>
+          {/* <strong>FAQ</strong>
           <br></br>
           Travel: Yes, up to 25%
           <br></br>
@@ -823,7 +823,7 @@ function Resume() {
           <br></br>
           Job Type: Full-Time
           <br></br>
-          Experience Level: Associate / Consultant / Mid-Senior
+          Experience Level: Associate / Consultant / Mid-Senior */}
         </div>
         <br></br>
       </div>

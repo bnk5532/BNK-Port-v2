@@ -178,9 +178,9 @@ function About() {
           <p>
             <em>Greetings and welcome!</em> {" "}
             My name is <strong>Brian</strong>, and I am an experienced{" "}
-            <strong>Senior Operations Analyst</strong> with over{" "}
-            <strong>15 years</strong> of experience in the telecommunications, human resources,
-            technology, and consulting space.{" "}
+            <strong>Senior Strategy Operations Analyst</strong> at Cohere Health with over{" "}
+            <strong>16 years</strong> of experience in the telecommunications, technology, human resources,
+            health tech and business consulting.{" "}
           </p>
           <p>
             {" "}
@@ -198,7 +198,7 @@ function About() {
           </p>
           <p>
             I am a <strong>FAA Part 107 Remote Pilot</strong> authorized to
-            commercially operate sUAS in U.S. airspace with more than <strong>8 years</strong> of
+            commercially operate sUAS in U.S. airspace with more than <strong>9 years</strong> of
             quadcopter flying and aerial photography experience.
           </p>
           <p>
