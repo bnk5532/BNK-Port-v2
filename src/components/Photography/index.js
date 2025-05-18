@@ -31,6 +31,9 @@ import KH1 from "../../assets/photography/KH1.jpeg";
 import KH2 from "../../assets/photography/KH2.jpeg";
 import KH3 from "../../assets/photography/KH3.jpeg";
 import KH4 from "../../assets/photography/KH4.jpeg";
+import powder1 from "../../assets/images/powder1.jpeg";
+import townHall from "../../assets/images/townHall1.jpeg";
+import tin1 from "../../assets/images/Tin1.jpeg";
 
 import BA1 from "../../assets/photography/BA1.jpeg";
 import BA2 from "../../assets/photography/BA2.jpeg";
@@ -151,6 +154,11 @@ function PragueGrid1() {
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Vlasta in Kutna Hora"
         />
+          <img
+          src={townHall}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Old Town Hall in Prague"
+        />
       </MDBCol>
 
       <MDBCol lg={4} className="mb-4 mb-lg-0">
@@ -175,6 +183,11 @@ function PragueGrid1() {
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Vineyards of Kutna Hora"
         />
+          <img
+          src={powder1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Powder tower in Prague"
+        />
       </MDBCol>
 
       <MDBCol lg={4} className="mb-4 mb-lg-0">
@@ -197,6 +210,11 @@ function PragueGrid1() {
           src={KH2}
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Chandler made of human bones"
+        />
+          <img
+          src={tin1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Church of Our Lady Tin"
         />
       </MDBCol>
     </MDBRow>

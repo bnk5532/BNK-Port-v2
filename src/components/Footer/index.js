@@ -117,24 +117,11 @@ function Footer() {
           rel="noopener noreferrer"
         >
           <img
-            className="m-3"
+            className="m-2"
             src={USO}
             width="75px"
             height="38px"
             alt="USO Logo"
-          />
-        </a>
-        <a
-          href="https://www.woundedwarriorproject.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="m-3"
-            src={Wwp}
-            width="140px"
-            height="35px"
-            alt="T2T Foundation Logo"
           />
         </a>
         <a
@@ -145,11 +132,25 @@ function Footer() {
           <img
             className="m-2"
             src={Jude}
-            width="110px"
-            height="55px"
+            width="95px"
+            height="50px"
             alt="St. Jude Research Hospital Logo"
           />
         </a>
+        <a
+          href="https://www.woundedwarriorproject.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="m-2"
+            src={Wwp}
+            width="140px"
+            height="35px"
+            alt="T2T Foundation Logo"
+          />
+        </a>
+        
       </div>
     </div>
   );

@@ -12,16 +12,22 @@ import Oakisl1 from "../../assets/images/OakIsl1.jpg";
 import OldPoint from "../../assets/images/OldPoint.png";
 import VAKtrump1 from "../../assets/images/VAKtrump1.jpg";
 import FtAnd2 from "../../assets/images/FtAnd2.jpg";
-import Bretzel1 from "../../assets/images/Bretzel1.jpg";
+// import Bretzel1 from "../../assets/images/Bretzel1.jpg";
 import CWkids1 from "../../assets/images/CWkids1.png";
 import CWkids2 from "../../assets/images/CWkids2.png";
 import BelvilleKids1 from "../../assets/images/BelvilleKids1.png";
 import BVPrague from "../../assets/images/BVPrague2.jpeg";
 import VEKf2 from "../../assets/images/VEKf2.JPG";
 import KidsAzal from "../../assets/images/KidsAzaleas1.JPG";
+import pragCastle1 from "../../assets/images/pragCastleKids1.jpeg";
+import clock from "../../assets/images/clock1.jpeg";
+import kutna1 from "../../assets/images/kutnaHora1.jpeg";
+import shoot1 from "../../assets/images/shootIsland.jpeg";
+import vekMag from "../../assets/images/vekMag1.jpeg";
+import vitus from "../../assets/images/vitus1.jpeg";
 // import OakIsland from "../../assets/images/OakIslandFam1.jpeg";
 // import BriVicSnow1 from "../../assets/images/BriVicSnow1.jpeg";
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import {
   // MDBContainer,
   MDBCol,
@@ -414,14 +420,22 @@ function PhotoGrid() {
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Victoria & Brian Jr. in Colonial Williamsburg"
         />
-        
+
         <img
           src={KidsAzal}
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Victoria & Brian Jr. in with Azaleas"
         />
-
-
+        <img
+          src={shoot1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Kids with Charles Bridge behind them"
+        />
+        <img
+          src={clock}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria in front of Magnolia tree"
+        />
       </MDBCol>
 
       <MDBCol lg={4} className="mb-4 mb-lg-0">
@@ -441,7 +455,7 @@ function PhotoGrid() {
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Brian with kids at Oak Island, NC"
         />
-         <img
+        <img
           src={BVPrague}
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Brian & Vlasta in Prague, CZ"
@@ -451,10 +465,20 @@ function PhotoGrid() {
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Victoria & Brian Jr. at Belville Park"
         />
-          <img
-          src={Bretzel1}
+        <img
+          src={pragCastle1}
           className="w-100 shadow-1-strong rounded mb-4"
-          alt="Yorkshire Terrier Bretzel posing in woods"
+          alt="Kids with Charles Bridge behind them"
+        />
+        <img
+          src={kutna1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Kids in Kutna Hora"
+        />
+        <img
+          src={vitus}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Kids with Charles Bridge behind them"
         />
       </MDBCol>
 
@@ -477,13 +501,13 @@ function PhotoGrid() {
           alt="Family in Colonial Williamsburg"
         />
 
-<img
+        <img
           src={VAKtrump1}
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Vlasta at Trump winery"
         />
 
-<img
+        <img
           src={CWkids2}
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Victoria & Brian Jr. in Colonial Williamsburg"
@@ -493,13 +517,22 @@ function PhotoGrid() {
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Victoria in flowers"
         />
+        <img
+          src={pragCastle1}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Kids with Charles Bridge behind them"
+        />
+        <img
+          src={vekMag}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Victoria in front of Magnolia tree"
+        />
       </MDBCol>
     </MDBRow>
   );
 }
 
 function Interests() {
-
   useEffect(() => {
     // Scroll to top when component mounts
     window.scrollTo(0, 0);
@@ -595,7 +628,6 @@ function Interests() {
             
           </span> */}
           <PhotoGrid />
-         
           {/* Brian is excited for a fresh start in 2024! He also hopes to meet new
           teammates, leaders, and clients, building on those relationships, and
           earning his place at an exciting company that leads with technological

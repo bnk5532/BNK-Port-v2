@@ -194,17 +194,16 @@ function About() {
             <strong>Coding Boot Camp</strong> at the University of
             North Carolina Chapel Hill to learn Javascript web development and
             to better understand both the opportunities and challenges that all businesses will invariably
-            face while fully embracing the modern digital era.
+            face while fully embracing the digital era.
           </p>
           <p>
             I am a <strong>FAA Part 107 Remote Pilot</strong> authorized to
             commercially operate sUAS in U.S. airspace with more than <strong>9 years</strong> of
-            quadcopter flying and aerial photography experience.
+            experience in quadcopter piloting and aerial photography.
           </p>
           <p>
             I am <strong>energized</strong> by the challenge of working out problems
-            where others have failed or avoided them previously. I <strong>lead</strong> with
-            the view that the <strong>solution</strong> can, and ought to
+            where others have failed or avoided them previously. I believe that the <strong>solution</strong> can, and ought to
             be, simple, targeted, and relatively inexpensive to fix while having
             a <strong>meaningful impact </strong> on those things or <strong>people</strong> that
             actually matter.
