@@ -545,7 +545,7 @@ function Resume() {
           <strong>Owner & PIC, Cape Fear UAV, LLC, </strong>
           <em>2023 - Present.</em>
           <br></br> */}
-          <strong>Senior Strategy Operations Analyst, Cohere Health, </strong>
+          <strong>Senior Strategic Operations Analyst, Cohere Health, </strong>
           <em>2025 - Present.</em>
           <br></br>
           Supports strategy, process design, planning, implementation and
@@ -737,13 +737,13 @@ function Resume() {
           <i className="fa-brands fa-python"></i> (<em>In Progress</em>), SQL.
           <br></br>
           <br></br>
-          <strong>Tools:</strong> Apple IOS, Apollo GraphQL, Android, Bootstrap,
+          <strong>Tools:</strong> ADP Workforce Now, Apple IOS, Apollo GraphQL, Android, Bootstrap,
           Bulma, ChatGPT, DJI sUAS, Git, GitHub, GitHub Gists, Google Data
           Studio (Looker), Google Workspace (G-Suite), Handlebars, Heroku,
-          Inquirer CLI, Insomnia, JWT, Materialize, MERN stack (MongoDB,
+          Inquirer CLI, Insomnia, Jira (Atlassian), JWT, Materialize, MERN stack (MongoDB,
           Express.js, React.js, Node.js), Microsoft Power BI, Microsoft Office,
-          MySQL, NoSQL, NICE IEX, NPM packages, PeopleSoft, React Router,
-          Screencastify, Terminal, Verint, VS Code and Windows. <br></br>
+          MySQL, Monday.com, NoSQL, NICE IEX, NPM packages, PeopleSoft, React Router, Salesforce,
+          Screencastify, Tableau Cloud, Terminal, Verint, VS Code and Windows. <br></br>
           <br></br>
         </div>
 

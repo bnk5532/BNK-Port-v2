@@ -178,7 +178,7 @@ function About() {
           <p>
             <em>Greetings and welcome!</em> {" "}
             My name is <strong>Brian</strong>, and I am an experienced{" "}
-            <strong>Senior Strategy Operations Analyst</strong> at Cohere Health with over{" "}
+            <strong>Senior Strategic Operations Analyst</strong> at Cohere Health with over{" "}
             <strong>16 years</strong> of experience in the telecommunications, technology, human resources,
             health tech and business consulting.{" "}
           </p>
